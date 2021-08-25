@@ -21,6 +21,7 @@
 namespace PrestaShop\Module\FacetedSearch\Hook;
 
 use PrestaShop\Module\FacetedSearch\Filters\Converter;
+use PrestaShop\Module\FacetedSearch\Filters\DataAccessor;
 use PrestaShop\Module\FacetedSearch\Product\SearchProvider;
 use PrestaShop\Module\FacetedSearch\URLSerializer;
 
@@ -57,13 +58,19 @@ class ProductSearch extends AbstractHook
                 ['position' => 'bottom', 'priority' => 100]
             );
 
+            $urlSerializer = new URLSerializer();
+            $dataAccessor = new DataAccessor($this->module->getDatabase());
+
             return new SearchProvider(
                 $this->module,
                 new Converter(
                     $this->module->getContext(),
-                    $this->module->getDatabase()
+                    $this->module->getDatabase(),
+                    $urlSerializer,
+                    $dataAccessor
                 ),
-                new URLSerializer()
+                $urlSerializer,
+                $dataAccessor
             );
         }
 

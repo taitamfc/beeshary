@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'pres_beeshary',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'dPJZURp0Y5CsmryaxEF7DZs26SyEVfg7wqBt3oEfLWAdj79w9PzW0hCnUxFJ3A8h',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-08-25',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+    'cookie_key' => '2shI4X21FCnNuyWOJDOXKMRjaZ7KsxRUoa3Byvv4ByEzyPVkk0mJRxOArf6kSBPS',
+    'cookie_iv' => 'FDTsSX8t9J5IvXIwgMGHFqJCZRnZ5wCb',
+    'new_cookie_key' => 'def000007fc08c1e855c2bfd230139eab2f782fe9b41f87dabbd43dde0582cb825873eb03751a1f4d133464f51bf949ea230319848b4b1435199ec537fb3b784ebdee35a',
+  ),
+);
