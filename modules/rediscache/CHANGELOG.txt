@@ -1,0 +1,60 @@
+v1.1.1 - 01/11/2019
+FIX: Javascript error caused by adding rediscache.js in wrong hook.
+FIX: A fatal error was caused when debug mode was on. Proper validation was added.
+FIX: An error was caused on module uninstall if caching was active.
+FIX: Missing BackwardCompatiblity class in Controller override caused fatal error when the module was disabled.
+FIX: PS1.6: notice in Advanced Parameters > Performance tab regarding cache configuration.
+FIX: PS1.6: JS variables were malformed because of line endings.
+FIX: PS1.6: AdminRediscache controller wasn't detected.
+UPDATE: Session cache management was removed since it's better to configure it on php.ini level.
+UPDATE: DB query cache is disabled by default. A notice was added over the UI regarding issues reported.
+UPDATE: Status & Tips block is showing the PHPRedis Library version now.
+
+v1.1.0 - 14/07/2019
+MAJOR-UPDATE: Redis configuration moved to dedicated table.
+FEATURE: Full-Page Cache using Redis.
+FEATURE: Database query caching can be turned on / off.
+FEATURE: Tips & Statistics.
+FEATURE: Redis server configuration management.
+FEATURE: PHP session can be configured to use a different redis server.
+FEATURE: Cache management fully moved to module configuration page.
+FEATURE: Ability to select Redis DB over the UI.
+FEATURE: Emergency disable script added.
+
+v1.0.13 - 27/11/2018
+FIX: Jquery autoload issue.
+FEATURE: Reworked Back-Office caching.
+FEATURE: Updated for Prestashop v1.7.5.
+
+v1.0.12 - 19/11/2018
+FIX: Product caching improvements
+FIX: Reworked session store for presta 1.7.3 and higher
+
+v1.0.11 - 13/11/2018
+FEATURE: Disable redis cache when shop is on maintenance mode
+
+v1.0.10 - 08/11/2018
+FEATURE: Added notification of RedisCache status on Advanced->Performancs page
+FIX: Backward compatibility with Prestashop 1.6.0.X
+
+v1.0.9 - 15/10/2018
+FEATURE: Compatibility with Prestashop 1.7.4+
+FEATURE: Added posibility to use Unix Connection
+FIX: Default cache value on module deactivation
+
+v1.0.6 - 13/06/2018
+FEATURE: Compatibility with Prestashop 1.7.3+
+FEATURE: Password based authentication support to redis server
+FIX: Backward compatibility for Redis v3.x
+
+v1.0.5 - 11/06/2018
+FIX: Cache handler method condition for cache keys fixed.
+FIX: Typo in redis port configuration key fixed.
+FIX: Using unlink instead of delete on php redis level.
+
+v1.0.4 - 18/11/2017
+FEATURE: Disable cache on specific paths.
+FIX: Boolean configs.
+
+v1.0.3 - 29/07/2017
+FEATURE: Compatibility patch 1.6.0.x.

@@ -1,0 +1,196 @@
+/**
+* 2010-2017 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2017 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+.block-wk-sellerdetails {
+	float: left;
+	width: 100%;
+	background: white;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+.sellerinfo {
+	float: left;
+	padding: 10px;
+	width:100%;
+}
+.sellerlink {
+	float: left;
+	padding: 10px;
+	width: 100%;
+}
+.sellerlink ul li {
+	float: left;
+	width: 25%;
+	margin-bottom: 10px;
+	display: inline;
+}
+.sellerlink ul li a {
+	line-height: 25px;
+}
+.sellerlink ul li a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.wk-mail-icon {
+	background-image: url(../img/icon/icon-mail.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.wk-person-icon {
+	background-image: url(../img/icon/reveiw-user-icon.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.wk-phone-icon {
+	background-image: url(../img/icon/icon-phone.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.wk-shop-icon {
+	background-image: url(../img/icon/shop-icon-2.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.wk-share-icon {
+	background-image: url(../img/icon/icon-share.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.sellerinfo .wk-facebook-button {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icon/share-facebook.png);
+	background-position: center top;
+	display: block;
+	margin-right: 10px;
+}
+.sellerinfo .wk-facebook-button:hover {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icon/share-facebook.png);
+	background-position: center bottom;
+	display: block;
+}
+.sellerinfo .wk-twitter-button {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icon/share-twitter.png);
+	background-position: center top;
+	display: block;
+	margin-right: 10px;
+}
+.sellerinfo .wk-twitter-button:hover {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icon/share-twitter.png);
+	background-position: center bottom;
+	display: block;
+}
+.sellerinfo .wk-googleplus-button {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-google-plus.png);
+    background-position: center top;
+    display: block;
+    margin-right: 10px;
+}
+.sellerinfo .wk-googleplus-button:hover {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-google-plus.png);
+    background-position: center bottom;
+    display: block;
+}
+.sellerinfo .wk-instagram-button {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-instagram.png);
+    background-position: center top;
+    display: block;
+    margin-right: 10px;
+}
+.sellerinfo .wk-instagram-button:hover {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-instagram.png);
+    background-position: center bottom;
+    display: block;
+}
+.form-group .label-control.required:before {
+	content: "*";
+	color: red;
+}
+@media only screen and (min-width:768px) {
+	.sellerinfo .wk_row {
+		float: left;
+		width: 100%;
+	}
+	.sellerinfo .wk_row label {
+		color: #333333;
+		float: left;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		padding-left: 25px;
+		width: 40%;
+		text-align: left;
+	}
+	.sellerinfo .wk_row span {
+		float: left;
+		width: 60%;
+	}
+}
+@media only screen and (max-width:768px) {
+	.sellerlink ul li {
+		width: 50%;
+	}
+	.sellerinfo .wk_row {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.sellerinfo .wk_row label {
+		color: #333333;
+		float: left;
+		font-size: 14px;
+		font-weight: bold;
+		padding-left: 25px;
+	}
+	.sellerinfo .wk_row span {
+		float: left;
+		width: 100%;
+		padding-left: 25px;
+	}
+}
+.wk_rating_left {
+	float: left;
+	width: 100%;
+}
+.wk_rating_left p, .wk_rating_left div.wk-seller-rating {
+	float: left;
+}
+.wk_rating_left p {
+	margin-right: 5px;
+}
+.wk-edit-product {
+  padding: 15px;
+}

@@ -1,0 +1,7 @@
+[{shop_url}] 
+
+Bonjour {name},
+
+Votre souscription a été annulée.
+
+{shop_name} [{shop_url}]

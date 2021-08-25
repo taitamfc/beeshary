@@ -1,0 +1,40 @@
+/**
+ * 2010-2018 Webkul.
+ *
+ * NOTICE OF LICENSE
+ *
+ * All right is reserved,
+ * Please go through this link for complete license : https://store.webkul.com/license.html
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this module to newer
+ * versions in the future. If you wish to customize this module for your
+ * needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+ *
+ *  @author    Webkul IN <support@webkul.com>
+ *  @copyright 2010-2018 Webkul IN
+ *  @license   https://store.webkul.com/license.html
+ */
+
+.wk-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.wk-mp-block .setPreselectDateRange{
+    font-size: 15px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.wk-mp-block #wk-dashboad-graph-chart svg {
+    height: 340px;
+}
+
+.dashboard-date-content {
+    margin-bottom: 10px;
+}
+.wk-transform{
+    text-transform: uppercase;
+}

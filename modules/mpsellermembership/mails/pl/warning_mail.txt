@@ -1,0 +1,5 @@
+Seller Membership Warning
+
+Hello {seller_name},
+
+You need to purchase marketplace seller membership plan to continue your products active. Your all products are deactivated after {expire_date}, so you need to purchase marketplace seller membership plan before {expire_date}.

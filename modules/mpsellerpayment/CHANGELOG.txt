@@ -1,0 +1,38 @@
+Marketplace Seller Payment Module 2.1.0
+
+# Change Log V2.0.2 To V2.1.0
+
+## Improved/changed features:
+
+[+]MO : Compatible with Marketplace V2.1.0 and change the code in hookActionSellerPaymentTransaction according to params.
+[+]BO : Now we can also calcel the payment which is created by the voucher and also pay this again(create voucher).
+
+
+# Change Log V2.1.0 To V4.0.0:
+
+## Compatible:
+
+- [-]COMP : getBreadcrumbLinks() is used to show nevigation on every front controller.
+- [-]COMP : $link is removed from tpl files and link variables are assigned instead.
+- [-]COMP : parent::__construct() has been moved to top.
+- [-]COMP : $this->setTemplate() is improved according to PS1.7 .
+- [-]COMP : In all front Controllers registerJavascript() and registerStylesheet() is used to add js and css.
+- [-]COMP : {capture} block and error.tpl(extented) are removed from every front controller files and {extends file=$layout} is added and tpl is written in {block name='content'}.
+- [-]COMP : Hooks tpl files are changed to make compatible with marketplace V4.0.0.
+- [-]COMP : uninstallTab() is improved.
+
+## Improved/changed features:
+
+- [+]MO : sellerpayment.js is improved according to mpsellerwalletV2.1.1.
+- [+]MO : createTables() added.
+- [+]MO : registerModuleHooks() added.
+- [+]MO : License has been added to every file.
+- [+]MO : CHANGELOG.txt has been added.
+
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+@TODO - trnalations are need to be updated according to prestashopV1.7.0

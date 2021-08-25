@@ -1,0 +1,20 @@
+{if $is_seller}
+<script>
+	document.getElementsByTagName('body')[0].classList.add("is_seller");
+</script>
+{/if}
+{if $is_partner}
+<script>
+	document.getElementsByTagName('body')[0].classList.add("is_partner");
+</script>
+{/if}
+{if $cr_is_seller}
+<script>
+	document.getElementsByTagName('body')[0].classList.add("cr_is_seller");
+</script>
+{/if}
+{if $cr_is_partner}
+<script>
+	document.getElementsByTagName('body')[0].classList.add("cr_is_partner");
+</script>
+{/if}

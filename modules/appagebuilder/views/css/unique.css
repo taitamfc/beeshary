@@ -1,0 +1,14 @@
+/*************************************************************/
+/************ CSS of module for all theme ********************/
+/************ Do not override this file **********************/
+/*************************************************************/
+
+/**************DONGND update for panel tool BEGIN***********************/
+.paneltool.active .panelbutton > .fa:before
+{
+	content: "\f00d";
+}
+.leo-widget .w-name{
+  display:none;
+}
+/**************DONGND update for panel tool END***********************/

@@ -1,0 +1,11 @@
+
+[{shop_url}] 
+
+Hello,
+
+Admin has generated an commission invoice
+Please find attachment of invoice. 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

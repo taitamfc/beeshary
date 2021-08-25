@@ -1,0 +1,64 @@
+2010-2018 Webkul.
+
+NOTICE OF LICENSE
+
+All right is reserved,
+
+Please go through this link for complete license : https://store.webkul.com/license.html
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade this module to newer
+Versions in the future. If you wish to customize this module for your
+needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+
+@author    Webkul IN <support@webkul.com>
+@copyright 2010-2018 Webkul IN
+@license   https://store.webkul.com/license.html
+
+Release Notes for Marketplace Advance Search Box 5.0.2
+-------------------------------------------------------
+##############################################################################################
+Change Log : Marketplace Advance Search Box V5.0.1 to V5.0.2 | COMPATIBLE:: PRESTASHOP V1.7 |
+##############################################################################################
+
+## Improved:
+
+	[*] FO : Instead of our own query now product search is by prestashop find function of search class.
+	[*] FO : Product price displayed in search page is tax included.
+
+## Update Policy:
+	- Mobule need only file update, can be updated only by uploading new version on module
+
+
+
+##############################################################################################
+Change Log : Marketplace Advance Search Box V2.1.0 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##############################################################################################
+
+## Compatible:
+
+	[*] COMP : $this->display() function is replaced with $this->fetch()
+	[*] COMP : Removed {strip} tab and variables for js is assigned rom hook actionFrontControllerSetMedia
+	[*] COMP : formsearch.tpl assigned variables product, shop name changed to ps_product, mp_shop
+	[*] COMP : Added {extends file=$layout} and {block name='content'} line at top of all controller's tpl file
+
+## Improved:
+
+	[*] FO : Font awesome are replaced by Google material icons are added.
+	[*] FO : RegisterStylesheet(), registerJavascript() functions instead of addCSS() and addJS() functions respectively.
+	[*] FO : Breadcrumbs are added from controller.
+	[+] CO : LICENSE on each file is added
+	[*] FO : Shop logo issue resolved
+	[*] FO : When click on seller search result 404 error will occur.
+	[*] CO : All git issues resolved.
+	[*] FO : actionFrontControllerSetMedia hook is added to assign JS variables and to register JS and CSS files.
+
+## Others:
+
+	[+] LICENSE : LICENSE.txt file is added
+	[+] CHANGELOG : CHANGELOG.txt file is added
+
+
+## Update Policy:
+	- New hook added

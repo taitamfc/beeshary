@@ -1,0 +1,11 @@
+Bonjour {firstname} {lastname},
+
+Votre Demande de Upload en masse avec numéro de référence {reference_number} a été approuvé par l'administrateur 
+
+Numéro de référence {reference_number}.
+
+Merci.
+
+{shop_name} - {shop_url}
+
+{shop_url} powered by PrestaShop™

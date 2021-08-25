@@ -1,0 +1,29 @@
+[{shop_url}] 
+
+Bonjour Administrateur
+
+Une nouvelle méthode d'expédition a été créé par {seller_name}
+
+Détails du Venduer 
+
+Nom du Venduer: {seller_name}
+
+Nom de la Boutique: {seller_shop}
+
+Téléphone: {seller_phone}
+
+Email: {seller_email_id}
+
+Détails d'expédition 
+
+Nom de transporteur: {shipping_name}
+
+Temps de Transit: {transit_delay}
+
+Expédition Gratuit: {free_shipping}
+
+Frais de Manutention: {handling_cost}
+
+Statut: {status}
+
+Allez à votre boutique en cliquant sur le lien: [{shop_url}]

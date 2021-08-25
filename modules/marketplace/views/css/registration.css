@@ -1,0 +1,263 @@
+/**
+* 2010-2016 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2016 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+.errors {
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+    display: none;
+    float: right;
+    width: 161px;
+    font-size: 13px;
+}
+
+.seller_registration_form {
+    float: left;
+    font-family: inherit;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.wk-msg-shopname,
+.wk-msg-selleremail {
+    color: #971414 !important;
+}
+
+#createaccountform {
+    float: left;
+    width: 100%;
+}
+
+#outer_container {
+    float: right;
+    width: 100%;
+}
+
+.wk_reg_msg {
+    float: left;
+    width: 100%;
+    padding: 1%;
+    background-color: #DFFAD3;
+}
+
+.wk_reg_msg p {
+    float: left;
+    color: #383838;
+    font-weight: bold;
+    margin: 0;
+}
+
+#shop_name_detail {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.page-title {
+    background-color: #333333;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.page-title span {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.wk_right_col {
+    background-color: #fff;
+    border: 1px solid #D5D5D5;
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+.reg_sel_lab {
+    float: left;
+    width: 20%;
+}
+
+.sell_pat_input {
+    float: right;
+    width: 70%;
+}
+
+.sell_pat_input input {
+    border: 1px solid black;
+    width: 198px;
+}
+
+#about_business {
+    float: right;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.sell_row {
+    float: right;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+#personal_details {
+    float: right;
+    width: 100%;
+}
+
+.page-heading {
+    float: left;
+    width: 100%;
+}
+
+.seller_registration_form_content {
+    float: left;
+    width: 100%;
+}
+
+.row-info {
+    float: left;
+    padding-left: 2%;
+    padding-top: 10px;
+    width: 98%;
+}
+
+#error {
+    color: red;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.row-info-right {
+    color: #404040;
+    float: left;
+    font-size: 15px;
+    height: 32px;
+    width: 76%;
+}
+
+.row-info-right1 {
+    color: #404040;
+    float: left;
+    font-size: 15px;
+    width: 68%;
+}
+
+.seller_registration_form_content input[type="text"] {
+    background-color: #FFFFFF;
+    border: 1px solid ##f4b61b;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: top;
+}
+
+.account-detail input[type="text"]:focus {
+    background-color: #EDF7FD;
+}
+
+sup {
+    color: red !important;
+}
+
+#fileSelect {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top, rgba(255, 255, 255, 0.3) 50%, #FFCC00 50%, #FFCC00) repeat scroll 0 0 #FFCC00;
+    border-color: #FFCC00 #FFCC00 #9F9F9F;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #08233E;
+    cursor: pointer;
+    padding: 4px;
+    text-shadow: 0 1px #FFFFFF;
+}
+
+#fileSelect:hover:before {
+    border-color: black;
+}
+
+#fileSelect:active:before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#img_size_error {
+    float: left;
+    color: red;
+    font-size: 14px;
+}
+
+.info_description {
+    clear: both;
+    color: #7F7F7F;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    width: 100%;
+}
+
+.errors {
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+    display: none;
+    float: right;
+    width: 161px;
+    font-size: 13px;
+}
+
+#error {
+    color: red;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+#terms_and_conditions {
+    background-color: #FFFFFF !important;
+    overflow-y: auto;
+}
+
+.form-group .control-label.required:before { 
+   content:"*";
+   color:red;
+} 

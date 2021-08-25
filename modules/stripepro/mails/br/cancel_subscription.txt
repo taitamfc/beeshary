@@ -1,0 +1,8 @@
+
+[{shop_url}] 
+
+Olá {name},
+
+Sua subscrição foi cancelada.
+
+{shop_name} [{shop_url}]

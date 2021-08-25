@@ -1,0 +1,96 @@
+2010-2018 Webkul.
+
+NOTICE OF LICENSE
+
+All right is reserved,
+
+Please go through this link for complete license : https://store.webkul.com/license.html
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade this module to newer
+Versions in the future. If you wish to customize this module for your
+needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+
+@author    Webkul IN <support@webkul.com>
+@copyright 2010-2018 Webkul IN
+@license   https://store.webkul.com/license.html
+
+Release Notes for Marketplace Mass Upload 5.1.1
+-----------------------------------------------
+
+######################################################################################
+Change Log : Marketplace Mass Upload V5.1.0 to V5.1.1 | COMPATIBLE:: PRESTASHOP V1.7 |
+######################################################################################
+
+## Compatible:
+
+	- [*]COMP : Module is compatible with Marketplace v5.1.1
+
+## Improved/changed features:
+
+	- [+]MO : Conditions for `status_before_deactivate` and `admin_approved` is applied.
+
+## Update Policy:
+
+	- Mobule need only file update, can be updated only by UPLOADING new version on module.
+
+######################################################################################
+Change Log : Marketplace Mass Upload V5.0.0 to V5.1.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+######################################################################################
+
+## Features Added:
+
+	[*] FO : Seller can upload Product and combiantion update CSV.
+	[*] BO : Admin can upload Product and combiantion update CSV.
+
+## Update Policy:
+	- Database changed.
+
+
+######################################################################################
+Change Log : Marketplace Mass Upload V2.1.1 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+######################################################################################
+
+## Compatible:
+
+	[*]COMP : $this->display() function is replaced with $this->fetch()
+	[*]COMP : Moved parent::__construct(), $this->identifier in top
+	[*]COMP : Removed {strip} tab and variables for js is assigned directly form controller
+	[*]COMP : Added {extends file=$layout} and {block name='content'} line at top of all controller's tpl file
+	[*]COMP : {$smarty.const._MODULE_DIR_} using instead of global var:{$modules_dir} on tpl
+	[*]COMP : html escape removed from tpls
+
+## Improved:
+
+	[*] FO : Font awesome are replaced by Google material icons are added.
+	[*] FO : RegisterStylesheet(), registerJavascript() functions instead of addCSS() and addJS() functions respectively.
+	[*] FO : Breadcrumbs are added from controller.
+	[*] BO : Overwrite initToolbar() function to get "Add new seller csv" button in AdminMarketplacemassupload controller.
+	[+] CO : LICENSE on each file is added
+
+## Others:
+
+	[+] LICENSE : LICENSE.txt file is added
+	[+] CHANGELOG : CHANGELOG.txt file is added
+
+
+## TODO
+	- Combination CSV warnings should be displayed in AdminMarketplacemassupload controller.
+
+
+## Update Policy:
+	- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+######################################################################################
+Change Log : Marketplace Mass Upload V4.0.0 to V5.2.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+######################################################################################
+## Features Added::
+
+	[*] FO : Seller can Download his CSV file and Product Image Zip File.
+	
+
+## Update Policy:
+
+	- Mobule need only file update, can be updated only by UPLOADING new version on module.
+

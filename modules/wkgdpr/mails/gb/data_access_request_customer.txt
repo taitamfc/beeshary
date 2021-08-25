@@ -1,0 +1,2 @@
+Hello {customer_name},
+Please find the attachment containing all your personal data on {shop_url}{shop_name}.										Download the attachment to see all the details of your personal information.

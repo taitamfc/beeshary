@@ -1,0 +1,5 @@
+Vendeur Adhésion Avertissement
+
+Bonjour {seller_name},
+
+Vous devez acheter marketplace Plan d'adhésion du Vendeur pour continuer vos produits actifs. Vos tous les produits sont désactivés après {expire_date}, donc il faut d'acheter marketplace Plan d'adhésion du vendeur avant{expire_date}.

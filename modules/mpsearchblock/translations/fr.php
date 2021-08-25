@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{mpsearchblock}prestashop>search_result_13348442cc6a27032d2b4aa28b75a5d3'] = 'Rechercher';
+$_MODULE['<{mpsearchblock}prestashop>search_result_64b230ad21c8ac25f3a6b99429bd5f4e'] = 'Résultats trouvés';
+$_MODULE['<{mpsearchblock}prestashop>search_result_ef7bd68a02b6b5656554f7a27d1c7bdf'] = 'Erreur !';
+$_MODULE['<{mpsearchblock}prestashop>search_result_8a018f25d97a7d8f5dcd2635c535c155'] = 'Veuillez entrer un mot-clé de recherche';
+$_MODULE['<{mpsearchblock}prestashop>search_result_b2c56c8b57680e576c61c1b5df0d0c2d'] = 'Aucun résultat n\'a été trouvé pour cette recherche';
+$_MODULE['<{mpsearchblock}prestashop>search_result_33d8042bd735c559cc3206f4bc99aedc'] = 'Trier par';
+$_MODULE['<{mpsearchblock}prestashop>search_result_e847d3ba7fc7cbfe949c1a4cd6c2de51'] = 'Prix produit : le moins cher en premier';
+$_MODULE['<{mpsearchblock}prestashop>search_result_057d3ce2c824b8e906865ba8c808dc3d'] = 'Prix produit : le plus cher en premier';
+$_MODULE['<{mpsearchblock}prestashop>search_result_41bdf5037622e9965944a98c52d7fce8'] = 'Nom : A à Z';
+$_MODULE['<{mpsearchblock}prestashop>search_result_9f4dc7aa11bb648bb80275102dcadd5f'] = 'Nom : Z à A';
+$_MODULE['<{mpsearchblock}prestashop>search_result_d71bd8a0b6a6aa54edba64547c91a574'] = 'Produits';
+$_MODULE['<{mpsearchblock}prestashop>search_result_727b632b862ad3c1a414540f699f0aa7'] = 'Afficher les produits';
+$_MODULE['<{mpsearchblock}prestashop>search_result_d8d7ad6abfd08c27baa8bedb78c72ddb'] = 'Tout afficher';
+$_MODULE['<{mpsearchblock}prestashop>search_result_f941b3fd2d6e8f41a60dd50b094bb785'] = 'BOUTIQUES';
+$_MODULE['<{mpsearchblock}prestashop>search_result_139027b179d49db9740ec1a86ce7448e'] = 'Afficher la boutique';
+$_MODULE['<{mpsearchblock}prestashop>search_result_63d449db920b831e878df1cc76ea4cb2'] = 'Afficher le profil du vendeur';
+$_MODULE['<{mpsearchblock}prestashop>search_result_0644b532bd91b8e32e9207e727320feb'] = 'VENDEURS';
+$_MODULE['<{mpsearchblock}prestashop>search_result_4dbee4651b9f7b0df047410bdf269da8'] = 'Afficher le vendeur';
+$_MODULE['<{mpsearchblock}prestashop>search_result_c844bae61d6a3420ea60b3537bf2ca25'] = 'LIEUX';
+$_MODULE['<{mpsearchblock}prestashop>search_result_d1d9213f8966941c44d8d0b68da0c830'] = 'CATEGORIES';
+$_MODULE['<{mpsearchblock}prestashop>search_result_a0925476f70856079fc6f34624318308'] = 'Afficher la catégorie';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_13348442cc6a27032d2b4aa28b75a5d3'] = 'Rechercher';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_de574f399b97c6562fa1e0c677a2cb26'] = 'Choisir parmi les propositions';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_068f80c7519d0528fb08e82137a72131'] = 'Produits';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_12a521af593422cd508f7707662c9eb2'] = 'Boutiques';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_839f4d959affa0625b283e528b77d1e9'] = 'Vendeurs';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_0fa13be30b01ede21c28d4a8ad95b7b3'] = 'Localités';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_af1b98adf7f686b84cd0b443e022b7a0'] = 'Catégories';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_a1fa27779242b4902f7ae3bdd5c6d508'] = 'Type';
+$_MODULE['<{mpsearchblock}prestashop>mpsearchblock_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Tout';

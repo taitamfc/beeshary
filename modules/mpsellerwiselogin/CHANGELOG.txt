@@ -1,0 +1,58 @@
+2010-2017 Webkul.
+
+NOTICE OF LICENSE
+
+All right is reserved,
+
+Please go through this link for complete license : https://store.webkul.com/license.html
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade this module to newer
+Versions in the future. If you wish to customize this module for your
+needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+
+@author    Webkul IN <support@webkul.com>
+@copyright 2010-2017 Webkul IN
+@license   https://store.webkul.com/license.html
+
+Release Notes for Marketplace Seller Central 5.0.0
+---------------------------------------------------
+############################################################################################
+Change Log : Marketplace Seller Central V3.0.0 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+############################################################################################
+
+## Compatible:
+
+	[*]	COMP : $this->display() function is replaced with $this->fetch()
+	[*]	COMP : Moved parent::__construct(), $this->identifier in top
+	[*]	COMP : Removed {strip} tab and variables for js is assigned directly form controller
+	[*]	COMP : Added {extends file=$layout} and {block name='content'} line at top of all controller's tpl file
+	[*]	COMP : html escape removed from tpls
+
+## Improved:
+
+	[*] FO : Font awesome are replaced by Google material icons are added.
+	[*] FO : RegisterStylesheet(), registerJavascript() functions instead of addCSS() and addJS() functions respectively.
+
+## Update Policy:
+	- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+
+#####################################################################################
+Change Log : Marketplace Seller Central V2.1.0 to V3.0.0
+#####################################################################################
+
+## Added Features:
+
+- [+]FO : Added Feature Login page content in multi-language for sellers and the customers.
+- [+]FO : Added Feature Add language option in Login page.
+
+## Fixed bugs:
+
+- [-]BO : Fix language transaltion bug fixed.
+- [-]FO : Fix language translation bug fixed.
+
+# Update policy:
+- Major changed in database and file, need uninstall, DELETE and upload and install the new verion module.

@@ -1,0 +1,5 @@
+Hello {admin_name},
+{customer_name} ({customer_email}) requested to erase all his personal data from {shop_name}.
+Request Recieved :
+{customer_request_content}
+You can check the request in details by visiting {shop_name}.

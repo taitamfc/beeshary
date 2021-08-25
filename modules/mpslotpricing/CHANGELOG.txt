@@ -1,0 +1,9 @@
+Prestashop Marketplace Slot Pricing V5.0.0
+
+##########################################################################
+Change Log : Prestashop Marketplace Slot Pricing V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################
+
+Compatible:
+- compatible With Marketplace V5.0.0
+

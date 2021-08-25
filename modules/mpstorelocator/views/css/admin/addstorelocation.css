@@ -1,0 +1,119 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#left_column,
+#right_column {
+	display: none;
+}
+
+#center_column {
+	width: 100%;
+}
+
+#map-canvas {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 400px;
+}
+
+.controls {
+	margin-top: 10px;
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+	background-color: #fff;
+	padding: 0 11px 0 13px;
+	width: 401px;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	text-overflow: ellipsis;
+	height: 32px;
+}
+
+#pac-input:focus {
+
+	/* border-color: #4d90fe; */
+	margin-left: -1px;
+	padding-left: 14px;  /* Regular padding-left + 1. */
+}
+
+.pac-container {
+	font-family: Roboto;
+}
+
+#btn_store_search {
+	position: absolute;
+	left: 489px;
+	top: 0;
+	z-index: 2;
+	line-height: 0;
+}
+
+#type-selector {
+	color: #fff;
+	background-color: #4d90fe;
+	padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+}
+.back_add_btnCont {
+	text-align: right;
+	margin-left: 0;
+	margin-right: 0;
+} 
+.addStoreCont {
+	margin: 0px 0px;
+}
+.addStoreFormCont {
+	background-color: white;
+    padding: 15px;
+}
+
+.wk-margin-top-20 {
+	margin-top: 20px;
+}
+
+.wk-mp-block .wk-mp-right-column .tabs.wk-margin-top-20 {
+	margin-top: 20px !important;
+}
+
+.wk-mp-right-column .form-control.multiselect-search {
+	height: 40px !important;
+}
+
+.wk-mp-right-column .multiselect-container.dropdown-menu {
+	width: 350px;
+}
+.wk-mp-right-column .multiselect-container.dropdown-menu label.checkbox {
+	padding: 5px 10px !important;
+	text-align: left !important;
+}

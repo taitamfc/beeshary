@@ -1,0 +1,354 @@
+/**
+* 2010-2016 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2016 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+.photo-uploader {
+  border: 2px dashed #c1c1c1;
+  padding: 20px;
+  position: relative;
+}
+
+.seller-upload-img {
+  width: 30px;
+  margin: auto;
+}
+
+.seller-dragdrop {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.seller-photo-or {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.seller-pickphoto {
+  background: none repeat scroll 0 0 #343333;
+  border: medium none;
+  color: white;
+  font-size: 19px;
+  padding: 5px 0 !important;
+  width: 100% !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.upload-error {
+  display: none;
+  color: red;
+  font-size: 14px;
+}
+
+.step2-blank {
+  display: none;
+  background: rgba(0, 0, 0, 0.72);
+  left: 0;
+  top: 0;
+  z-index: 8010;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  overflow-x: auto;
+  overflow-y: scroll;
+  height: auto;
+  width: auto;
+}
+
+.step2-crop {
+  background: #fff;
+  margin: 15px auto 30px;
+  text-align: center;
+  height: auto;
+  left: 355px;
+  opacity: 1;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 580px;
+  /* border: 5px solid #2b2b2b; */
+  border-radius: 5px;
+}
+
+.step2-div {
+  background: none repeat scroll 0 0 #f9f9f9;
+  border-radius: 4px;
+  color: #444;
+  position: relative;
+  text-shadow: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: auto;
+}
+
+.crop-heading {
+  background: none repeat scroll 0 0 rgb(52, 51, 51);
+  border-bottom: 5px solid #2b2b2b;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  margin-bottom: 10px;
+  padding: 12px 0;
+}
+
+.jcrop-holder {
+  display: inline-block;
+}
+
+.picuploadbutton {
+  background: none repeat scroll 0 0 #343333;
+  border: medium none;
+  color: #fff;
+  font-size: 19px;
+  padding: 11px 0;
+  text-transform: uppercase;
+}
+
+.picuploadbutton:hover {
+  color: #fff;
+}
+
+.uploadpicture {
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.productimg_div {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 13%;
+}
+
+.productimg_blank {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.productimg_close {
+  color: #343333;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+
+.productimg_close:hover {
+  color: #39df6;
+}
+
+.cropped_img {
+  padding: 11px;
+}
+
+.cropped_img:hover {
+  opacity: 0.4;
+}
+
+.uploader_wholediv {
+  float: left;
+  width: 100%;
+}
+
+.shop_hover {
+  clear: both;
+  float: left;
+  position: relative;
+}
+
+.collectiondiv {
+  float: left;
+  position: relative;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.cleardiv {
+  clear: both;
+}
+
+.delete_sellerimg_byadmin {
+  position: absolute;
+  right: 69;
+  top: 3px;
+}
+
+/*---------------------  Responsive ---------------------------*/
+@media (min-width:240px) and (max-width:480px) {
+  .seller-preview {
+    float: left;
+    margin-top: 10px;
+    width: 91%;
+  }
+
+  .step2-crop {
+    left: 25px;
+    width: 250px;
+  }
+
+  .picuploadbutton {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .postitemsmargin {
+    width: 91%;
+  }
+
+  .productimg_div {
+    margin-bottom: 7px;
+    width: 45%;
+  }
+
+  .productimg_blank {
+    padding: 65px 0;
+  }
+
+  #holder {
+    display: none;
+  }
+
+  .seller-photo-or {
+    display: none;
+  }
+
+  .tagsearch_design {
+    width: 43%;
+    line-height: 16px;
+  }
+
+  .crop-heading {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+}
+
+@media (min-width:481px) and (max-width:765px) {
+  .seller-preview {
+    float: left;
+    margin-top: 10px;
+    width: 91%;
+  }
+
+  .step2-crop {
+    left: 8px;
+    width: 410px;
+  }
+
+  .picuploadbutton {
+    font-size: 15px;
+    padding: 11px 20px;
+  }
+
+  .postitemsmargin {
+    width: 91%;
+  }
+
+  .productimg_div {
+    margin-bottom: 10px;
+    width: 22.5%;
+  }
+
+  .productimg_blank {
+    padding: 65px 0;
+  }
+
+  #holder {
+    display: none;
+  }
+
+  .seller-photo-or {
+    display: none;
+  }
+
+}
+
+@media (min-width:766px) and (max-width:800px) {
+  .step2-crop {
+    left: 90px;
+  }
+
+  .picuploadbutton {
+    padding: 11px 10px;
+  }
+
+  .productimg_div {
+    margin-bottom: 10px;
+    width: 23%;
+  }
+
+  .productimg_blank {
+    padding: 68px 0;
+  }
+
+  #holder {
+    display: none;
+  }
+
+  .seller-photo-or {
+    display: none;
+  }
+
+}
+
+@media (min-width:801px) and (max-width:1199px) {
+  .step2-crop {
+    left: 260px;
+  }
+
+  .picuploadbutton {
+    padding: 11px 10px;
+  }
+
+  .productimg_div {
+    width: 12%;
+  }
+
+  .productimg_blank {
+    padding: 45px 0;
+  }
+
+}
+
+#wholepage_div {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100000;
+}
+
+.loading-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+div.uploader {
+  width: auto !important;
+}

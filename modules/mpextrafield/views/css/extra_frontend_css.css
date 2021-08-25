@@ -1,0 +1,81 @@
+/**
+* 2010-2017 Webkul
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2017 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+.partnerdetails {
+	float:left;
+	width:100%;
+	min-height:100px;
+}
+.extra-row-info {
+	float:left;
+	width:97%;
+	padding-bottom: 4px;
+    padding-left: 3%;
+}
+
+.extra-row-info-left {
+	float:left;
+	width:20%;
+	color: #666666;
+    float: left;
+    font-size: 15px;
+    padding-top: 5px;
+	font-family: Myraid Pro;
+}
+.extra-row-info-right {
+	float:left;
+	width:74%;
+	padding-top: 5px;
+	font-family: Myraid Pro;
+	color:black;
+	font-size:12px;
+}
+.shop_content_extrainfo {
+	float:left;
+	width:97%;
+	margin-top:10px;
+	padding:2%;
+}
+.shop_content_bottom {
+	float:left;
+	padding:5px;
+	width:99%;
+	background: none repeat scroll 0 0 #FAFAFA;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25) inset;
+}
+.shop_content_bottom h2{
+	padding:5px;
+	margin-bottom:10px;
+}
+.shop_content_bottom .row-info {
+	float:left;
+	width:97%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+.row-info-left {
+	float:left;
+	width:20%;
+	font-weight:bold;
+}
+
+.row-info-right {
+	float:left;
+	width:80%;
+	
+}

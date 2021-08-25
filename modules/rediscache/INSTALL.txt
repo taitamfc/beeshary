@@ -1,0 +1,15 @@
+## Installation
+
+Step1: Install and enable php-redis extension
+
+Step2: Install and configure a redis server.
+
+Step3: Go to Modules and Services > Add New Module > Choose file > search for the rediscache.zip file > Upload this module
+
+Step4: Enable rediscache module
+
+Step5.: Configure the module. Provide the server host / port for the connection to the Redis server. On a successful configuration you should see a confirmation message that the connection works.
+
+Step6: Enable RedisCache on the module configuration page.
+
+

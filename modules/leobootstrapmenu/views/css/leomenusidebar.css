@@ -1,0 +1,316 @@
+/* RIGHT TO LEFT */
+.leo-verticalmenu {
+    position: relative;
+    z-index: 99;
+}
+.leo-verticalmenu .navbar-nav {
+    float: none;
+}
+.leo-verticalmenu .navbar-default {
+    border: none;
+    z-index: 999;
+    background: none;
+    margin-bottom: 0;
+}
+.leo-verticalmenu .navbar-default .navbar-collapse
+{
+    padding: 0;
+}
+.leo-verticalmenu .navbar-default .navbar-nav > li > a:hover, .leo-verticalmenu .navbar-default .navbar-nav > li > a:focus {
+    margin-top: 0;
+}
+.leo-verticalmenu .disable-menu .dropdown-menu, .leo-verticalmenu .disable-menu .caret {
+    display: none !important;
+}
+.leo-verticalmenu.leo-menubackend .dropdown-menu {
+    left: 100%;
+    top: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.leo-verticalmenu .megamenu > li {
+    height: auto;
+    width: 100%;
+    float: none;
+}
+.leo-verticalmenu .megamenu > li > a {
+    padding: 10px 30px 10px 0px;
+}
+.leo-verticalmenu .megamenu > li > a:before {
+    font-family: "Material Icons";
+    content: "chevron_right";
+    font-size: 13px;
+    color: #aab2bd;
+    padding: 0 5px 0 5px;
+    font-weight: normal;
+    float: left;
+}
+.leo-verticalmenu .megamenu > li > a:after {
+    clear: both;
+    content: '';
+    display: inherit;
+}
+.leo-verticalmenu .megamenu > li > a:hover {
+    color: #ff6346;
+}
+.leo-verticalmenu .megamenu > li > a.dropdown-toggle::after {
+    border: none;
+}
+.leo-verticalmenu .megamenu > li.dropdown > .caret {
+    border: medium none;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    text-align: center;
+}
+.leo-verticalmenu .megamenu > li.dropdown > .caret:before {
+    content: "add";
+    font-family: "Material Icons";
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+.leo-verticalmenu .megamenu > li.open-sub > .caret:before {
+    content: "remove";
+}
+.leo-verticalmenu .megamenu li {
+    width: 100%;
+    border-bottom: 1px solid #EBEEF2;
+    z-index: 1;
+    position: relative;
+}
+.leo-verticalmenu .megamenu li:last-child {
+    border-bottom: none;
+}
+.leo-verticalmenu .megamenu li:hover > .dropdown-menu {
+    display: block;
+    top: 0px;
+    left: 100%;
+}
+.leo-verticalmenu .megamenu li.dropdown .dropdown-menu li {
+    border: none;
+}
+.leo-verticalmenu .megamenu li.dropdown.active a {
+    color: #ff6346;
+    background: none;
+}
+.leo-verticalmenu .megamenu li.dropdown.active a:before {
+    color: #ff6346;
+}
+.leo-verticalmenu .megamenu li.dropdown.active li a {
+    color: #353d41;
+}
+.leo-verticalmenu .megamenu li.dropdown.active li a:hover {
+    color: #ff6346;
+}
+.leo-verticalmenu .megamenu li .dropdown-mega {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 100%;
+    min-height: 100%;
+    min-width: 160px;
+    margin: 0;
+    float: none;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: white;
+}
+.leo-verticalmenu .megamenu li .dropdown-mega li {
+    border-bottom: none;
+}
+.leo-verticalmenu .megamenu.left > li > a {
+    padding: 10px 0px 10px 30px;
+}
+.leo-verticalmenu .megamenu.left > li > a:before {
+    content: "chevron_left";
+    float: right;
+}
+.leo-verticalmenu .megamenu.left > li > a .menu-title {
+    float: right;
+}
+.leo-verticalmenu .megamenu.left > li.dropdown > .caret {
+    right: auto;
+    left: 0;
+}
+.leo-verticalmenu .megamenu.left li:hover > .dropdown-menu {
+    right: 100%;
+    left: auto;
+}
+.leo-verticalmenu .megamenu.left li .dropdown-mega {
+    right: 100%;
+    left: auto;
+}
+.leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols1 {
+    left: -215px;
+}
+.leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols2 {
+    left: -420px;
+}
+.leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols3 {
+    left: -620px;
+}
+.leo-verticalmenu .megamenu.left li.parent:hover .dropdown-menu.cols4 {
+    left: -820px;
+}
+.leo-verticalmenu .dropdown-menu {
+    min-height: 100%;
+    margin: 0;
+    float: none;
+    padding: 10px 15px;
+}
+.leo-verticalmenu .dropdown-menu.cols1 {
+    width: 215px;
+}
+.leo-verticalmenu .dropdown-menu.cols2 {
+    width: 420px;
+}
+.leo-verticalmenu .dropdown-menu.cols3 {
+    width: 620px;
+}
+.leo-verticalmenu .dropdown-menu.cols4 {
+    width: 820px;
+}
+.leo-verticalmenu .dropdown-menu ul.links li {
+    border: none;
+    margin: 0;
+}
+.leo-verticalmenu .dropdown-menu ul.links li a {
+    padding: 5px 0 5px 14px;
+}
+.leo-verticalmenu .dropdown-menu .widget-heading {
+    color: #384044;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 14px;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 500;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .product-container {
+    height: auto;
+    padding: 5px;
+    width: 33.3333%;
+    margin: 0;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .image {
+    border: 1px solid #ebeef2;
+    display: inline-block;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .image a {
+    display: inline-block;
+    padding: 0;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .image a:before {
+    padding: 0;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .product-name {
+    text-align: center;
+    padding: 0;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .nb-comments {
+    display: none;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .comments_note {
+    display: inline-block;
+    font-size: 13px;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .price.product-price {
+    font-size: 15px;
+}
+.leo-verticalmenu .dropdown-menu .widget-products .price-percent-reduction {
+    display: none;
+}
+.leo-verticalmenu .dropdown-menu .html-aboutus .widget-html {
+    padding: 10px;
+}
+.leo-verticalmenu .dropdown-menu .html-aboutus .widget-html .widget-inner {
+    border-top: 1px dashed #ebeef2;
+    padding-top: 10px;
+}
+.leo-verticalmenu .leo-widget .menu-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/********************CSS for slidebar menu BEGIN**********************************/
+.verticalmenu.active-button .dropdown-menu {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+.verticalmenu.active-hover .dropdown-menu {
+    /*display: none;*/ }
+
+@media (max-width: 991px) {
+    .leo-verticalmenu > .block_content {
+        display: none;
+    }
+
+    .leo-verticalmenu.active > .block_content {
+        display: block;
+    }
+    .leo-verticalmenu.active .open-sub > .dropdown-menu {
+        background-color: white;
+    }
+    .leo-verticalmenu.active .open-sub > .dropdown-menu .dropdown-menu {
+        border: none;
+        padding: 0 10px;
+    }
+    .leo-verticalmenu.active .megamenu li .dropdown-menu, .leo-verticalmenu.active .megamenu li .dropdown-mega {
+        display: none;
+        position: initial !important;
+    }
+    .leo-verticalmenu.active .megamenu > li > a {
+        padding: 10px 30px 10px 0px;
+    }
+    .leo-verticalmenu.active .megamenu > li > a:before {
+        float: left;
+        content: "chevron_right";
+    }
+    .leo-verticalmenu.active .megamenu > li > a .menu-title {
+        float: left;
+    }
+    .leo-verticalmenu.active .megamenu > li.dropdown > .caret {
+        right: 0;
+        left: auto;
+    }
+    .leo-verticalmenu.active .dropdown-menu, .leo-verticalmenu.active .dropdown-mega {
+        width: 100% !important;
+    }
+    .leo-verticalmenu.active .dropdown-menu .dropdown-submenu .caret, .leo-verticalmenu.active .dropdown-mega .dropdown-submenu .caret {
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    .leo-verticalmenu.active .dropdown-menu .dropdown-submenu .caret:before, .leo-verticalmenu.active .dropdown-mega .dropdown-submenu .caret:before {
+        content: "add";
+        font-family: "Material Icons";
+        color: black;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .leo-verticalmenu.active .dropdown-menu .dropdown-submenu.open-sub > .caret:before, .leo-verticalmenu.active .dropdown-mega .dropdown-submenu.open-sub > .caret:before {
+        content: "remove";
+    }
+    .leo-verticalmenu.active .dropdown-menu .dropdown-submenu .dropdown-toggle:after, .leo-verticalmenu.active .dropdown-mega .dropdown-submenu .dropdown-toggle:after {
+        border: none;
+    }
+}
+/********************CSS for slidebar menu END**********************************/
+
+/*# sourceMappingURL=leomenusidebar.css.map */

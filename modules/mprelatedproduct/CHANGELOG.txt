@@ -1,0 +1,18 @@
+Module - Marketplace Related Products V5.0.0
+
+##########################################################################################
+Change Log : Marketplace Related Products V4.0.0 to 5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################################
+
+Compatible:
+ - Marketplace V5.2.0
+ - Prestashop V1.7
+
+
+##########################################################################################
+Change Log : Marketplace Related Products V4.0.0 to 5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################################
+
+Compatible:
+ - Marketplace V5.0.0
+ - Prestashop V1.7

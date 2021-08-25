@@ -1,0 +1,51 @@
+.moduleFooter{width:100%;height:45px;margin:0 0 20px 0;position:relative;background-color:#f8f8f8;border-bottom:solid 3px #d2d2d2}
+.moduleFooter>div{height:44px}
+.moduleFooter>div>span,.moduleFooter>div>a{display:inline-block;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255,255,255,0.5) 0 1px 0}
+.moduleFooter .right{-webkit-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;-ms-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;transition:all 200ms ease-in;line-height:45px;padding:0 15px;-webkit-transform:skew(-24deg) translate3d(0,0,0);-moz-transform:skew(-24deg) translate3d(0,0,0);-ms-transform:skew(-24deg) translate3d(0,0,0);-o-transform:skew(-24deg) translate3d(0,0,0);transform:skew(-24deg) translate3d(0,0,0);-webkit-backface-visibility:hidden}
+.moduleFooter .right a{-webkit-transform:skew(24deg) translate3d(0,0,0);-moz-transform:skew(24deg) translate3d(0,0,0);-ms-transform:skew(24deg) translate3d(0,0,0);-o-transform:skew(24deg) translate3d(0,0,0);transform:skew(24deg) translate3d(0,0,0);-webkit-backface-visibility:hidden}
+.moduleFooter .left{float:left}
+.moduleFooter .right{float:right}
+.moduleFooter .main{color:#464646}
+.moduleFooter .main:before{content:' ';display:block;float:left;width:21px;height:0;border-bottom:45px solid #d2d2d2;border-left:0 solid rgba(0,0,0,0);border-right:20px solid rgba(0,0,0,0)}
+.moduleFooter .main>span{line-height:22px}
+.moduleFooter .visit{background:#34495e;border-bottom:solid 3px #2c3e50;margin-right:-15px;padding-right:5px}
+.moduleFooter .visit img{vertical-align:top!important}
+.moduleFooter .visit a{color:#f8f8f8;text-shadow:#17222f 0 1px 0}
+.moduleFooter .right-edge{content:' ';display:block;float:right;width:26px;height:0;border-bottom:45px solid #2c3e50;border-right:0 solid rgba(0,0,0,0);border-left:20px solid rgba(0,0,0,0)}
+.moduleFooter .bug{background:#e74c3c;border-bottom:solid 3px #c0392b;border-left:solid 3px #c0392b}
+.moduleFooter .bug a{color:#8e0c00}
+.moduleFooter .feedback{background:#2ecc71;border-bottom:solid 3px #27ae60;border-left:solid 3px #27ae60}
+.moduleFooter .feedback a{color:#196532}
+.moduleFooter .feedback.disabled{background:#ddd;border-bottom-color:#d2d2d2;border-left-color:#d2d2d2}
+.moduleFooter .feedback.disabled a{color:#9c9c9c}
+.moduleFooter .faq{background-color:#39B3D7;border-bottom:solid 3px #269ABC;border-left:solid 2px #269ABC}
+.moduleFooter .faq a{color:#fff}
+.moduleFooter .right:hover{padding:0 20px 0 20px}
+.moduleFooter .visit.right:hover{padding-right:10px}
+div.fix-toolbar{z-index:3!important}
+.margin-form.wide{padding-left:10px}
+.margin-form{padding-top:1px}
+@media only screen and (max-width:1340px){
+   .moduleFooter>div>span,.moduleFooter>div>a{font-size:12px}
+}
+@media only screen and (max-width:1230px){
+    .moduleFooter>div>span,.moduleFooter>div>a{font-size:11px}
+}
+@media only screen and (max-width:1140px){
+    .moduleFooter{height:auto;border-bottom:0}
+    .moduleFooter>div{background-image:none!important;float:none!important;clear:both!important;width:auto;text-align:center}
+    .moduleFooter .visit{margin:0}
+    .moduleFooter .right:hover{padding:0 15px 0 15px}
+    .moduleFooter .visit.right:hover{padding-right:5px}
+    .moduleFooter .main:before,.moduleFooter .right-edge{display:none}
+    .moduleFooter .right{border-left:none;-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;-webkit-backface-visibility:hidden}
+    .moduleFooter .right a{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;-webkit-backface-visibility:hidden}
+}
+#feedback_form>fieldset{border:0;background-color:transparent}
+#feedback_form>fieldset>legend{border:0;background-color:transparent;font-size:25px;margin-left:-20px}
+#feedback_form>fieldset>label{width:auto;font-size:14px;margin-bottom:5px}
+#feedback_form>fieldset>.margin-form{clear:both;padding-left:10px;font-weight:normal}
+#feedback_form>fieldset>.margin-form strong{font-weight:normal}
+#feedback_form>fieldset>.margin-form>.button{padding-left:30px;padding-right:30px}
+.feedback_thanks{text-align:center;font-size:14px;font-weight:bold}
+.vouchercode{color:red;font-weight:bold;font-size:37px;text-align:center;padding:10px;background-color:#d2d2d2;border-radius:10px;border:1px solid #afafaf}

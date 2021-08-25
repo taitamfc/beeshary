@@ -1,0 +1,333 @@
+#pp_seller_creation {}
+#pp_seller_creation .container {padding: 0px; width: 100%;}
+#module-mpsellerwiselogin-sellercreation .container-large {
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+    padding: 0 ;
+}
+
+#pp_seller_creation .top_header{background: #FADE83; position: relative;}
+#pp_seller_creation .form_container form {
+    max-width: 950px;
+    margin: 0 auto;
+    width: 100%;
+}
+#pp_seller_creation .form_container .form_fields .input_left, #pp_seller_creation .form_container .form_fields .input_right {
+    width: 48%;
+    float: left;
+    position: relative;
+}
+#pp_seller_creation .top_header .mp_montgolfiere {position: absolute;top: -24px;left: 25%;width: 115px;margin-left: -95px !important;}
+#pp_seller_creation .top_header .main_title{text-align: center;font-size: 30px;font-weight: bold;padding-top: 45px;padding-bottom: 25px;}
+#pp_seller_creation .top_header .sub_title{text-align: center;font-size: 19px;font-weight: bold;margin-top: 10px;    padding-bottom: 15px;}
+
+/* #pp_seller_creation .form_container{background-color: #D0E6E9;min-height: 800px;padding-top: 120px;padding-bottom: 200px;background:linear-gradient(to bottom,#c8e6eb, #f5f5f5);} */
+#pp_seller_creation .form_container .form_fields{max-width: 950px;margin: 0 auto;width:100%;}
+#pp_seller_creation .form_container .form_fields .pp_seller_profile{font-size: 50px !important;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    min-height: 50px;
+    line-height: 1;}
+#pp_seller_creation .form_container .form_fields .pp_seller_profile_title{font-weight: bolder;text-align: center;font-size: 24px;}
+#pp_seller_creation .form_container .form_fields .pp_seller_profile_subtitle{text-align: center;font-size: 23px;margin-top: 25px;margin-bottom: 50px;}
+#pp_seller_creation .form_container .form_fields .input_left, #pp_seller_creation .form_container .form_fields .input_right{width: 48%;float: left;position: relative;}
+#pp_seller_creation .form_container .form_fields .input_left{margin-right: 4%;}
+#pp_seller_creation .form_container .form_fields select.form-control:not([size]):not([multiple]){height: 49px;     margin-bottom: 15px;}
+#pp_seller_creation .form_container .form_fields .next_btn {background-color: #FFC709;color: #fff;padding: 10px 20px;font-size: 19px;margin: 20px auto 35px auto;width: 230px;border: none;display: block;text-align: center;}
+#pp_seller_creation .form_container .form_fields .next_btn:focus, #pp_seller_creation .form_container .form_fields .next_btn:active{border: none;}
+#pp_seller_creation .form_container .form_fields .address_pro{color: #bbb;font-size: 18px;}
+#pp_seller_creation .form_container .form_fields .input-group-addon {width: 50px;font-weight: bold;}
+
+.stripe-button-el{    border-radius: 0px !important;background-image:none !important;background-color: #FFC709 !important;color: #fff !important;padding: 10px 20px!important;font-size: 19px !important;
+margin: 80px auto 20px auto !important;width: 230px !important;border: none !important;display: block !important;text-align: center !important;}
+.stripe-button-el span	{box-shadow: none !important;font-weight: normal !important;    font-family: 'SignikaLight', sans-serif !important;background-image:none !important;background-color: #FFC709 !important;color: #fff !important;font-size: 19px !important;
+border: none !important;display: block !important;text-align: center !important;}
+
+#pp_seller_creation .form-control {border-radius: 4px; color: #565757;}
+#pp_seller_creation .form-control::placeholder {color: #565757;}
+
+#pp_seller_creation textarea {padding: 10px}
+
+#pp_seller_creation .seller_steps{height: 200px;padding-top: 25px;}
+#pp_seller_creation .seller_steps .steps {}
+#pp_seller_creation .seller_steps .steps .step {width: 150px;height: 150px;background-color: #fff;border-radius: 50%;text-align: center;line-height: 149px;font-size: 20px;color: #000;border: 3px #FFC709 solid;display: inline-block;}
+#pp_seller_creation .seller_steps .steps .step span{line-height: 20px;display: inline-block;vertical-align: middle;}
+#pp_seller_creation .seller_steps .steps .step.active{background-color: #FFC709;color: #fff;}
+#pp_seller_creation .seller_steps .steps .steps_separator {width: 2%;border: 2px #FFC709 solid;margin-top: 75px;display: inline-block;}
+#pp_seller_creation .form_container .form_fields input[type="file"] {opacity: 0;width: .1px;height: .1px;overflow: hidden;position: absolute;z-index: -1;}
+#pp_seller_creation .form_container .form_fields .custom-file-upload {border: 1px solid #FFC709;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #FFC709;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    width: 361px;
+    text-align: center;}
+#pp_seller_creation .image_preview{margin: 0 auto;width: 200px;}
+#pp_seller_creation a.remove_preview_img {float: right;color: #000;}
+#pp_seller_creation .image_preview img {width: 200px;height: 160px;}
+#pp_seller_creation .image_banner_preview {width: 300px;margin: 0 auto;}
+#pp_seller_creation .image_banner_text{width: 390px;margin: 0 auto;}
+#pp_seller_creation .image_banner_text p {text-align: center;}
+#pp_seller_creation .image_banner_preview img{width: 300px;height: 90px;}
+#pp_seller_creation .banner_img {font-size: 21px;margin-top: 50px;border-bottom: 1px #bbb solid;width: 100%;text-align: left;font-weight: bold;text-transform: uppercase;margin-bottom: 15px;}
+#sellerTermsForm .wt_bold {font-weight: normal;font-size: 14px;height: 50px;line-height: 52px;}
+#sellerTermsForm .terms_title {font-size: 16px;}
+#sellerTermsForm p.help {margin-left: 15%;}
+#seller {padding: 0 40px;width: 100%;}
+/* #seller .chosen-container {width: 406px !important;} */
+#seller .form-group .input-group-addon{display: none; padding: 0px 5px;}
+#seller .input-group-addon {width: 60px !important;}
+.store_top_pic {width: 65px;}
+#sellerStoreForm,#sellerDeliveryMethodForm,#sellerImagesForm,#sellerTermsForm {position: relative;}
+.prv_section{position: absolute;top: 10px;left: 0px; z-index: 10;}
+#seller .chosen-container-multi .chosen-choices {height: 38px;border: 1px solid #e6e6e6;border-radius: 4px;overflow: hidden;}
+/* #seller .chosen-container-multi .chosen-choices li.search-field input[type=text] {height: 49px;} */
+#seller .chosen-container-multi .chosen-choices li.search-choice {}
+#seller .chosen-container.chosen-with-drop .chosen-drop {margin-top: -3px;}
+#sellerStoreForm .tagify-container.seller-creation-form {border: 1px solid #ccc;height: 45px;border-radius: 6px;line-height: 43px;padding-left: 5px;}
+#seller #delivery_method_chosen,#seller #shipping_days_chosen {width: 365px !important;}
+#sellerStoreForm .tagify-container.seller-creation-form span {height: 30px;background-color: #FAE081;display: inline-block;margin-top: 5px;line-height: 29px;font-size: 17px;margin-right: 5px;padding: 0px 10px;position: relative;text-align: center;}
+#sellerStoreForm .tagify-container.seller-creation-form span a {color: #000;position: absolute;top: -9px;right: 2px;font-weight: bold;font-size: 13px;}
+#sellerStoreForm .tagify-container.seller-creation-form input[type="text"] {border: none;padding-left: 5px;margin-left: 5px;height: 30px;}
+.dm_summary {margin-top: 55px;}
+.dm_summary h4 {font-weight: bold;color: #757575;}
+.dm_summary .md_summary_text {background-color: #f1f1f1;padding: 20px 5px;margin-top: 50px;}
+.dm_summary .md_summary_text .title {color: #CBCCCB;margin-bottom: 0px;font-size: 18px;font-weight: bold;}
+.dm_summary .md_summary_text .summary {color: #757575;font-size: 17px;font-weight: bold;margin-bottom: 20px;}
+.dm_summary .md_summary_text .summary:last-child {margin-bottom: 0px;}
+.dm_summary .md_summary_text .filled_text {color:#91D0D4;}
+.small_col{color: #9a9898;}
+#sellerProfileForm textarea, #sellerStoreForm textarea {height: 88px;}
+#sellerTermsForm #bank_type,#sellerTermsForm #bank_beneficiary,#sellerTermsForm #bank_establishment,#sellerTermsForm #bank_iban_code,#sellerTermsForm #bank_code_bic{width: 80%;}
+
+#pp_seller_creation .form_container .form_fields.editsellerprofile{width: 100%;padding: 0px;}
+#pp_seller_creation .form_container.sellerprofile_form_container {background: none;padding:0px;min-height: 200px;}
+#pp_seller_creation .form_container .form_fields.editsellerprofile select{height: 48px !important;border-radius: 6px;}
+#pp_seller_creation .form_container .form_fields.editsellerprofile .input_left {margin-right:0px;}
+/**pricing plan*/
+
+ul {
+    list-style-type: none;
+}
+
+.pricing-wrapper a {
+    color: #e95846;
+    text-decoration: none;
+}
+
+.pricing-table-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: #FFF;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table-title a {
+    font-size: 0.6em;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+}
+/** ========================
+ * Contenedor
+ ============================*/
+.pricing-wrapper {
+    width: 960px;
+    margin: 40px auto 0;
+}
+
+.pricing-table {
+    margin: 0 10px;
+    text-align: center;
+    width: 420px;
+    float: left;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+	    cursor: pointer;
+}
+
+.pricing-table:hover {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.pricing-title {
+    color: #FFF;
+    background: #87cdd1;
+    padding: 20px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table.recommended .pricing-title {
+    background: #c8e5eb;
+}
+
+.pricing-table.recommended .pricing-action {
+    background: #2db3cb;
+}
+
+.pricing-table .price {
+    background: #403e3d;
+    font-size: 3.4em;
+    font-weight: 700;
+    padding: 20px 0;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	color:#fff;
+}
+
+.pricing-table .price sup {
+    font-size: 0.4em;
+    position: relative;
+    left: 5px;
+}
+
+.table-list {
+    background: #FFF;
+    color: #403d3a;
+    padding-left: 0px;
+}
+
+.table-list li {
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 12px 8px;
+}
+
+.table-list li:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #3fab91;
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    font-size: 16px;
+} 
+
+.table-list li span {
+    font-weight: 400;
+}
+
+.table-list li span.unlimited {
+    color: #FFF;
+    background: #e95846;
+    font-size: 0.9em;
+    padding: 5px 7px;
+    display: inline-block;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+}
+
+
+.table-list li:nth-child(2n) {
+    background: #F0F0F0;
+}
+
+.table-buy {
+    background: #FFF;
+    padding: 15px;
+    /*text-align: left;*/
+    overflow: hidden;
+}
+
+.table-buy p {
+    float: left;
+    color: #37353a;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.table-buy p sup {
+    font-size: 0.5em;
+    position: relative;
+    left: 5px;
+}
+
+.table-buy .pricing-action {
+    float: right;
+    color: #FFF;
+    background: #e95846;
+    padding: 10px 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+    background: #cf4f3e;
+}
+
+.recommended .table-buy .pricing-action:hover {
+    background: #228799;    
+}
+.plancheck{
+	    color: #FFF;
+    background: green;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+}
+/** ================
+ * Responsive
+ ===================*/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .pricing-wrapper {
+        width: 768px;
+    }
+
+    .pricing-table {
+       /* width: 236px;*/
+	   width: 360px;
+    }
+    
+    .table-list li {
+        font-size: 1.3em;
+    }
+
+ }
+
+ @media only screen and (max-width: 767px) {
+    .pricing-wrapper {
+        width: 420px;
+    }
+
+    .pricing-table {
+        display: block;
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+ }
+
+@media only screen and (max-width: 479px) {
+    .pricing-wrapper {
+        width: 300px;
+    }
+} 

@@ -1,0 +1,29 @@
+[{shop_url}] 
+
+Hello Admin
+
+A new shipping method has been created by {seller_name}
+
+Seller Details
+
+Seller name: {seller_name}
+
+Shop name: {seller_shop}
+
+Phone: {seller_phone}
+
+Email: {seller_email_id}
+
+Shipping Details
+
+Carrier Name: {shipping_name}
+
+Transit Time: {transit_delay}
+
+Free Shipping: {free_shipping}
+
+Handling Cost: {handling_cost}
+
+Status: {status}
+
+Go to your shop by clicking on link below: [{shop_url}]

@@ -1,0 +1,5 @@
+.idea
+translations/translation_*
+config_*.xml
+backward_compatibility
+/nbproject/private/

@@ -1,0 +1,88 @@
+API Doc:
++++++++++++++++++++
+- End URL: /api/seller/[api_name]?ws_key=admin_key
++++++++++++++++++++
+
+
+1) Update the booking status
+--------------------------
+- EndPoint: /api/seller/updateorderstatus
+- Method: POST
+- Input JSON:
+```
+{
+	"id_order": "11",
+	"id_order_state": "2"
+}
+```
+- Output:
+```
+{
+	"success": true,
+	"message": "Order status updated successfully."
+}
+```
+
+2) Create cart with booking product
+- EndPoint: /api/seller/createbookingcart
+- Method: POST
+- Input JSON:
+```
+{
+  "id_product": "34", // prestashop catalog product id
+  "id_customer": "3", // int
+  "id_currency": "1",
+  "booking_type": "2", // value 1 for date range, 2 for time slot product
+  "quantity": "2",
+  "date_from": "", // datetime "2021-02-12 00:00:00" used if "booking_type": "1"
+  "date_to": "", // datetime "2021-02-12 00:00:00" used if "booking_type": "1"
+  "on_date": "2021-03-18", // if "booking_type": "2"
+  "slots": [ // if "booking_type": "2"
+    {"time_from":"05:00", "time_to":"10:00", "quantity":"1"},
+    {"time_from":"13:00", "time_to":"18:00", "quantity":"1"}
+  ]
+}
+```
+- Output:
+{
+    "success": true,
+    "msg": "saved with success",
+    "id_cart": 24
+}
+
+3) using id_cart from 'createbookingcart' api,
+call below api,
+- EndPoint: /api/seller/createorder
+- Method: POST
+- Input JSON:
+```
+{
+   "id_cart": "11",
+   "module": "ps_checkpayment",
+   "id_customer": "4",
+   "total_paid": "132.00",
+   "payment": "Payments by check",
+   "current_state": "2"
+}
+```
+Output:
+```
+{
+   "success": true,
+   "message": "Order created successfully.",
+   "id_order": "4",
+   "reference": "JTOWPKDBT"
+}
+```
+4) Get booking order details
+- EndPoint: /api/seller/sellerorder/
+- Method: Get
+Output:
+ order list with booking details
+
+
+5) Get booking products
+- EndPoint: /api/seller/getbookingproduct/?id_product=21
+- Method: Get
+Output:
+ get booking product details

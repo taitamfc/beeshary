@@ -1,0 +1,23 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_bb08b9716daee345972b5db30ac5c962'] = 'Kategori blok gambar';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_42d495cc7c706328a16b54af908f8e1e'] = 'Menambahkan sebuah blok yang menampilkan kategori produk - www.catalogo-onlienrsi.com.ar';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Maksimum kedalaman: nomor tidak valid.';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_0cf328636f0d607ac24a5c435866b94b'] = 'Dynamic HTML: pilihan tidak valid.';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_f4d1ea475eaa85102e2b4e6d95da84bd'] = 'Konfirmasi';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_c888438d14855d7d96a2724ee9c306bd'] = 'Pengaturan diperbarui';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_f4f70727dc34561dfde1a3c529b6205c'] = 'Pengaturan';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_19561e33450d1d3dfe6af08df5710dd0'] = 'Maksimum kedalaman';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_ef35cd8f1058f29151991e9ca94b36fb'] = 'Atur kedalaman maksimum sublevels ditampilkan dalam blok ini (0 = tak terbatas)';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_c8b67271027c00996a585be47a0c0967'] = 'Ukuran gambar';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'Dinamis';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Diaktifkan';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_b9f5c797ebbf55adccdd8539a65a0241'] = 'Cacat';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_2c1199ee18b344152f35ec237acb5796'] = 'Aktifkan dinamis (animasi) mode untuk sublevels';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_c9cc8cce247e49bae79f15173ce97354'] = 'Simpan';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_9887a4451812854f0f1b6f669a874307'] = 'Menyumbang';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_e8928d746f7cf273fa76aabf3f906216'] = 'Anda dapat berkontribusi dengan donasi jika modul gratis kami dan tema yang berguna bagi Anda. Clic pada link dan mendukung kami!';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_4ad5cd8425d9ac520903c1819517f0e1'] = 'Untuk modul lebih & kunjungi tema: www.catalogo-onlinersi.com.ar';
+$_MODULE['<{blockcategoriesi}prestashop>blockcategoriesi_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategori';

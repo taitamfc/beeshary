@@ -1,0 +1,132 @@
+"S No.","Category Name","Category Id"
+1,seller,12
+2,Activités,13
+3,"Toutes les catégories",14
+4,"Produits mis en avant",15
+5,"Épicerie salée",16
+6,"Gourmandises sucrées",17
+7,"Vins, bières et spiritueux",18
+8,"Art et peinture",19
+9,"Livres et papeterie",20
+10,"Beauté et bien-être",21
+11,"Maison et déco",22
+12,"Mode et accessoires",23
+13,"Bijoux et créations",24
+14,"Jeux et jouets",25
+15,"Instruments de musique",26
+16,"Nature et médecine douce",27
+17,"Conserves et bocaux",28
+18,Charcuterie,29
+19,"Huiles et vinaigres",30
+20,"Épices et aromates",31
+21,"Epicerie fine",32
+22,"Céréales et légumineux",33
+23,"Fruits secs",34
+24,"A tartiner : Miel, confitures",35
+25,"Confiseries et chocolat",36
+26,"A grignoter",37
+27,"Autres gourmandises",38
+28,Vins,39
+29,"Bières artisanales",40
+30,Spiritueux,41
+31,"Champagnes et vins mousseux",42
+32,Peintures,43
+33,"Dessins et illustrations",44
+34,"Sculptures et gravures",45
+35,"Poterie et modelage",46
+36,Céramique,47
+37,"Art du verre",48
+38,"Mosaique et collage",49
+39,Photographie,50
+40,"Autres oeuvres",51
+41,"Livres, album et carnet",52
+42,"Cartes et faire-part",53
+43,"Autres papeteries",54
+44,"Savons et bains",55
+45,"Soins pour le corps",56
+46,"Maquillage et cosmétique",57
+47,"Belle et parfumée",58
+48,"Relaxation et ambiance",59
+49,"Accessoires de toilette et de bain",60
+50,"Soins des cheveux",61
+51,"Boîtes, coffres et paniers",62
+52,"Arts de la table",63
+53,"Linge de maison",64
+54,"Déco murales",65
+55,"Luminaires, bougies et éclairage",66
+56,"Meubles et rangements",67
+57,"Sols et tapis",68
+58,"Autre déco tendance",69
+59,Vêtements,70
+60,Chaussures,71
+61,Sacs,72
+62,"Pochettes, porte-feuille et trousses",73
+63,Bagagerie,74
+64,"Chapeaux, bonnets et casquettes",75
+65,"Écharpes, foulards et châles",76
+66,"Gants et mitaines",77
+67,Lunettes,78
+68,"Accessoires de coiffure",79
+69,"Ceinture et cravates",80
+70,Gentleman,81
+71,"Autres accessoires",82
+72,Bagues,83
+73,"Boucles d'oreille",84
+74,"Bracelets & Montres",85
+75,"Colliers et pendentifs",87
+76,"Autres créations",90
+77,"Pour les tout petits (hochet, etc)",91
+78,"Peluches et Doudous",92
+79,"Poupées et accessoires",93
+80,"Jeux et Puzzles",94
+81,Figurines,95
+82,"Sports et jeux en plein air",96
+83,"Instruments à vent",97
+84,"Instruments à cordes",98
+85,Percussion,99
+86,"Aromathérapie et huiles essentielles",100
+87,"Phytothérapie : tisanes, infusions",101
+88,"Compléments alimentaires naturels",102
+89,"Produits de la ruche",103
+90,"Huiles végétales",104
+91,"À la rencontre d'un éleveur",105
+92,"Découverte d'un producteur",106
+93,"Travail du verre, du bois et de la pierre",107
+94,"Histoire et Patrimoine",108
+95,"Gastronomie & Métiers de bouche",109
+96,"Vignoble, brasserie & distillerie",110
+97,"Savonnerie & parfumerie",111
+98,"En musique",112
+99,"Nature & botanique",115
+100,Insolite,116
+101,"Modelage, sculpture & céramique",118
+102,"Peinture & Calligraphie",119
+103,"Maroquinerie, mode & accessoires",120
+104,"Bijoux & Orfèvrerie",121
+105,"Boissons et jus de fruits",123
+106,"Jus de fruits",124
+107,"Boissons pétillantes",125
+108,"Sélection cadeau",126
+109,"Pour elle",127
+110,"Pour lui",128
+111,"Pour les enfants",129
+112,Mariage,130
+113,Naissance,131
+114,Anniversaire,132
+115,"Pendaison de crémaillère",133
+116,"Fêtes de fin d'année",134
+117,Saint-Valentin,135
+118,"Fête des mères",136
+119,"Fête des pères",137
+120,Photographie,139
+121,Coffrets,140
+122,Bio,141
+123,Artiboutik,142
+124,"Masques de protection Covid-19",143
+125,Calligraphie,144
+126,"Loisirs créatifs",145
+127,Santons,146
+128,"Recyclé, green, durable",147
+129,"Artiboutik & Provence Tourisme",148
+130,"En solde",149
+131,"Arts créatifs",151

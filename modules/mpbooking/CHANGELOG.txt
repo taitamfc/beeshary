@@ -1,0 +1,39 @@
+# Change Log V4.0.0 to V4.0.1:
+
+## Added features:
+
+- [+]CO : Booking Information is added in the order confirmation email.
+- [+]CO : Booking Information is added in the order Invoice.
+
+## Improved/changed features:
+
+- [*]CO : Next Date calculation is improved in the module. Some times leads to infinite loop for some time zones.
+- [*]CO : Testing issues resolved.
+
+## Fixed bugs:
+
+- [-]CO :  booking product listing issue resolve on multishop.
+- [-]CO :  updateQuantity() issue resolve
+- [-]BO :  Same Day Time Slot issue resolve.
+- [-]BO :  Option for admin to create admin's booking product is removed. Because it is a marketplace addon. So this option was not logical.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+############################################################################################
+Prestashop Marketplace Booking And Reservation System V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | Released On :06/06/2018
+############################################################################################
+
+# ChangeLog V4.0.0:
+
+## Added features:
+
+- [+]MO : Now Booking Product is added from seperate controller (AdminBookingProduct).
+- [+]MO : Admin can add date range type as well as time slot type booking products.
+- [+]MO : Sellers can add date range type as well as time slot type booking products.
+- [+]MO : Admin can add feature plans on booking products.
+- [+]MO : Sellers can add feature plans on booking products.
+- [+]FO : product quickview, Product details, cart checkout and order confirmation pages designs are overrided as per booking product display.
+- [+]FO : Booking Product details are shown on admin order details page seperately.

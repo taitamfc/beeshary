@@ -1,0 +1,5 @@
+Membership Plan Deactivation
+
+Hello {seller_name},
+
+Your membership plan has been expired and your all products are deactivated.

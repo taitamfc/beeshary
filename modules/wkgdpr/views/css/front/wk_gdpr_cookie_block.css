@@ -1,0 +1,72 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.wk-cookie-block-wrapper {
+    padding: 15px;
+    box-shadow: 2.407px -3.195px 10px 0px rgba(0, 0, 0, 0.13);
+    z-index: 10000;
+    position: fixed;
+    bottom: 25px;
+    width: 350px;
+    max-width: 90%;
+    border-radius: 8px;
+}
+
+.wk-cookie-wrapper:hover .wk-cookie-close {
+    opacity: 1;
+}
+
+.wk-cookie-close {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+
+.wk-cookie-accept-btn {
+    padding: 10px 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.wk-cookie-block-header,
+.wk-cookie-block-content,
+.wk-cookie-block-footer {
+    text-align: center;
+}
+
+.wk-cookie-block-content {
+    font-size: 15px;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.wk-cookie-block-header img {
+    max-width: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .wk-cookie-block-content {
+        max-height: 70px;
+    }
+}

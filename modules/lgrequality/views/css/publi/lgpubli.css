@@ -1,0 +1,208 @@
+.lg-block {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d3d8db;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    font: 400 12px/1.42857 "Open Sans", Helvetica, Arial, sans-serif;
+    color: #555;
+    display: inline-block;
+    width: 100%;
+}
+.lg-block a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.lg-block .lg-block-icon {
+    display: inline-block;
+    margin-right: 20px;
+}
+.lg-block .lg-block-icon a {
+    display: inline-block;
+}
+.lg-block .lg-block-icon a * {
+    display: block;
+}
+.lg-block .lg-block-icon a img {
+    margin: 0 auto;
+}
+.lg-block .lg-block-icon a .text {
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 11px;
+}
+.lg-block .lg-block-icon a.readme {
+    color: #8BCDD1;
+}
+.lg-block .lg-block-icon a.support {
+    color: #EF5D5A;
+}
+.lg-block .lg-block-icon a.faq {
+    color: #D7A9E4;
+}
+.lg-block .lg-block-icon a.opinion {
+    color: #FFC13D;
+}
+.lg-block .lg-block-icon a.see-modules {
+    color: #91C157;
+}
+.lg-block .lg-block-icon.right {
+    vertical-align: middle;
+    margin: 0 0 0 20px;
+    padding-left: 20px;
+    border-left: 1px solid #CCC;
+}
+.lg-block-company {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 25px;
+    padding: 10px 10px 25px 10px;
+}
+.lg-block-company span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.lg-block-partner {
+    width: 60%;
+    display: inline-block;
+}
+.lg-block-partner span {
+    width: 115px;
+    margin: 20px 0 0 13px;
+    position: absolute;
+}
+.lg-block-creator {
+    width: 35%;
+    display: inline-block;
+}
+.lg-block-creator span {
+    width: 115px;
+    margin: 14px 0 0 13px;
+    position: absolute;
+}
+.lg-module-block {
+    border: 1px solid #CCC;
+    padding: 10px;
+    position: relative;
+}
+.lg-module-block a,
+.lg-module-block a:hover,
+.lg-module-block a:focus {
+    text-decoration: none;
+    color: #333333;
+    outline: none;
+}
+.lg-module-block .lg-title {
+    position: relative;
+}
+.lg-module-block .lg-module-name {
+    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+    font-weight: 400;
+    color: #251b5b;
+    margin: 0;
+    padding-left: 15px;
+    display: inline-block;
+    position: absolute;
+    font-size: 14px;
+    overflow: hidden;
+    height: 57px;
+}
+.lg-module-block .lg-description {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    height: 80px;
+    overflow: hidden;
+}
+.lg-module-block .lg-rating {
+    padding: 12px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+.lg-module-block .lg-rating img {
+    margin-left: 7px;
+}
+.lg-module-block .lg-button span {
+    padding: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    background: #251B5B;
+    display: block;
+    font-size: 11px;
+    transition: background .2s ease-out;
+    -moz-transition: background .2s ease-out;
+    -webkit-transition: background .2s ease-out;
+    -o-transition: background .2s ease-out;
+}
+.lg-module-block:hover .lg-button span,
+.lg-module-block a:hover .lg-button span {
+    background: #DF0067;
+}
+.lg-background-image {
+    background: url('../../img/publi/ico_see_modules_big.png') no-repeat;
+    margin-left: -16px;
+    height: 175px;
+    margin-top: 33px;
+    position: relative;
+}
+.lg-vertical-text {
+    display: block;
+    position: absolute;
+    left: -47px;
+    top: 70px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    width: 140px;
+    text-align: center;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.lg-vertical-text a {
+    color: #FFFFFF;
+}
+.lg-vertical-text a:hover,
+.lg-vertical-text a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+@media(max-width: 1600px) {
+    .lg-block-partner,
+    .lg-block-creator {
+        display: inline-block;
+        text-align: center;
+    }
+    .lg-block-creator {
+        margin-top: 20px;
+    }
+    .lg-block-partner img {
+        width: 8em;
+    }
+    .lg-block-creator img {
+        width: 3em;
+    }
+    .lg-block-creator span,
+    .lg-block-partner span {
+        margin: 10px auto 0 auto;
+        position: relative;
+        display: block;
+    }
+}
+@media(max-width: 1200px) {
+    .lg-block-partner,
+    .lg-block-creator {
+        margin-bottom: 20px;
+    }
+}

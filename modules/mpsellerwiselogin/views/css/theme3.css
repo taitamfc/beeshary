@@ -1,0 +1,348 @@
+/**
+* 2010-2017 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2017 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+body
+{
+	font-family: 'open sans',sans-serif;
+	background-color: white;
+}
+
+.create_block
+{
+	float: left;
+	width: 100%;
+}
+
+.clear-both
+{
+	clear: both !important;
+}
+
+.bg-img-style
+{
+	background-repeat: no-repeat;
+	background-position: 98% center;
+}
+
+.margin-right-5
+{
+	margin-right: 5px;
+}
+
+.padding-10
+{
+	padding: 10px;
+}
+
+.margin-top-10
+{
+	margin-top: 10px;
+}
+
+.margin-top-20
+{
+	margin-top: 20px;
+}
+
+.margin-bottom-20
+{
+	margin-bottom: 20px;
+}
+
+.break_word
+{
+	word-wrap: break-word;
+}
+
+#header_container
+{
+	background-color: white;
+	float: left;
+	width: 100%;
+	box-shadow: 0px 1px 3px #CDD1D2;
+}
+#page_header
+{
+	padding: 10px 0px !important;
+}
+
+#shop_logo
+{
+	max-height: 65px;
+}
+
+#header_login
+{
+	/*margin-top: 20px;*/
+}
+
+#header_login input
+{
+	padding: 2px 10px;
+}
+
+#header_login button
+{
+	border-radius: 0px;
+	font-weight: bold;
+	padding: 3px 14px 3px 14px;
+}
+
+.wk_login_field
+{
+	border: 1px solid #cccccc;
+    border-radius: 0 !important;
+    color: #333333;
+    height: 28px;
+}
+
+.form_wrapper
+{
+	background-color: #FBFBFB;
+	border: 1px solid #DDDDDD;
+	padding: 10px 20px;
+}
+
+.hr_style
+{
+	color: #C7C7C7;
+}
+
+.mand_field
+{
+	font-size: 9px;
+	color: red;
+}
+
+.form_heading
+{
+	font-size: 18px;
+	font-weight: 600px;
+}
+
+.field_label
+{
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.form_button
+{
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: 600px;
+	border-radius: 0px;
+}
+
+.field_heading
+{
+	font-size: 14px;
+	font-weight: 600px;
+}
+
+#form_shop_info
+{
+	display: none;
+}
+
+.alert_block
+{
+	margin-top: 15px;
+}
+
+.field_label input
+{
+	font-weight: normal;
+}
+
+.mp_error_block
+{
+	background-color: #C9302C;
+	color: white;
+	display: none;
+    float: left;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 4px 7px;
+    width: 100%;
+}
+
+
+
+.check_email
+{
+    float: left;
+    width: 100%;
+	color: black;
+	background-color: #FCF8E3;
+	display: none;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 4px 7px;
+}
+
+#toggle_form
+{
+	color: #337AB7;
+	cursor: pointer;
+}
+
+.banner_block
+{
+	width: 100%;
+	/*height: 550px;*/
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title_style
+{
+	text-transform: uppercase;
+	font-size: 37px;
+	font-weight: 700;
+	margin-top: 20%;
+	line-height: 52px;
+}
+
+/* ---- Feature ---- */
+
+.margin-bottom-25
+{
+	margin-bottom: 25px;
+}
+.ftr_cont
+{
+	margin-bottom: 50px;
+}
+
+.ftr_heading
+{
+	margin-top: 35px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.ftr_desc
+{
+	text-align: center;
+	font-style: 17px;
+	font-weight: 400;
+}
+
+.ftr_detail
+{
+	margin-top: 45px;
+	text-align: left;	
+}
+
+.ftr_subhead
+{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.ftr_subdesc
+{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.hr_style
+{
+	border-width: 1px;
+	border-color: #5CB85C;
+}
+
+.tc_cont
+{
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* ---- error block css ---- */
+
+.error_block
+{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	float: left;
+	width: 100%;
+	background-color: #dc3d3d;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ---- error block css ---- */
+
+/* ---- language drop down block css ---- */
+.dropdown-menu {
+	border-radius: 0px !important;
+	margin: 0px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #header_logo a {
+    width: 100%;
+    display: block;
+  }
+  #shop_logo {
+  	margin: 0 auto;
+  }
+  #language_div{
+  	text-align: center;
+  }
+  #language_div div.btn-group{
+  	float: none !important;
+  }
+}
+
+#header_login form.pull-right
+{
+	float: right;
+}
+section#wrapper
+{
+	padding-top: 0px;
+}
+hr.hr_style {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+body footer#footer{
+	padding: 0px;
+}
+#wrapper > .container {
+    max-width: 100%;
+    padding: 0;
+    width: 100% !important;
+}

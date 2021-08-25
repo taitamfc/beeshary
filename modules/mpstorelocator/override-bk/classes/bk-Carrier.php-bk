@@ -1,0 +1,58 @@
+<?php
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+/*
+include_once _PS_MODULE_DIR_.'mpstorelocator/classes/MarketplaceStoreProduct.php';
+include_once _PS_MODULE_DIR_.'mpstorelocator/classes/MpStoreProductAvailable.php';
+class Carrier extends CarrierCore
+{
+    public static function getAvailableCarrierList(
+        Product $product,
+        $id_warehouse,
+        $id_address_delivery = null,
+        $id_shop = null,
+        $cart = null,
+        &$error = array()
+    ) {
+        $carrierList = parent::getAvailableCarrierList(
+            $product,
+            $id_warehouse,
+            $id_address_delivery,
+            $id_shop,
+            $cart,
+            $error
+        );
+        if (Module::isEnabled('mpstorelocator')) {
+            $availableForPickUp = MpStoreProductAvailable::availableForStorePickup($product->id);
+            $stores = MarketplaceStoreProduct::getAvailableProductStore($product->id, true);
+            if (empty($stores) || empty($availableForPickUp)) {
+                $carriers = array();
+                foreach ($carrierList as $key => $carrier) {
+                    if (Configuration::get('MP_STORE_ID_CARRIER') != $carrier) {
+                        $carriers[$key] = $carrier;
+                    }
+                }
+                $carrierList = $carriers;
+            }
+            return MpStoreProductAvailable::restrictStorePickUp($carrierList, $product->id);
+        } else {
+            return $carrierList;
+        }
+    }
+}

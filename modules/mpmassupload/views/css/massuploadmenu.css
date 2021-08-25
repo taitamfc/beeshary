@@ -1,0 +1,88 @@
+/*** 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+.text-green {
+	color: green;
+}
+.text-red {
+	color: red;
+}
+
+#left_column {
+	display:none !important;
+}
+#right_column {
+	display:none !important;
+}
+#center_column {
+	width:100%;
+}
+.left {
+	float:left;
+}
+.header_link {
+	width:70%;
+}
+.home_link {
+    float: left;
+    margin-right: 10px;
+}
+.back_link, .pull-right {
+	float:right;
+}
+.main_upload_div{
+    float: left;
+    width: 100%;
+}
+.upload_header_div{
+    float: left;
+    width: 100%;
+    margin-top: 10px;    
+    text-align: right;
+}
+.upload_list_div{
+	float:left;
+	width:100%;
+}
+@media only screen and (max-width:768px){
+    .upload_list_div{
+        overflow: scroll;
+    }
+}
+.all_upload_div{
+	 background-color: #E7DDE7;
+    float: left;   
+    width: 89.8%;
+}
+.all_upload_div .td{
+	background-attachment: scroll;   
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    border-right: 1px solid #F5F5F5;
+    float: left;
+	width:100%;
+    padding: 8px 18px;
+    word-wrap:break-word;
+	text-align: center;
+
+}
+.all_upload_div:hover {
+    background-color: #FFF1B5;
+}
+p.add-new-csv-cont a {
+    margin: 2px;
+}

@@ -1,0 +1,91 @@
+##############################
+Change Log : V5.0.0 to V5.0.1
+##############################
+
+## Fixed bugs:
+
+- [-]BO : Seller membership plan details filter bug fixed.
+- [-]BO : Seller membership plan request filter bug fixed.
+- [-]FO : Update error messages for front end and back end.
+- [-]BO : Plan activation mail template bug fixed.
+
+
+##############################################################
+Change Log : V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##############################################################
+
+## Added Features:
+
+- [+]FO : Added icon in mp menu.
+- [+]BO : Added add token in cron file.
+- [+]BO : Added cron url in module configuration.
+- [+]BO : Added mail configuration for membership plan expire mail.
+- [+]BO : Added mail configuration for membership plan warning mail.
+- [+]BO : Added display seller's active membership plan on seller view.
+- [+]FO : Added disable add to cart button on product page of seller membership plan.
+
+## Fixed bugs:
+
+- [-]FO : Move updateDatabase cron file from front controller to normal php file in main folder.
+- [-]FO : Remove ps_cron and ps_curl file because no need.
+- [-]FO : Product add to cart bug fixed on All membership plan page.
+
+
+Table name changes:
+- wk_mp_ prefix added
+
+Improve:
+- trans() removed, l() added again
+- front controller name changed 'userplandetail'->'mpsellerplans', 'allplandetails'->'mpmembershipplans',
+- css file name changed to : allplandetails.css -> mpmembershipplans.css
+- Deleted :: planrequest.css, not using anywhere
+- title_color vars removed which is already defining from MP5 now
+- Configuration Page Design update, to be more infomative
+- update mp class 'WkMpSeller' to 'WkMpSeller'.
+- update tpl css class 'main_block' to 'wk-mp-block'.
+- update tpl css class 'dashboard_content' to 'wk-mp-content'.
+- update tpl css class 'wk_right_col' to 'wk-mp-right-column'.
+- update 'displayMpmenuhookext' hook to 'displayMPMenuBottom'.
+- update mp class 'SellerProductDetail' to 'WkMpSellerProduct'.
+- update mp all class include file to 'WkMpRequiredClasses.php'.
+- update mp table name 'marketplace_seller_info' to 'wk_mp_seller'.
+- update 'displayMpmyaccountmenuhook' hook to 'displayMPMyAccountMenu'.
+- update marketplace_seller_info table column name from 'id' to 'id_seller'. 
+- update mp function 'getSellerDetailsByCustomerId' to 'getSellerDetailByCustomerId'.
+
+
+##############################################################
+Change Log : V2.1.0 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##############################################################
+
+Compatible:
+- parent::__construct() moved to top in admin tab __construct()
+- front setTemplate() updated, {extends file=$layout} and {block name='content'} on tpl added
+- submit btn css fixed
+- {convertPrice price=$} removed from tpls, sending by displayPrice() from controller
+- $this->registerStylesheet and registerJavascript added
+- html escape removed from tpls
+- actionFrontControllerSetMedia hook added for hook css and js add
+- main page 'display()' changed in 'fetch()'
+- add 'getCollectionFromModule()' function of Tab class to uninstall module tab.
+- deactive 'seller' category because if active then this category will shown on add and update product.
+
+Added features:
+- [BO]: add cron task manager line in module configuration
+
+Added new files:
+- updatedatabase.php for cron task file added
+
+Deleted:
+- controller::updatedatabase.php removed
+- file::PScookie.txt removed
+- file::ps_cron.php removed
+- file::ps_curl.php removed
+
+
+#############################
+Change Log : V2.0.0 to V2.1.0
+#############################
+
+New Features :
+- Admin can create plan name in multi language.

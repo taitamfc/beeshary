@@ -1,0 +1,13 @@
+Seller Product ID,Attribute (Name:Type),Value,Supplier reference,Reference,EAN13,UPC,Wholesale price,Impact on price,Ecotax,Quantity,Minimal quantity,Impact on weight,"Default (0 = No, 1 = Yes)",Combination available date,Image ID
+101,"Color:color, Size:select","Red, M",RF-Nano-Red-16GB,RF-Nano-Red-16GB,80446392,116052426077,100,5,0,50,1,10,0,0000-00-00,"301, 302"
+101,"Color:color, Size:select","Green, L",RF-Nano-Green-16GB,RF-Nano-Green-16GB,80446393,457698445011,120,10,0,100,1,20,0,0000-00-00,"303, 304"
+101,"Color:color, Size:select","Yellow, S",RF-Nano-Yellow-16GB,RF-Nano-Yellow-16GB,80446394,541661772012,90,15,0,150,3,10,1,0000-00-00,"301, 304"
+102,"Color:color, Size:select","Red, M",RF-Nano-Red-16GB,RF-Nano-Red-16GB,80446392,116052426077,100,20,0,200,1,10,1,0000-00-00,"305, 306"
+102,"Color:color, Size:select","Green, L",RF-Nano-Green-16GB,RF-Nano-Green-16GB,80446393,457698445011,120,25,0,250,1,20,0,0000-00-00,307
+102,"Color:color, Size:select","Yellow, S",RF-Nano-Yellow-16GB,RF-Nano-Yellow-16GB,80446394,541661772012,90,30,0,300,3,10,0,0000-00-00,"307, 308"
+103,"Color:color, Size:select","Red, M",RF-Nano-Red-16GB,RF-Nano-Red-16GB,80446392,116052426077,100,-5,0,350,1,10,1,0000-00-00,309
+103,"Color:color, Size:select","Green, L",RF-Nano-Green-16GB,RF-Nano-Green-16GB,80446393,457698445011,120,-10,0,400,1,20,0,0000-00-00,"310, 311"
+103,"Color:color, Size:select","Yellow, S",RF-Nano-Yellow-16GB,RF-Nano-Yellow-16GB,80446394,541661772012,90,-15,0,450,3,10,0,0000-00-00,312313
+104,"Color:color, Size:select","Red, M",RF-Nano-Red-16GB,RF-Nano-Red-16GB,80446392,116052426077,100,35,0,500,1,10,1,0000-00-00,314
+104,"Color:color, Size:select","Green, L",RF-Nano-Green-16GB,RF-Nano-Green-16GB,80446393,457698445011,120,-10,0,550,1,20,0,0000-00-00,315
+104,"Color:color, Size:select","Yellow, S",RF-Nano-Yellow-16GB,RF-Nano-Yellow-16GB,80446394,541661772012,90,-30,0,600,3,10,0,0000-00-00,"314, 315"

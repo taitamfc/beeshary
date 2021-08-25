@@ -1,0 +1,8 @@
+[{shop_url}] 
+
+Hello Admin
+
+{seller_firstname} {seller_lastname} Refunded to Customer {refunded_to} for order reference {order_reference}
+
+Go to your shop by clicking on link below: [{order_link}]
+

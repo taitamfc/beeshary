@@ -1,0 +1,5 @@
+name,category_id,default_category,short_description,description,price,quantity,image_ref
+"Produit_1,""146"",6,Produit_santon_1,Produit_full_description_1,100,500,image1"
+"Produit_2,""146"",4,Produit_chat_2,produit_full_description_2,300,600,image2"
+"Produit_3,""146"",6,Produit_boeuf_3,Produit_full_description_3,600,400,image3"
+"Produit_4,""146"",3,Produit_ane_de_Noel_4,Produit_pour_les_petits_et_les_grands_description_4,500,300,image4"

@@ -1,0 +1,113 @@
+[
+	{"group": [
+			{
+				"type": "sperator",
+				"name":"Select One Image & thumb type only"
+			},
+			{
+				"name":"1. image and thumb normal view: left, right, bottom, none",
+				"class": "leo-detail-1",
+				"icon": "icon-picture",
+				"file":"product_image_with_thumb",
+				"config":"image-thumb-1",
+				"data-form":{
+						"templateview":"bottom",
+						"numberimagedesktop":"5",
+						"numberimagemobile":"2",
+						"numberimageipad":"2",
+						"templatezoomtype":"in"
+				}
+			},
+			{
+				"name":"1. image product Gallery",
+				"class": "leo-detail-3",
+				"icon": "icon-picture",
+				"file":"product_image_show_all",
+				"config":"image-thumb-2",
+				"data-form":{"templatezoomtype":"in"}
+				
+			},
+			{
+				"type": "sperator",
+				"name":"Other Information"
+			},
+			{
+				"name":"2. product detail name",
+				"icon": "icon-info-sign",
+				"file":"product_detail_name"
+			},
+			{
+				"name":"3. hook product additional info",
+				"icon": "icon-plus-sign-alt",
+				"file":"hook_display_product_additional_info"
+			},
+			{
+				"name":"4. hook product leo review extra",
+				"icon":"icon-star",
+				"file":"hook_display_leo_product_review_extra"
+			},
+			{
+				"name":"5. price",
+				"icon": "icon-money",
+				"file":"product_price"
+			},
+			{
+				"name":"6. description short",
+				"icon":"icon-list-alt",
+				"file":"product_description_short"
+			},
+			{
+				"name":"7. product customization",
+				"icon": "icon-sun",
+				"file":"product_customization"
+			},
+			{
+				"name":"8. actions form: varian, add to cart form",
+				"icon": "icon-shopping-cart",
+				"file":"product_actions_form"
+			},
+			{
+				"name":"9. display reassurance",
+				"icon": "icon-shield",
+				"file":"hook_display_reassurance"
+			}
+		]
+	},
+	{
+		"group": [
+			{
+				"type": "sperator",
+				"name":"Select one product more info only"
+			},
+			{
+				"name":"10. More Info: default",
+				"icon": "icon-file-text-alt",
+				"file":"product_more_info_default"
+			},
+			{
+				"name":"10. More Info: accordions",
+				"icon": "icon-file-text-alt",
+				"file":"product_more_info_accordions"
+			},
+			{
+				"name":"10. More Info: tab",
+				"icon": "icon-file-text-alt",
+				"file":"product_more_info_tab"
+			}
+		]
+	},
+	{
+		"group": [
+			{
+				"name":"11. product accessories",
+				"icon":"icon-link",
+				"file":"product_accessories"
+			},
+			{
+				"name":"12. hook footer product",
+				"icon":"icon-eject",
+				"file":"hook_display_footer_product"
+			}
+		]
+	}
+]

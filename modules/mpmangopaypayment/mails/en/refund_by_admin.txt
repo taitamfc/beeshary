@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Hello {seller_firstname} {seller_lastname}
+
+Admin has transfer the amount.
+
+Here are order details:
+
+Refund: {refund_type}
+
+Order Id: {order_id}
+
+Order Reference: {order_reference}

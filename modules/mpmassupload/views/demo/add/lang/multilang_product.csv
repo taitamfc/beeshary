@@ -1,0 +1,5 @@
+name_en,name_br,name_fr,category_id,default_category,short_description_en,short_description_br,short_description_fr,description_en,description_br,description_fr,price,quantity,image_ref
+Test_1,Test_1,Test_1,"3, 4, 5",8,Test_description_1,Test_description_1,Test_description_1,Test_full_description_1,Test_full_description_1,Test_full_description_1,100,500,image1
+Test_2,Test_2,Test_2,"3, 4, 8",4,Test_description_2,Test_description_2,Test_description_2,Test_full_description_2,Test_full_description_2,Test_full_description_2,300,600,image2
+Test_3,Test_3,Test_3,"3, 6, 7",6,Test_description_3,Test_description_3,Test_description_3,Test_full_description_3,Test_full_description_3,Test_full_description_3,600,400,image3
+Test_4,Test_4,Test_4,"3, 6, 9",3,Test_description_4,Test_description_4,Test_description_4,Test_full_description_4,Test_full_description_4,Test_full_description_4,500,300,image4

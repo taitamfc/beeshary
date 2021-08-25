@@ -1,0 +1,12 @@
+Hi {firstname} {lastname},
+
+A voucher has been created for you.
+Reduction amount is {amount}. valid from {startdate} to {enddate}.
+
+Voucher code: {voucher_num}.
+
+Thank you.
+
+{shop_name} - {shop_url}
+
+{shop_url} powered by PrestaShop&trade;

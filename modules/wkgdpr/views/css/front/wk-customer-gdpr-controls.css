@@ -1,0 +1,239 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.wk-gdpr-data-container ul > li {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.wk-gdpr-data-container .wk-container-left-nav-tab-content {
+    background-color: #fff;
+    padding: 25px;
+    margin-top: 0px;
+    box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, .2)!important;
+}
+.wk-gdpr-data-container .tab-pane-header {
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.wk-gdpr-data-container .tab-pane-content {
+    color: #414141;
+    font-size: 15px;
+}
+.wk-gdpr-data-container .tab-pane-header > img {
+    max-width: 30px;
+}
+.wk-gdpr-data-container {
+    margin-bottom: 50px;
+}
+#wk-container-status .nav-link {
+    background: none;
+}
+.wk-container-left-nav {
+    margin-bottom: 15px;
+}
+.wk-container-left-nav .nav-tabs {
+    background-color: #fff;
+}
+.wk-container-left-nav .nav-item {
+    margin: 0px !important;
+    width: 100%;
+}
+.wk-container-left-nav .nav-item .nav-link.active {
+    border-left: 5px solid #4b83fe!important;
+}
+.wk-container-left-nav .nav-tabs {
+    border: none;
+    box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, .2);
+}
+.wk-container-left-nav .nav-link {
+    border: none!important;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4b83fe!important;
+}
+.wk-gdpr-data-container .border-bottom-1 {
+    border-bottom: 1px solid #ccc!important;
+}
+.wk-gdpr-submit-btn {
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.wk-gdpr-data-container p {
+    color: #484848;
+    line-height: 25px;
+}
+.wk-gdpr-data-container .errorField {
+    border: 1px solid red;
+}
+.wk-gdpr-data-container .alert-info {
+    border: none;
+    border-left: solid 3px #357ebd;
+    margin-bottom: 30px;
+    background-color: #e6f2ff;
+    color: #357ebd;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+/* data access block */
+.wk-gdpr-data-container .data-access-block {
+    color: #484848;
+    line-height: 25px;
+}
+.data-access-block .wk_personal_info_download_btn {
+    background-color: #f5f5f5;
+    color: #434343;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #e8e8e8;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.data-access-block .wk_personal_info_download_btn:hover {
+    background-color: #e8e8e8;
+    color: #484848;
+    border: 1px solid #ccc;
+}
+.data-access-block .wk-gdpr-email-btn {
+    background-color: #4479f1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #3d72e7;
+    border-radius: 4px;
+}
+.data-access-block .wk-gdpr-email-btn:hover {
+    background-color: #4074ea;
+    text-transform: uppercase;
+}
+.data-access-block .wk_personal_info_download_btn > i {
+    color: #4b83fe;
+    font-size: 22px;
+    margin-left: 10px;
+}
+#wk_data_access_form .help-block {
+    font-style: italic;
+}
+.data-access-block .data-email-block {
+    margin-top: 30px;
+}
+#wk_data_access_form #wk-gdpr-cusstomer-email {
+    height: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.data-access-block .wk-grpr-note {
+    margin-top: 20px;
+}
+.data-access-block .wk-grpr-note {
+    margin-top: 20px;
+}
+.data-access-block .wk-grpr-note > span.note-head {
+    color: red;
+    font-weight: bold;
+}
+/* data erasure block */
+
+.wk-gdpr-data-container .wk-gdpr-data-erasure-btn, #data_erasure_confirm_popup .wk-gdpr-data-erasure-btn {
+    background-color: #f9415b;
+    border: 1px solid #ef4155;
+}
+.wk-gdpr-data-container .wk-gdpr-data-erasure-btn:hover, #data_erasure_confirm_popup .wk-gdpr-data-erasure-btn:hover {
+    background-color: #ef4454;
+    border: 1px solid #e63e4f;
+    color: #fff;
+}
+.wk-gdpr-data-container .wk-gdpr-data-erasure-btn:active {
+    color: #fff;
+}
+.wk-gdpr-data-container .data-erasure-block, .wk-gdpr-data-container .data-update-block, .wk-gdpr-data-container .data-access-block {
+    margin-top: 20px;
+}
+#data_erasure_confirm_popup {
+    font-size: 14px;
+}
+#data_erasure_confirm_popup p {
+    line-height: 25px;
+}
+/* data update block */
+
+.wk-gdpr-data-container .wk-gdpr-data-update-btn {
+    background-color: #46a74e;
+    border: 1px solid #3e9546;
+}
+.wk-gdpr-data-container .wk-gdpr-data-update-btn:hover {
+    background-color: #3a8a41;
+    border: 1px solid #2c6a31;
+    color: #fff;
+}
+.wk-gdpr-data-container .wk-gdpr-data-update-btn:active {
+    color: #fff;
+}
+.wk-gdpr-data-container .data-update-block h4, .wk-gdpr-data-container .data-access-block h4 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.data-update-block .wk-gdpr-update-links {
+    color: #4479f1;
+    border-bottom: 1px solid #4479f1;
+}
+.wk-gdpr-data-container .data-update-block i {
+    color: #4b83fe;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.data-update-block #wk_data_update_form {
+    display: none;
+}
+
+
+/* MODEL BOX CSS */
+
+.modal-content {
+    border-top: 7px solid rgb(239, 65, 85);
+}
+.modal-body {
+    padding: 40px 15px;
+}
+.eraseModal-primaryBlock {
+    margin-bottom: 20px;
+}
+.eraseModal-primaryContent {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.eraseModal-cancel-btn {
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+}
+.eraseModal-cancel-btn:after {
+    clear: both;
+}

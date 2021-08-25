@@ -1,0 +1,8 @@
+
+[{shop_url}] 
+
+Hej {name},
+
+Dit abonnement er blevet annulleret.
+
+{shop_name} [{shop_url}]

@@ -1,0 +1,100 @@
+.statistic-time,
+.graph .total {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.statistic-time {
+    margin: 0;
+}
+
+.statistic-time .secs,
+.graph .total .rate,
+.statistic-time .secs,
+.graph .total .dirs,
+.statistic-time .secs,
+.graph .total .images{
+    color: #23B92E;
+}
+
+.graph .group:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.graph .group .text {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.graph .group .bar-original,
+.graph .group .bar-compressed,
+.graph .group .bar-recover{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.graph .group .bar-original {
+    background: #E23B3B;
+    width: 100%;
+}
+
+.graph .group .bar-compressed {
+    background: #63E23B;
+}
+
+.graph .group .bar-recover {
+    background: #00AFF0;
+}
+
+#bar-recover {
+    display:none;
+}
+
+.lgoverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+
+.lgoverlay .lgpopup {
+    width: 400px;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 200px auto;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.lgoverlay .lgpopup span:before {
+    font-family: FontAwesome;
+    content: "\f058";
+    font-size: 45px;
+    position: absolute;
+    margin-left: -55px;
+    color: #23B92E;
+}
+
+.lgoverlay .lgpopup span {
+    padding-left: 55px;
+}
+
+input.invalid {
+    box-shadow: 0 0 5px 0 rgba(255,0,0,0.5);
+    border-color: #FFAAAA !important;
+}
+
+#display-container{
+    visibility: hidden;
+    font-size:14px;
+    height: 40px;
+}

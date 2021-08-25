@@ -1,0 +1,2 @@
+Hello {customer_name},
+Your personal information is erased from {shop_name} as per your request.

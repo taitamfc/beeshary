@@ -1,0 +1,5 @@
+Hello {customer_name},
+Your personal information is updated as per your request.
+Request Recieved :
+{customer_request_content}
+You can visit {shop_name}</a> and confirm the updation of your pesonal data.

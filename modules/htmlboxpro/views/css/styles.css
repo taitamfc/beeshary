@@ -1,0 +1,220 @@
+/*
+* PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+*
+* @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+* @copyright 2010-9999 VEKIA
+* @license   This program is not free software and you can't resell and redistribute it
+*
+* CONTACT WITH DEVELOPER http://mypresta.eu
+* support@mypresta.eu
+*/
+
+.flags_block {
+    padding-top:10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.my_language_flags span {
+    margin-right: 5px;
+    padding: 0 10px;
+}
+.my_language_flags span {
+    display: inline-block;
+    border: 1px solid #cecece;
+    background: #cecece;
+}
+.my_language_flags span.button-outline {
+    display: inline-block;
+    border: 1px solid #cecece;
+    background: none !important;
+}
+
+.inactive {
+    opacity: 0.5
+}
+.hookslist ul {
+    padding: 0px;
+}
+.slides li {
+    font-size: 10px !important;
+    list-style: none;
+    margin: 0 0 4px 0;
+    padding: 10px 5px;
+    background-color: #F4E6C9;
+    border: #CCCCCC solid 1px;
+    color: #000;
+}
+.hname a {
+    font-size: 12px !important;
+}
+.slides li:hover {
+    border: 1px #000 dashed;
+}
+.checkbx {
+    padding: 5px;
+    border-left: 1px solid #c0c0c0;
+    background: #f2f2f2;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #c0c0c0;
+}
+.activate {
+    display: inline-block;
+    float: left;
+    padding-right: 3px;
+}
+.remove {
+    opacity: 0.3;
+    position: relative;
+    top: -5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../img/trash.png") top no-repeat;
+    cursor: pointer;
+}
+.edit {
+    margin-right: 6px;
+    opacity: 0.3;
+    position: relative;
+    top: -4px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../img/edit.png") top no-repeat;
+    cursor: pointer;
+}
+
+.duplicate {
+    margin-right: 6px;
+    opacity: 0.3;
+    position: relative;
+    top: -4px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../img/duplicate.png") top no-repeat;
+    cursor: pointer;
+}
+
+.hookslist .hoptions {
+    padding: 10px;
+    background: #fff;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #c0c0c0;
+    margin-right: 10px;
+    text-align:center;
+}
+.hookslist .hname {
+    min-width: 144px;
+    padding: 10px;
+    padding-left: 5px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #c0c0c0;
+    margin-right: 10px;
+}
+.hookslist a {
+    font-weight: bold;
+}
+.hookslist a:hover {
+    font-weight: bold;
+    color: red;
+}
+.hook_blocks {
+    display: none;
+}
+.hook_blocks .hname, .hook_blocks .hoptions {
+    border-top: none;
+}
+.language_flags {
+    display: none;
+}
+.displayed_flag {
+    float: right;
+    margin-left: 10px;
+}
+
+.inconsistency0 {
+    width: 5px;
+    background: red;
+    padding: 10px;
+    border: 1px solid red!important;
+}
+.inconsistency1 {
+    width: 5px;
+    background: green;
+    padding: 10px;
+    border: 1px solid green!important;
+}
+.inconsistency td {
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'arial', sans-serif;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+    content: '';
+    display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+    clear: both;
+}
+#cssmenu {
+    zoom: 1;
+    height: 69px;
+    background: url(../img/bottom-bg.png) repeat-x center bottom;
+    border-radius: 2px;
+}
+#cssmenu ul {
+    background: url(../img/nav-bg.png) repeat-x 0px 4px;
+    height: 69px;
+}
+#cssmenu ul li {
+    float: left;
+    list-style: none;
+}
+#cssmenu ul li a {
+    display: block;
+    height: 37px;
+    padding: 22px 30px 0;
+    margin: 4px 2px 0;
+    border-radius: 2px 2px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+    opacity: .9;
+    box-sizing: content-box;
+}
+#cssmenu ul li:first-child a {
+    margin: 4px 2px 0 0;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+    background: url(../img/color.png) center bottom;
+    display: block;
+    height: 37px;
+    margin-top: 0px;
+    padding-top: 26px;
+    color: #9b4106;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+    opacity: 1;
+}

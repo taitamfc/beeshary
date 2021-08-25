@@ -1,0 +1,11 @@
+Prestashop Marketplace Seller Vacation V5.0.0
+
+##########################################################################
+Change Log : Prestashop Marketplace Seller Vacation V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################
+
+Compatible:
+- compatible with Marketplace V5.0.0
+- compatible with Prestashop V1.7
+
+

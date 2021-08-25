@@ -1,0 +1,59 @@
+.tree{padding-left:14px;overflow:auto;position:relative}
+.tree-solid-line{padding-left:12px}
+.tree.tree-no-line{padding-left:0}
+.tree:before{width:1px;z-index:1;display:block;content:"";position:absolute;top:-21px;bottom:16px;left:0}
+.tree.tree-solid-line:before{border-left:1px solid #999}
+.tree.tree-no-line:before{display:none}
+.tree .tree-folder{width:auto;min-height:20px;cursor:pointer}
+.tree .tree-folder .tree-folder-header{position:relative;min-height:20px;line-height:20px;min-width:100px}
+.tree .tree-folder .tree-folder-header:hover{background-color:#eee}
+.tree .tree-folder .tree-folder-header .tree-folder-name,.tree .tree-item .tree-item-name{display:inline;z-index:2}
+.tree .tree-folder img{margin-left:4px}
+.tree .tree-folder .tree-folder-header .tree-folder-name{margin-left:2px}
+.tree .tree-folder .tree-folder-content{margin-left:23px;position:relative}
+.tree .tree-folder .tree-folder-content:before{display:inline-block;content:"";position:absolute;width:1px;z-index:1;top:-9px;bottom:16px;left:-12px;border-left:1px dotted #666}
+.tree.tree-solid-line .tree-folder .tree-folder-content:before{border-left:1px solid #999}
+.tree.tree-no-line .tree-folder .tree-folder-content:before{display:none}
+.tree .tree-item{position:relative;min-height:20px;line-height:20px;min-width:100px;cursor:pointer}
+.tree .tree-folder,.tree .tree-item{position:relative}
+.tree .tree-folder:before,.tree .tree-item:before{display:inline-block;content:"";position:absolute;top:14px;left:-13px;width:18px;height:0;border-top:1px dotted #666;z-index:1}
+.tree.tree-solid-line .tree-folder:before,.tree.tree-solid-line .tree-item:before{border-top:1px solid #999}
+.tree.tree-no-line .tree-folder:before,.tree.tree-no-line .tree-item:before{display:none}
+.tree .tree-selected{background-color:#eee;color:#6398b0}
+.tree .tree-selected:hover{background-color:#e1e1e1}
+.tree .tree-item,.tree .tree-folder{border:1px solid transparent}
+.tree .tree-item,.tree .tree-folder,.tree .tree-folder .tree-folder-header{margin:0;padding:2px 5px;color:#333;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+.tree .tree-item .tree-item-name>i,.tree .tree-folder .tree-folder-header>i{color:#666}
+.tree .tree-item.tree-selected>i,.tree .tree-item .tree-item-name>i{margin-left:-2px;display:inline-block;text-align:center;margin-right:1px;color:#666}
+.tree.tree-plus-minus .tree-folder-header .fa-folder-open:before{height:16px;width:16px;line-height:16px;vertical-align:middle;display:inline-block;content:""}
+.tree.tree-plus-minus .tree-folder-header .fa-folder:before{height:16px;width:16px;line-height:16px;vertical-align:middle;display:inline-block;content:""}
+.ie .tree.tree-plus-minus .tree-folder-header .fa-folder:before,.ie .tree.tree-plus-minus .tree-folder-header .fa-folder-open:before{margin-top:-5px}
+.tree.tree-plus-minus .tree-folder-name{margin-left:0!important}
+.tree .tree-actions{display:none;position:absolute;margin-top:1px;right:4px}
+.tree .tree-item:hover .tree-actions,.tree .tree-folder-header:hover .tree-actions{display:inline-block}
+.tree .tree-actions>i{font-weight:300;border:1px solid #999;padding:1px 3px;text-align:center;font-size:14px;color:#999;margin-right:6px;margin-top:0;display:inline-block}
+.tree .tree-actions>i:hover{color:#666;border:1px solid #666}
+.tree label{float:none;width:auto}
+.inixframe .tree-panel-heading-controls{line-height:2.2em;font-size:1.1em;color:#00aff0}
+.inixframe .tree-panel-heading-controls i{font-size:14px}
+.inixframe .tree{padding:0 0 0 20px;list-style:none}
+.inixframe .tree input{vertical-align:baseline;margin-right:4px;line-height:normal}
+.inixframe .tree i{font-size:14px}
+.inixframe .tree .tree-item-name,.inixframe .tree .tree-folder-name{padding:2px 5px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px}
+.inixframe .tree .tree-item-name label,.inixframe .tree .tree-folder-name label{font-weight:400;padding:0}
+.inixframe .tree .tree-item-name:hover,.inixframe .tree .tree-folder-name:hover{background-color:#eee;cursor:pointer}
+.inixframe .tree .tree-selected{color:white;background-color:#00aff0}
+.inixframe .tree .tree-selected:hover{background-color:#009cd6}
+.inixframe .tree .tree-selected i.tree-dot{background-color:white}
+.inixframe .tree i.tree-dot{display:inline-block;position:relative;width:6px;height:6px;margin:0 4px 2px 0;background-color:#ccc;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px}
+.inixframe .tree .tree-item-disable,.inixframe .tree .tree-folder-name-disable{color:#ccc}
+.inixframe .tree .tree-item-disable:hover,.inixframe .tree .tree-folder-name-disable:hover{color:#ccc;background-color:none}
+.inixframe .tree-actions{display:inline-block}
+.inixframe .tree-actions .twitter-typeahead{padding:0 0 0 4px}
+.inixframe .tree-panel-label-title{font-weight:400;padding:0 0 0 8px;margin:0}
+.inixframe .tt-query{border-bottom-right-radius:3px!important;border-top-right-radius:3px!important}
+.inixframe .tt-dropdown-menu{background-color:white;border:solid 1px #ccc;font-size:.9em;text-transform:none}
+.inixframe .tt-suggestions{padding:0 6px;-webkit-box-shadow:rgba(0,0,0,0.25) 0 1px 4px;box-shadow:rgba(0,0,0,0.25) 0 1px 4px}
+.inixframe .tt-suggestion p{border-bottom:solid 1px #ccc;margin:0!important;padding:0!important}
+.inixframe .tt-suggestion:last-child p{border-bottom:0}
+.inixframe .tt-hint{visibility:hidden}

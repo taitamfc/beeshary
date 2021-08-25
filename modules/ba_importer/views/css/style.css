@@ -1,0 +1,44 @@
+#url_excel{    display:none;}#url_excel input{    width: 250px;}.advance_content label{
+    float: left;
+    margin-right: 30px;
+    width: 300px;	text-align: right;
+}
+.advance-label{
+    float: left;
+    margin-right: 30px;
+    width: 200px !important;
+}
+.form-control.advance_select{
+    width: 70% !important;
+}
+.advance_add{
+    padding-left: 230px;
+}
+.advance_add .btn.btn-default{
+    margin-right: 10px;
+}
+.import_items{
+    width:auto !important;
+}
+.items_to_import{
+    float:left;
+}
+.advance_content .form-group .items_to_import .form-control{
+    width:60px;
+    float:left;
+}
+.advance_content .form-group .items_to_import_ftp .form-control{
+    width:150px;
+    float:left;    margin-right:5px;
+}
+.items_to_import input, .items_to_import span{
+    float:left;
+    margin-right:5px;
+}.bootstrap .advance_content  .form-group{    float:left;    width:100%;
+}
+.advance_content .advance_button button, #or{
+    margin-right:10px;
+}
+.items_to_import span{
+    padding-top:3px;
+}.bootstrap .form-horizontal .control-label {    text-align: right;    margin-bottom: 0;    padding-top: 7px;    white-space: nowrap;    overflow: hidden;    text-overflow: ellipsis;    height: 25px;}#content.bootstrap .panel.advance_content{    z-index:1;    float:left;}#result{    overflow-y: auto;    display:none;}#result h3{    float: left;    width: 100%;    margin: 0px !important;}#result ol{    float: left;    width: 100%;    margin-top: 10px;}.bootstrap.panel{    float: left;    width: 100%;}#result .error_import{    color:red;}.bootstrap .form-horizontal#form_import .form-group.ajax_loadding_import{    margin-bottom:0px;}body .bootstrap .panel .panel-footer, body #content.bootstrap .panel{    float:left;    width:100%;}body #content.bootstrap .panel.cronjob-box .panel-footer{	padding-left: 0;    margin-left: 0;    padding-right: 0;    margin-right: 0;}.advance_content, body #content .panel, body .form-group {    float: left;    width: 100%;}#form_import_ftp, .upload_file{    display:none;}#select_settings{	display: inline;	float: left;	margin-right: 10px;}.ba_an_other{	display: none;	width: 140px;	float: left;}.filter .center{	margin-left: -5px !important;}.advance_content .form-group .items_to_import_ftp .form-control#ftp_user_port{	width: 50px;}.items_to_import_ftp{	float:left;}.ftp_link_excel_wrapper{}.items_to_import_ftp .row{	padding: 7px 0;}.ftp-label{	float: left;    display: inline-block;    line-height: 31px;    padding-right: 7px;}.ftp_label_transfer_mode{	min-width: 125px;}

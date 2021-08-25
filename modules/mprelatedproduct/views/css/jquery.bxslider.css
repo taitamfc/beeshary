@@ -1,0 +1,79 @@
+/**
+* 2010-2016 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2016 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#product-slider_block_center .bx-next {
+position:absolute;
+top:40%;
+right:25px;
+z-index:999;
+width: 30px;
+height: 30px;
+text-indent: -999999px;
+background: url(../img/arrow-right.png) no-repeat 0 -30px;
+display:block;
+outline: none;
+}
+
+/*previous button*/
+#product-slider_block_center .bx-prev {
+position:absolute;
+top:40%;
+z-index:999;
+width: 30px;
+height: 30px;
+text-indent: -999999px;
+background: url(../img/arrow-left.png) no-repeat 0 -30px;
+display:block;
+outline: none;
+
+}
+
+/*next/prev button hover state*/
+#product-slider_block_center .bx-next:hover,
+#product-slider_block_center .bx-prev:hover {
+background-position: 0 0;
+}
+
+.products_slider .bx-wrapper {
+   margin:0 auto;
+
+}
+
+.products_slider .bx-wrapper ul li {
+ text-align: center;
+
+}
+
+.thumbnail-container{
+	box-shadow: none !important;
+}
+
+#products .product-miniature .product-flags .new, #products .product-miniature .on-sale, #products .product-miniature .discount-percentage {
+	left:0 !important;
+}
+
+.liwk {
+	float: left;
+}
+
+.products_slider {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}

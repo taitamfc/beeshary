@@ -1,0 +1,19 @@
+#main { background: transparent !important;}
+#main > #content > table.table { display: none !important;}
+fieldset, legend { background-color: #F8F8F8 !important; }
+#header , #footer, .moduleFooter{ display: none !important;}
+.bootstrap { display: none}
+ #content {
+     margin-left: 0px !important;
+     padding-top: 30px !important;
+}
+
+ #main {
+ padding-top: 0 !important;
+ padding-bottom: 0 !important;
+ }
+
+ .nobootstrap {
+ min-width: 10px;
+ }
+

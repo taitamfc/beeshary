@@ -1,0 +1,161 @@
+2020-11-19 20:06:20 - tva0
+Product ID - 3975
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3976
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3979
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3981
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3982
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3983
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3984
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3985
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3986
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3987
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3988
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3989
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3990
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3991
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3992
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3993
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3994
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3995
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3996
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Product ID - 3997
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Delivery Time...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished

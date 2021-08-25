@@ -1,0 +1,5 @@
+Hello {customer_name},
+Your card has been validated at Mangopay Payments for the payment of your order.
+Validate Card detials -
+Card Alias : {card_alias}
+Card Provider : {card_provider}

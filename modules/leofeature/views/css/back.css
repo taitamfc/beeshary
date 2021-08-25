@@ -1,0 +1,73 @@
+/**
+ * 2007-2017 Leotheme
+ *
+ * NOTICE OF LICENSE
+ *
+ * Leo feature for prestashop 1.7: ajax cart, review, compare, wishlist at product list 
+ *
+ * DISCLAIMER
+ *
+ *  @Module Name: Leo Feature
+ *  @author    leotheme <leotheme@gmail.com>
+ *  @copyright 2007-2017 Leotheme
+ *  @license   http://leotheme.com - prestashop template provider
+ */
+
+.leofeature-tablist a:hover, .leofeature-tablist li.active a {
+    border-bottom: medium none !important;
+    border-top: 3px solid #25b9d7 !important;
+}
+
+.leofeature-tablist a:focus {
+    border-bottom: medium none !important;
+    border-top: 3px solid #25b9d7 !important;
+}
+
+#leofeature-setting .panel {
+    display: none;
+}
+#leofeature-setting .panel.active {
+    display: block;
+}
+
+#leofeature-setting .panel {
+    border-radius: 0 0 5px 5px !important;
+}
+
+.nav-tabs.leofeature-tablist a:focus {
+    outline: medium none;
+}
+
+#subtab-AdminLeofeatureReviews
+{
+	position: relative;
+}
+
+#subtab-AdminLeofeatureReviews .notification-container
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	line-height: .875rem;
+	height: .875rem;
+	vertical-align: middle;
+	
+	color: #fff;
+	background: #fb0;
+	font-size: .5625rem;
+	padding: 0 .25rem;
+	border-radius: .625rem;
+}
+
+#subtab-AdminLeofeatureManagement.has-review:after
+{
+	content: "";
+	position: absolute;
+	top:0;
+	right: 0;
+	background: #fb0;
+	border-radius: .625rem;
+	height: 10px;
+	width: 10px;
+}

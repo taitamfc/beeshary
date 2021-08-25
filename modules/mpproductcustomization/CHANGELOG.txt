@@ -1,0 +1,14 @@
+###############################################################################
+Change Log : Marketplace Product Custom Field V2.1.0 to 4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+###############################################################################
+
+Compatible:
+ -main page 'display()' changed in 'fetch()'
+ -license added all file.
+
+##################################
+Change Log V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | MARKETPLACE v5.0.0
+##################################
+
+Improvements :
+- Module compatible with Marketplace Version 5.0.0

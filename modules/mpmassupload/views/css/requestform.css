@@ -1,0 +1,132 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#left_column {
+	display:none !important;
+}
+#right_column {
+	display:none !important;
+}
+#center_column {
+	width:100%;
+}
+.red{
+	color:red;
+}
+.padding_ten{
+	padding:10px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.full {
+	width:100%;
+}
+.halfleft {
+	margin-left:5%;
+	color: #F69415;
+	width: 60%;
+}
+.halfright {
+	width: 35%;
+}
+.center {
+	text-align:center !important;
+}
+.upload_request_container {
+	width:100%;
+	padding-bottom:5%;
+}
+.upload_request_container .upload_header_div{
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.back_link {
+	float:right;
+}
+.header_link {
+	width:70%;
+}
+.save_button{
+	font-family: Arial;
+    font-size: small;
+    width: 100px;
+}
+#back_button {
+	float: right;
+    opacity: 1;
+}
+#back_button:hover {
+	opacity:0.7;
+}
+.home_link {
+    float: left;
+    margin-right: 10px;
+}
+.upload_form_div{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.row_info{
+	float: left;
+    padding-left: 10%;
+    padding-top: 10px;
+    width: 90%;
+}
+.row-info-left {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    margin-left: 10%;
+    width: 25%;
+}
+.row-info-right {
+    float: left;   
+    width: 35%;
+}
+.demo_files_div{	
+	background-color: #ffffff;
+    border: 1px solid #d5d5d5;
+    color: #555555;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.demo_files_div .row {
+    margin-bottom: 5px;
+}
+
+.reg_sel_input{
+    width: 50%;
+}
+.error_csv,.error_zip{
+    font-size: 12px;
+    margin-top:5px;
+    color: #C1373C;
+    display:none;
+    font-weight:bold;
+}

@@ -1,0 +1,179 @@
+---------------------------------------------------------------------------------
+Change Log V5.2.0 to V5.2.1  |  Prestashop V1.7   |  Marketplace V5.2.x and above
+---------------------------------------------------------------------------------
+
+Update Policy:
+    - Update only zip file of module new versions
+
+New Improvement:
+    - Added configuration to show admin shipping with seller shipping too.
+
+
+---------------------------------------------------------------------------------------------
+Change Log V5.1.1 to V5.2.0  |  Prestashop V1.7   |  Marketplace V5.1.x and above till V5.2.x
+---------------------------------------------------------------------------------------------
+
+Update Policy:
+    – Database changed, UNINSTALL module and delete old files then upload new file then INSTALL.
+
+Bug Fixed:
+    - Fix datatable content translation issue on mpshippinglist page
+    - Removed deactivated zone and countries from impact price page
+    - Add validation to fill transit time in seller default language
+    - Save carrier reference ids in ps_id_carrier_reference field of marketplace table wk_mp_seller_product
+    - Restrict deactivated seller to access shipping list and add shipping page directly by URL
+    - If no admin default carrier exist (or deactivated) then restrict seller to add or update product
+    - Fix setMedia($isNewTheme) issue with PHP Version 7.2
+
+New Improvement:
+    - Create tables using class instead of install.sql file
+    - Add a note in configuration page for carrier settings panel 'Assign Carriers to Admin Products'
+    - Remove handling cost text box and display it as a content
+    - Added upgrade folder for creating module new tables
+    - Admin can choose shipping distribution with admin and seller both on the basis of commission rate from Admin carriers page (In this case, if 'distribution both' option is selected on carrier then admin will get commission on seller individual earning on shipping)
+    - Sellers can choose group access for their shipping method
+    - If seller shipping is applied on seller product then seller can add tracking number on his/her own order from seller order details page. (Hook needed for Marketplace V5.1.x)
+    - Display 'Billing' section (shipping method) on 2nd step 'Shipping locations and costs'
+    - Display admin default carrier name on shipping tab of add/update product page
+    - Change Maximum package length text to Maximum package height and put this field on second position
+    - Display default currency symbol on impact price list and add impact price popup
+    - Send admin mail on marketplace super admin email instead of PS Shop Mail
+    - Added 10 languages translation - French (fr), Arabic(ar), Spanish(es), German(de), Italian(It), Russian(ru), Japanese(ja), Dutch(nl), Bulgarian (bg), Portuguese (pt)
+
+New Hook added: (Hook exits in Marketplace V5.2.0)
+    - 'displayOrderDetailsExtraTab' & 'displayOrderDetailsExtraTabContent'
+    - 'displayAdminPsSellerOrderViewHead' & 'displayAdminPsSellerOrderViewBody'
+
+Table Structure changed:
+    - In table added - `mp_shipping_method_group` to manage group access
+
+
+---------------------------------------------------------------------------------
+Change Log V5.1.0 to V5.1.1  |  Prestashop V1.7   |  Marketplace V5.1.x
+---------------------------------------------------------------------------------
+
+Update Policy:
+    - Update only zip file of module new version
+
+## Bug Fixed :
+    - Module compatible to MP Cart and Order Split
+    - Fix shipping distribution amount issue with payment gateway calculation function
+    - Content translation issue fixed on mpshippinglist controller
+    - When admin assign product to seller, now If seller default carrier is not avalaible then assign admin default carrier
+    - If admin open the seller shipping method before activating it and activate it from the edit page, it shows tick icon but it doesn't create Prestashop ID for that shipping.
+    - Fix validation issue with price range while adding seller shipping and add Js Validation
+    - Fix tracking url save issue while add/update seller shipping
+
+
+---------------------------------------------------------------------------------
+Change Log V5.0.1 to V5.1.0  |  Prestashop V1.7   |  Marketplace V5.1.x
+---------------------------------------------------------------------------------
+
+Update Policy:
+    – Database changed, UNINSTALL module and delete old files then upload new file then INSTALL.
+
+## Bug Fixed :
+    - If admin delete seller then seller's all shipping will be deleted from mpshipping table and ps carriers
+    - If admin deactivate any carrier of admin default carrier then rest carriers will set as admin default carrier.
+
+New Improvement:
+    - Module compatible with Marketplace V3.1.x and above
+    - Delete all mail's lang directory (expect en and fr) and create according to ps imported language when module installed
+    - Display Ps Carrier Id, Seller Full name and Unique shop name in mp shippling list in backend
+    - Add datatable for shipping list at seller end
+    - Display shipping name at impact price page at seller end
+    - Shipping distribution
+        - Admin can set distribution from ps carriers list that shipping cost will go to seller or not. He/she can distribute shipping amount of seller products.
+        - Admin can set configuration that - If Admin product exists with any seller product in same order and that order carrier distribution is set as Seller then Shipping will be distributed between admin and seller both or not.
+        - Shipping distribution option will be configurable
+
+Table Structure changed:
+    - In table added - `mp_shipping_distribution` (For shipping distribution with Marketplace V5.1.0)
+
+
+---------------------------------------------------------------------------------
+Change Log V5.0.0 to V5.0.1  |  Prestashop V1.7   |  Marketplace V5.0.x
+---------------------------------------------------------------------------------
+
+## Bug Fixed :
+
+- At the back end, Choose seller dropdown comes in center when add new shipping.
+- After installing the module, All shippings in 'Admin default shipping method' shown selected on configuration page.
+- Updated the front end design for add new shiiping.
+- Choose Seller Dropdown option will display only in general setting page.
+- If Admin assigns his product to the seller then shipping would be applied based on the seller default shipping. If there is no default seller shipping then admin default shipping will be applied.
+- Rename the Impact Edit to View Impact.
+- Rename the Basic Edit to Edit Basic.
+- Rename the variable and methods according to the PSR2 rule.
+
+
+## Improved/changed features:
+
+- Option to Enable/disable shipping given to the admin while adding the shippings for sellers.
+
+
+---------------------------------------------------------------------------------
+Change Log V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | MARKETPLACE v5.0.0
+---------------------------------------------------------------------------------
+
+Improvements :
+- Module compatible with Marketplace Version 5.0.0
+
+
+---------------------------------------------------------------------------------
+Change Log V2.1.1 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 | MARKETPLACE v4.0.0
+---------------------------------------------------------------------------------
+
+Improvements :
+- Module compatible with Prestashop Version 1.7.0.0
+
+
+---------------------------------------------------------------------------------
+Change Log V2.1.0 to V2.1.1 | COMPATIBLE:: PRESTASHOP V1.6 | MARKETPLACE v2.1.x
+---------------------------------------------------------------------------------
+
+## Improved/changed features:
+
+[*]MO : Select Tax option when creating seller shipping is added.
+[*]MO : Select Out of Range Behaviour option when creating seller shipping is added.
+
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.
+
+
+---------------------------------------------------------------------------------
+Change Log V2.0.2 to V2.1.0 | COMPATIBLE:: PRESTASHOP V1.6 | MARKETPLACE v2.1.x
+---------------------------------------------------------------------------------
+
+## Improved/changed features:
+
+[*]MO : Compatible with marketplace_2.1.0
+[*]MO : Transit time field is multilanguage.
+[*]MO : Mail send or not configuration set.
+[*]MO : Admin can also set the default approval of shipping.
+
+
+---------------------------------------------------------------------------------
+Change Log V2.0.1 to V2.0.2 | COMPATIBLE:: PRESTASHOP V1.6 | MARKETPLACE v2.0.x
+---------------------------------------------------------------------------------
+
+## Improved/changed features:
+
+[*]MO :  Impact price functionality is added but without overrding Files.
+
+
+---------------------------------------------------------------------------------
+Change Log V2.0.0 to V2.0.1 | COMPATIBLE:: PRESTASHOP V1.6 | MARKETPLACE v2.0.x
+---------------------------------------------------------------------------------
+
+## Improved/changed features:
+
+[*]MO : Step Next tab page load removed on add shipping display page in V2.0.0 (But version not updated)
+[*]MO : Update seller's customer id in ActionBeforeAddproduct hook (get customer id from params in place of context).
+[*]BO : Admin can also add, edit or delete shipping.
+[*]MO : Admin and seller can set their default shipping
+[*]FO : Seller can assign shipping on Add Product tab
+[*]BO : check list for assign shipping added on add/update product
+[*]MO : Override and Impact price functionality removed

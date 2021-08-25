@@ -1,0 +1,40 @@
+
+/**
+* CSS File of module
+* 
+* @author Empty
+* @copyright 2007-2016 PrestaShop SA
+* @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*/
+
+/*Product page*/
+.shopping-list {
+    display: inline-block;
+    margin: 20px 0 10px;
+    position: relative;
+}
+
+    .shopping-list ul {
+        box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+        display: none;
+        position: absolute;
+        padding: 10px;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .shopping-list ul li a {
+        cursor: pointer;
+        display: block;
+        padding: 3px 0;
+    }
+
+/*Account : list table*/
+@media screen and (max-width:640px) {
+
+    #shopping-list .hide-mobile {
+        display: none;
+    }
+}
+

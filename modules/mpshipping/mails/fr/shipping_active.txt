@@ -1,0 +1,17 @@
+[{shop_url}] 
+
+Bonjour {seller_name}
+
+Votre méthode d'expédition {shipping_name} a été activé par l'administrateur 
+
+ Détails d'Expédition:
+
+Nom de transporteur: {shipping_name}
+
+Temps de Transit: {transit_delay}
+
+Expédition Gratuit: {free_shipping}
+
+Frais de Manutention: {handling_cost}
+
+Statut: {status}

@@ -1,0 +1,6 @@
+Hello{seller_name}
+
+Go to your shop by clicking on link below:		
+		{shop_url}
+Thanks
+

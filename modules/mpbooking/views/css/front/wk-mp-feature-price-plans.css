@@ -1,0 +1,61 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.wk-mp-right-column .week_days {
+    display: none;
+}
+.wk-mp-right-column #booking_rate_plans {
+	display: none;
+}
+.wk-mp-right-column .mp_booking_product_search_results_ul {
+    padding: 0px;
+    background: #ffffff none repeat scroll 0 0;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 122222;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    max-height: 145px;
+    overflow-y: auto;
+}
+.wk-mp-right-column .mp_booking_product_search_results_ul li {
+    width: 100%;
+    background-color: #fff;
+    color: #333333;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+    list-style: outside none none;
+    padding: 7px;
+}
+.wk-mp-right-column .mp_booking_product_search_results_ul li:hover, .wk-mp-right-column .mp_booking_product_search_results_ul li:focus, .wk-mp-right-column .mp_booking_product_search_results_ul > li:active {
+    background-color: #2fb5d2;
+    color: #fff;
+}
+.wk-mp-right-column .add_more_time_slot_price {
+    float: right;
+}
+.wk-mp-right-column .plan_error_block {
+    display: none;
+    color: #CD5D5D!important;
+    font-size: 13px;
+    font-weight: bold;
+}

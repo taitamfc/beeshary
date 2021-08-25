@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Hello {seller_name}
+
+Admin has assigned a product {product_name} to you.
+
+Product details as bellow:
+
+Product name: {product_name}
+
+Category name: {category_name}
+
+Quantity: {quantity}
+
+

@@ -1,0 +1,150 @@
+2010-2018 Webkul.
+
+NOTICE OF LICENSE
+
+All right is reserved,
+
+Please go through this link for complete license : https://store.webkul.com/license.html
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade this module to newer
+Versions in the future. If you wish to customize this module for your
+needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+
+@author    Webkul IN <support@webkul.com>
+@copyright 2010-2018 Webkul IN
+@license   https://store.webkul.com/license.html
+
+Release Notes for Prestashop Marketplace Cart And Order Split 5.1.0
+--------------------------------------------------------------------
+##########################################################################################
+Change Log : Marketplace Cart And Order V5.0.1 to V5.1.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################################
+
+	## Fixed bugs:
+
+		[-] CO : Tools::displayError() function issue is resolved in overridded payment module class
+		[-] CO : Due to any reason if product is removed from ps cart table but exist in mp_carrierproduct_map table than the issue occur is resolved.
+
+	## Improved/changed features:
+
+		[+] FO : Seller wise products in cart page feature is added.
+		[+] FO : If Enable final summary feature is enabled then all the applied carriers are displayed in final summary page.
+
+
+	## Update policy:
+
+		- Mobule need only file update, can be updated only by UPLOADING new version on module.
+
+
+##########################################################################################
+Change Log : Marketplace Cart And Order V5.0.0 to V5.0.1 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################################
+
+	## Fixed bugs:
+
+		[-] FO : If customer deleted one of the product from order page & then re-enables the cart split feature,then error is shown.
+		[*] FO : Link of shopcollection page is replaced with shop page of seller
+		[-] CO : Hook changed in PrestaShop V1.7.1.0 , use 'actionObjectProductInCartDeleteAfter' instead of 'actionAfterDeleteProductInCart'
+		[-] CO : Hook changed in PrestaShop V1.7.0.0 , use 'actionCartUpdateQuantityBefore' instead of 'actionBeforeCartUpdateQty'
+		[*] CO : Issue in function getPackageShippingCost while overriding cart controller
+		[*] CO : Carrier Maximum package weight (kg) condition is added
+
+
+	## Improved/changed features:
+
+		[*] FO : Display details of all packages of order in order-confirmation page.
+
+
+	## Update policy:
+
+		- Module needs to be installed again as there are some changes in override files.
+
+
+#################################################################################################
+Change Log : Marketplace Cart And Order V3.0.0 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+#################################################################################################
+
+## Compatible:
+
+	[*] COMP : $this->display() function is replaced with $this->fetch()
+	[*] COMP : actionFrontControllerSetMedia hook added for hook css and js add
+	[*] COMP : Changes in override files according to ps 1.7
+	[*] COMP : Removed all override function of js file
+
+## Improved:
+
+	[*] FO : RegisterStylesheet(), registerJavascript() functions instead of addCSS() and addJS() functions respectively.
+
+## TODO
+	- Carrier extra content should also be displayed.
+
+## Update Policy:
+	- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+####################################
+#   V3.0.0
+####################################
+
+	## Fixed bugs:
+
+		[-] FO : Wrong display of shipping cost.
+
+	## Improved/changed features:
+
+		[*] FO : Improve (UI/UX) display of delivery method.
+		[*] IN : Added id_seller column in mp_carrierproduct_map table
+		[*] CO : Instead of overriding getTotalShippingCost function now we override getPackageShippingCost
+
+	## Feature deprecated :
+
+		[~] BO : Order split feature is the default functionality of this module. So, now admin cannot Enable/Disable Order split feature.
+
+	## Update policy:
+
+		- Major changed in database and file, need uninstall, DELETE and upload and install the new verion module
+
+	## Others:
+
+		[+] LICENSE : LICENSE.txt file is added
+		[+] CHANGELOG : CHANGELOG.txt file is added
+
+
+####################################
+#   V2.1.2
+####################################
+
+	## Improved/changed features:
+
+		[*] CO : Number of overrider files are reduced.
+		[*] FO : Products will occur seller wise in checkout page carrier block.
+		[*] CO : Performance of module improve.
+
+	## Update policy:
+
+		- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+####################################
+#   V2.1.1
+####################################
+
+	Added Features:
+
+		[+] BO : Admin can Enable/Disable cart split feature
+		[+] BO : Admin can Enable/Disable Order split feature
+
+
+####################################
+#   V2.1.0
+####################################
+
+	Improved/changed features:
+
+		[*] CO : Compatible with marketplace 2.1.0
+
+	# Others:
+
+		[+] CO : Module Logo added

@@ -1,0 +1,98 @@
+--------------------------
+ChangeLog V6.0.0 to V6.1.0
+--------------------------
+
+New API:
+- assignproduct api added
+
+Improvement:
+- admin_auth_key added
+- return id_mp_product_image instead of base64 image in seller product image upload POST
+- License updated to 2021
+- 'product_category' & 'product_combination' node added in 'api/seller/sellerproduct' api
+
+Fixed:
+- fixed undefined urlsegment
+- fixed image ext issue
+
+
+--------------------------
+ChangeLog V5.2.0 to V6.0.0
+--------------------------
+
+New API:
+- updateorderstatus api added
+- sellerproduct/[id_mp_product] get a particular product details api added
+
+Improvement:
+- now json only used for input-output, xml removed
+
+
+--------------------------
+ChangeLog V5.1.2 to V5.2.0
+--------------------------
+
+Bug Fix:
+- Security: Seller can not update other seller products
+
+Improvement:
+- image upload with position and cover | compatible from Mp V5.2.0
+- Removed assignSeller function for seller
+
+--------------------------
+ChangeLog V5.1.1 to V5.1.2
+--------------------------
+
+Improvement:
+- install.sql removed
+- BO Tab name updated to 'Webservice'
+- escape removed from all tpl
+
+--------------------------
+ChangeLog V5.1.0 to V5.1.1
+--------------------------
+
+Bug:
+- Duplicating product image when updating active products
+- Typo in function name Combunation
+- PHP Notice while any API GET api on notice
+- Error if no product exist for seller
+- Product update have missing feature to update
+- index.php format fixed
+
+Improve:
+- header("Content-Type: application/json") added in output json
+- delete product image and upload if images node provided
+- Apply limit filter like ps on seller product list GET
+- License year updated to 2019
+
+--------------------------
+ChangeLog V5.0.0 to V5.1.0
+--------------------------
+
+New Features:
+- Every selelr Seller can create api_key
+- Specific Management MpImages is merget to Seller Specific Management
+- WebserviceSpecificManagementMpImages Class removed
+
+
+--------------------------
+ChangeLog V1.0.0 to V3.0.0
+--------------------------
+
+Feature:
+- Compatible to Marketplace V3.x.x
+- MP added table definition added
+
+New API:
+- 'mpsellerproductattributes' api added
+
+Compatible:
+- All class file name changed with suffix 'Ws' for Webservice
+
+Improve:
+- @todo:: merge function for shop and seller logo images
+- @todo:: add seller and shop banner images
+
+Bug fix:
+- Remove 'mpimages' duplicate resource from override

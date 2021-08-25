@@ -1,0 +1,17 @@
+Membership Plan Activation
+
+Hello {seller_name},
+
+Your request for Marketplace Seller Membership has been accepted by admin
+
+Membership plan details as bellow:
+
+Plan name: {plan_name}
+
+Plan price: {plan_price}
+
+Number of Products Allow:  {product_allow}
+
+Active From:  {active_from}
+
+Expire On:  {expire_on}

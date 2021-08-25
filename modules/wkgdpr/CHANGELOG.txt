@@ -1,0 +1,20 @@
+----------------------------
+# V4.0.0 to V4.0.1
+-----------------------------
+
+## Improved/changed features
+
+[+] BO : Image upload validation improved.
+
+## Bug Fixed
+
+[-] BO : Resolved : $isNewTheme parameter sent while calling setMedia() in admin controllers.
+[-] BO : Resolved customer data details display issue
+
+[-] FO : Resolved : If accept cookie popup is opened in two tabs and we accept cookie from one tab. Then on accepting cookie from second tab pop-up doen't close.
+
+# Invoice displayb issue
+# Translations issue
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module

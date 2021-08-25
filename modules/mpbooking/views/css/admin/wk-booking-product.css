@@ -1,0 +1,227 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+div.checker,
+.ui-icon {
+    display: inline-block !important;
+}
+#wk-information #wk_category_tree label {
+    font-size: 12px;
+    font-weight: normal;
+}
+/*css for admin category tree*/
+#wk-information #wk_category_tree {
+    padding-left: 0;
+}
+#wk-information #wk_category_tree ul {
+    padding-left: 15px;
+}
+#wk-information #wk_category_tree {
+    border: none !important;
+}
+#wk-information #wk_category_tree li {
+    list-style: none;
+}
+/*for calendar made from calendar.js*/
+#booking_disable_dates #date-compare {
+    display: none;
+}
+#booking_disable_dates .disabled_specific_dates {
+    margin-top: 50px;
+}
+#booking_disable_dates .disabled_specific_dates > .pull-right {
+    float: left!important;
+}
+#booking_disable_dates .remove_disable_date {
+    margin-left: 10px;
+    float: right;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+#booking_disable_dates .edit_disable_date_slots {
+    float: right;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+#booking_disable_dates .disabled_date_container {
+    padding: 5px 10px;
+    background-color: #2eacce;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.slot_deactive_img,
+.slot_active_img {
+    cursor: pointer;
+}
+
+/*Css for booing form*/
+
+#date_range_prices_content {
+    display: none;
+}
+.calender-disabled-dates .ui-datepicker-day-price {
+    opacity: .6;
+}
+.calender-disabled-dates .ui-state-default {
+    opacity: .6;
+}
+
+/*booking information calendar page css*/
+#search_date_from,
+#search_date_to {
+    height: 35px;
+    padding-left: 15px;
+}
+.arrow_span {
+    width: 5%;
+}
+#rooms-search-submit {
+    margin-top: 18px;
+}
+#stats-calendar .ui-datepicker {
+    width: 100%;
+    overflow-x: auto;
+}
+#stats-calendar .ui-widget-header {
+    border: none!important;
+    background: none!important;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    color: #666;
+}
+#stats-calendar .ui-datepicker td span,
+#stats-calendar .ui-datepicker td a {
+    text-align: center!important;
+}
+#stats-calendar .ui-datepicker .ui-datepicker-header {
+    padding: 10px 0!important;
+}
+#stats-calendar .ui-datepicker th {
+    text-align: center!important;
+    font-size: 14px;
+    color: #444;
+    font-family: 'Oxygen', sans-serif;
+}
+#stats-calendar .ui-datepicker td {
+    padding: 10px 2px!important;
+    text-align: center!important;
+}
+#stats-calendar .ui-datepicker td i {
+    font-size: 8px;
+}
+#stats-calendar .ui-state-default,
+#stats-calendar .ui-widget-content #stats-calendar .ui-state-default,
+#stats-calendar .ui-widget-header #stats-calendar .ui-state-default {
+    border: none!important;
+    background: none!important;
+    color: #555555;
+    font-size: 14px;
+    display: inline-block;
+}
+#stats-calendar .ui-widget-content {
+    border: 1px solid #ccc!important;
+}
+#stats-calendar .ui-datepicker-day-price {
+    display: inline-block!important;
+    padding: 2px 4px!important;
+    text-align: right;
+    text-decoration: none;
+    background: #2eacce;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 2px;
+}
+#stats-calendar .ui-icon-circle-triangle-e {
+    background-position: -32px 0px;
+}
+#stats-calendar .ui-icon-circle-triangle-w {
+    background-position: -97px 0px;
+}
+#stats-calendar .ui-state-hover,
+#stats-calendar .ui-widget-content #stats-calendar .ui-state-hover,
+#stats-calendar .ui-widget-header #stats-calendar .ui-state-hover,
+#stats-calendar .ui-state-focus,
+#stats-calendar .ui-widget-content #stats-calendar .ui-state-focus,
+#stats-calendar .ui-widget-header #stats-calendar .ui-state-focus {
+    border: none!important;
+    background: none!important;
+}
+#stats-calendar .ui-datepicker-inline {
+    width: 100%!important;
+}
+#stats-calendar .ui-datepicker-year {
+    font-size: 20px!important;
+}
+#stats-calendar .ui-datepicker-month {
+    font-size: 20px!important;
+}
+#stats-calendar .ui-datepicker-group-first {
+    border-right: 1px solid #ccc;
+}
+.error_border {
+    border: 2px solid red !important;
+}
+#stats_search_form {
+    margin-top: 15px;
+}
+#availability-search-submit {
+    background-color: #2eacce !important;
+    font-weight: bold !important;
+    padding: 8px 40px;
+}
+#stats_search_form label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#stats-calendar .booking_available .icon-circle {
+    color: #7EC77B;
+}
+#stats-calendar .booking_unavailable .icon-circle {
+    color: #CD5D5D;
+}
+.ui-state-disabled {
+    pointer-events: none;
+}
+.date_ranges_info_td .popover-content {
+    padding: 9px 14px!important;
+    line-height: 25px!important;
+    font-size: 13px!important;
+    color: #000!important;
+}
+.time_slots_info_td .popover-content {
+    padding: 0px!important;
+    color: #000!important;
+}
+.time_slots_info_td table {
+    padding: 0px 10px!important;
+    width: 100%!important;
+}
+.time_slots_info_td .popover {
+    max-width: 400px!important;
+}
+#booking_disable_dates .modal-dialog {
+    width: 300px !important;
+}
+
+.time_slots_information_block .sloting_date_from, .time_slots_information_block .sloting_date_to, .time_slots_information_block .booking_time_from, .time_slots_information_block .booking_time_to, #stats_search_form #search_date_from, #stats_search_form #search_date_to {
+    cursor: text!important;
+}

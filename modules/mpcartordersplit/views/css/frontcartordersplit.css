@@ -1,0 +1,328 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.shopProdCont {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    vertical-align: middle; }
+    @media (min-width: 768px) {
+	  .shopProdCont {
+	    border-right: 1px solid;
+	    width: 50%; }}
+
+	@media (max-width: 767px) {
+	  	.shopProdCont {
+	  		margin-bottom: 10px;
+	  		width: 100%; }}
+
+.shopCarrierCont {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 49%; }
+    @media (min-width: 768px) {
+	  .shopCarrierCont {
+	    width: 49%; }}
+
+	@media (max-width: 767px) {
+	  	.shopCarrierCont {
+	  		border-top: 1px solid;
+    		padding-top: 15px;
+	  		width: 100%;
+	  		margin-bottom: 15px; }}
+
+.wk_product_carriers_cont {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.shopLastProd {
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.sub_prodCarrier_wrapper {
+	border: 1px solid #cccccc;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.wk_product_wrapper {
+	margin-left: 0;
+	margin-right: 0;
+}
+.wk_product_wrapper img {
+	max-height: 98px;
+	max-width: 98px;
+}
+
+.wk_product_wrapper img,
+.wk_product_wrapper div {
+	display: inline-block;
+}
+
+.wk_product_wrapper p.product_name {
+	font-size: 15px;
+	color: #252525;
+	margin-left: 15px;
+}
+
+.wk_product_wrapper p.product_attr {
+	color: #777777;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 15px;
+}
+
+.shopCarrierCont p {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.delivery-options.byHook .delivery-option {
+	display: none;
+}
+
+.wk_dropdown_btn {
+	width: 100%;
+	height: auto;
+	color: #252525;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15); }
+    .wk_dropdown_btn:focus, .wk_dropdown_btn:active {
+	    outline: 0.1875rem solid #2fb5d2;
+    }
+
+.order_carrier_logo {
+	max-width: 100%;
+}
+
+.wk_dropdown_cont ul.dropdown-menu {
+	width: 100%;
+	max-height: 226px;
+	overflow-y: auto;
+}
+
+.wk_carrier_dp_ul li {
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color: #252525;
+    font-size: 15px;
+}
+
+.wk_carrier_dp_ul li:hover {
+	background-color: #333333;
+	color: #fff;
+}
+
+.wk_carrier_dp_ul table {
+	margin-bottom: 0px;
+}
+
+.wk_carrier_dp_ul table tr td {
+	border: none;
+}
+
+.wk_product_carriers_wrapper {
+	border: 1px solid #cccccc;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+
+.wk_carrier_primary_block {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #F6F6F6;
+}
+
+.wk_shop_link {
+	font-size: 15px;
+	margin: 0px;
+	color: #252525;
+}
+
+.wk_shop_link a {
+	color: #0072ff;
+	text-transform: capitalize;
+}
+
+.wk_carrier_secondary_block {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #FFFFFF;
+}
+
+.wk_carrier_com_div {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.wk_carrier_img_div {
+	width: 20%;
+}
+
+.wk_carrier_dtl_div {
+	width: 45%;
+}
+
+.wk_carrier_dtl_noimg_div {
+	width: 65%
+}
+
+.wk_carrier_price_div {
+	width: 25%;
+}
+
+.multiShippingCont {
+	border: 1px solid #cccccc;
+    width: 100%;
+    color: #333; }
+    .msInputCont {
+    	width: 10%;
+    	text-align: center; }
+    .msShippingCont {
+    	width: 65%;
+    	border-left: 1px solid #ccc;
+    	border-right: 1px solid #ccc; }
+    	.msShippingCont .delivery_option_dtl {
+    		text-align: center; }
+    	.msShippingCont .table-responsive {
+    		border: none;
+    		overflow-x: auto; }
+    	.msShipping {
+    		padding: 5px 0px; }
+    	.msShippingBorder {
+    		border-bottom: 1px solid #cccccc; }
+    .msPriceCont {
+    	width: 20%;
+    	text-align: center; }
+    .multiShippingBlock {
+	    display: inline-block;
+	    vertical-align: middle; }
+	    .multiShippingBlock table {
+	    	margin: 0px; }
+	    	.multiShippingBlock table tr td {
+				border: none; }
+
+.sub_prodCarrier_wrapper .alert.alert-danger::before {
+    content: "";
+}
+
+.productBlock {
+	border-bottom: 1px solid;
+}
+.productBlock, .carrierBlock {
+	padding: 15px;
+}
+
+.carrierBlock > p {
+	color: #252525;
+	font-weight: 700;
+}
+
+.wk-orderConf-header {
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.wk-order-package {
+	margin-bottom: 20px;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.wk-order-entity-wrapper {
+	margin: 0px 0px 20px;
+    border: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+.wk-order-entity-title {
+	font-size: 14px;
+    color: #696969;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.wk-order-entity-value{
+	font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.wk-order-prodDetail-wrapper .card-title {
+	display: none;
+}
+
+.wk-order-seperator {
+	border-color: #232323;
+	margin: 40px -15px;
+}
+
+.wk-order-shipping-title {
+	float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.wk-order-shipping-method {
+	float: right;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+/* === Cart Page === */
+.wk-sellerWiseProduct-block {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c6c6c6; }
+	.wk-seller-block {
+		padding: 10px 15px;
+		border-radius: 4px;
+		background-color: #f2f4f6;
+		float: left;
+		width: 100%; }
+		.wk-seller-block::after {
+			clear: both; }
+		.wk-seller-block a {
+			color: #1f29eb;
+			font-size: 14px;
+			text-decoration: underline; }
+			.wk-seller-block a:hover {
+				color: #1923de; }

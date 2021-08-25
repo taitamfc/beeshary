@@ -1,0 +1,92 @@
+############################################################
+Change Log : V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7
+############################################################
+
+Fixed Bug:
+- Class - WkMpPackProduct::getMpAttributeIdByPsAttributeId
+	Modified for MP3 version from 'mp_combination_map' table (which is removed) to 'wk_mp_product_attribute'
+
+Improved:
+- Pack form display below product name
+- Hook Changed 'DisplayMpaddproductfooterhook' -> 'DisplayMpaddproductnamebottom'
+- Class name changed:: PackProducts -> WkMpPackProduct
+- Hook removed :: displayMpaddproductfooterhook, displayMpupdateproductfooterhook, actionAfterAssignProduct
+	actionBeforeMpProductDelete,
+- "No matched found" added
+
+TroubleShoot:
+- For V5.0.0, while editing pack product Notice display when Debug mode on
+   "Notice: Undefined index: id"
+   to fix this, you have assign id as id_mp_product in
+   Marketplace/AdminSellerProductDetailController.php Line::387 in renderForm() case:edit
+   This is fixed in MP 5.0.1
+
+
+
+
+############################################################
+Change Log : V2.1.1 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7
+############################################################
+
+## Compatible
+
+- {$smarty.const._MODULE_DIR_} using instead of global var:{$modules_dir} on tpl
+- html escape removed from tpls
+- main page 'display()' changed in 'fetch()'
+- addJs and addCSS replace by registerJavaScript and registerStylesheet function
+
+## Improved/changed features:
+- [+]MO : License has been added to every file.
+- [+]MO : Readme.md file updated.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+#############################
+Change Log : V2.1.0 to V2.1.1
+#############################
+## New Features:
+
+[+]MO : Module works for product combinations. Now combinations also can be added as pack contents.
+
+
+## Improved/changed features:
+
+[*]MO : Design improved.
+[*]MO : Design improved.
+[*]MO : Code standard improved.
+[*]MO : License files added and license added to every file of the module.
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.
+- Mpcombination version 2.1.1 is needed For working with product combinations.
+
+#############################
+Change Log : V2.0.1 to V2.1.0
+#############################
+
+## Added Features:
+
+[+]MO : Module compatible with Marketplace V2.1.0
+
+###################
+Change Log : V2.0.1
+###################
+
+## Added Features:
+[+]FO : Radio Button for product type
+[+]BO : Radio Button for product type
+
+[+]MO : Make it compatible with virtual product
+
+
+## Fixed bugs:
+[-]FO : virtual product comes into search box which should not be.
+[-]FO : pack product comes into search box which should not be. 
+
+
+
+
+

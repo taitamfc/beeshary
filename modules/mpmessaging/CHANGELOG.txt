@@ -1,0 +1,28 @@
+##############################
+Change Log : V4.0.0 to V5.0.0
+##############################
+
+Improved Features:
+
+- Improve error log.
+- Improved module structure and coding according Prestashop standard.
+
+Added Features:
+
+- Admin can edit customer order confirmation template.
+- Admin can edit customer order status template.
+- Admin can select order for which message will be send.
+- Admin can edit customer order tracking template.
+- Admin can add prefix country code in customer's and seller's mobile number.
+- Customer Order confirmation template available in all languages and send message in customer order language.
+- Customer Order status template available in all languages and send message in customer order language.
+- Customer Order tracking template available in all languages and send message in customer order language.
+- Admin can select address type 'delivery' or 'billing' to get mobile number.
+- Admin can select mobile field 'home phone' or 'mobile phone' to send message.
+- Add 2 new sms provider 'Plivo' and 'ClickSend'.
+- Admin can edit seller profile activation/de-activation template.
+- Admin can edit seller product activation/de-activation template.
+- Admin can edit seller order confirmation template.
+- Seller Order confirmation template available in all languages and send message in seller default language.
+- Seller profile activation/de-activation template available in all languages and send message in seller default language.
+- Seller product activation/de-activation template available in all languages and send message in seller default language.

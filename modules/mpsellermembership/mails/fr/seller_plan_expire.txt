@@ -1,0 +1,5 @@
+Désactivation de Vendeur Adhésion 
+
+Bonjour {seller_name},
+
+Votre plan d'adhésion a expiré et vos produits sont tous désactivés.

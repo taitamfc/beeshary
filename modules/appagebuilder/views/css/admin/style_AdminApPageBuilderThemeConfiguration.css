@@ -1,0 +1,49 @@
+.t_span4 {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+}
+.form-group.aprow_font_option{
+    margin-bottom: 20px;
+}
+.t_span4 .title-item {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.t_span4.col-lg-4 {
+    margin-bottom: 0px;
+}
+.t-help-block{
+    color: #959595;
+}
+.t-group-attr{
+    color: #333 !important;
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+    line-height: 1.4em !important;
+    margin-bottom: 10px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 10px !important;
+}
+.t-group-attr-h3{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    margin-right: 45px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-weight: 300;
+    margin: 0;
+}
+#modal_form .modal-dialog{
+  width: 900px;
+}
+#modal_form .modal-backdrop.fade.in
+{
+    opacity: .5;
+}
+#modal_form .modal-dialog{
+    z-index: 1050;
+}
+

@@ -1,0 +1,182 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.hidden {
+    display: none;
+}
+.date_range_form {
+    margin-top: 20px;
+}
+.date_range_form .form-control {
+    padding-left: 8px!important;
+    padding-right: 5px!important;
+}
+#product-details .product-quantities {
+    display: none;
+}
+.product-add-to-cart {
+    display: none;
+}
+#block-reassurance {
+    display: none;
+}
+.product-prices {
+    display: none;
+}
+.time_slot_checkbox label {
+    text-align: left;
+}
+.booking_time_slots_quantity_wanted {
+    width: 50%;
+}
+.unavailable_slot_err {
+    text-align: right;
+    display: none;
+    color: red;
+}
+.feature_plans_priority {
+    margin-bottom: 0px!important;
+}
+.product_booking_feature_plans {
+    font-size: 13px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.feature_plans_info {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.wk-booking-container .form-control {
+    border: 1px solid #ccc !important;
+    color: #999 !important;
+    font-size: 14px !important;
+    height: 40px;
+}
+.wk-booking-container select.form-control:not([size]):not([multiple]) {
+    height: 36px !important;
+    padding: 5px 8px !important;
+}
+.wk-booking-container .menutitle {
+    font-weight: 600;
+    color: #333;
+}
+.wk-booking-container .list_content li span a {
+    color: #333;
+}
+.wk-booking-container .menu_item ul li {
+    background-color: #fbfbfb;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.wk-booking-container .menu_item ul li:hover {
+    background-color: #2fb5d2 !important;
+}
+.wk-booking-container .menu_item ul li:hover a {
+    color: #fff !important;
+}
+.wk-booking-container .menu_active {
+    background-color: #2fb5d2 !important;
+}
+.wk-booking-container .menu_active a {
+    color: #fff !important;
+}
+.page-title {
+    background-color: #000;
+    overflow: hidden;
+    padding: 15px;
+}
+.page-title span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+#booking_product_available_qty span {
+    border-radius: 3px !important;
+    padding: 1px 8px 2px 8px !important;
+    background-color: #2fb5d2;
+    color: #fff;
+}
+#booking_product_available_qty {
+    color: #333333;
+    margin-top: 20px;
+}
+.pull-sm-left {
+    float: left;
+}
+.pull-sm-right {
+    float: right;
+}
+.page-title {
+    text-align: center;
+}
+.wk-booking-container {
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #d5d5d5;
+}
+.wk-booking-content {
+    padding: 0px 20px 20px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.booking_total_price_text {
+    color: #414141;
+}
+.booking_total_price {
+    color: #ffc709;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 20px;
+}
+.time_slot_price {
+    color: #ffc709;
+    font-weight: 800;
+}
+.booked_slot_text {
+    font-size: 14px;
+    color: red;
+    padding: 15px;
+}
+.booking_product_errors {
+    display: none;
+    padding: 5px 15px;
+}
+#bookings_in_select_range td,
+#bookings_in_select_range th {
+    padding: 6px;
+}
+#bookings_in_select_range {
+    font-size: 13px;
+}
+#bookings_in_select_range label {
+    font-size: 13px;
+    font-style: italic;
+}
+.wk-booking-container .booking_loading_img {
+    display: none;
+}
+.wk-booking-container #booking_date_from, .wk-booking-container #booking_date_to, .wk-booking-container #booking_time_slot_date {
+    cursor: text;
+}
+
+#ui-datepicker-div {
+    position: absolute !important;
+}

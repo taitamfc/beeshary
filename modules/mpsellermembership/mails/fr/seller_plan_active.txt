@@ -1,0 +1,17 @@
+Activation de Plan d'adhésion
+
+Bonjour {seller_name},
+
+Votre demande pour Marketplace Vendeur Adhésion  a été accepté par l'administrateur.
+
+Plan d'adhésion Détails comme ci-dessous:
+
+Nom de Plan : {plan_name}
+
+Prix de Plan : {plan_price}
+
+Nombre de produits permis:  {product_allow}
+
+Activé de:  {active_from}
+
+Expiré à:  {expire_on}

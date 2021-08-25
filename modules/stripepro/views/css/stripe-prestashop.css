@@ -1,0 +1,115 @@
+#apple-pay-button {
+    display:none;
+	border: 1px solid black;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 44px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.apple-pay-button-black {
+    background-image: -webkit-named-image(apple-pay-logo-white);
+    background-color: black;
+}
+
+.apple-pay-button-white {
+    background-image: -webkit-named-image(apple-pay-logo-black);
+    background-color: white;
+    border: 1px solid black;
+}
+#apple-pay-alert {font-size: 12px;margin-bottom: 0px;}
+#apple-pay-alert .alert{margin-bottom: 0px;}
+
+#stripe-payment-form label { display: table-cell;text-transform: uppercase; }
+#stripe-payment-form label.lowercase { text-transform: none; }
+#stripe-payment-form input[type="text"], #stripe-payment-form select { 
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border: #b3b0b0 solid 1px;
+margin-bottom: 10px;
+padding: 2px 5px;
+height: 35px;
+font-size: 17px; }
+#stripe-payment-form a { display: inline; position: relative; }
+a.stripe-card-cvc-info { font-style: italic; }
+a.stripe-card-cvc-info div.cvc-info {
+	background-color: #fff;
+border: #ccc solid 1px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+display: none;
+padding: 5px;
+position: absolute;
+right: -305px;
+top: -35px;
+text-decoration: none;
+width: 300px;
+z-index: 999;
+}
+a.stripe-card-cvc-info:hover div.cvc-info { display: block; }
+div.cvc-info:hover { cursor: default; }
+#stripe-payment-form img.img-card { margin-left: 5px; margin-bottom: 6px;  }
+div.stripe-payment-errors {
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #900;
+	font-size: 13px;
+	background: #FCC;
+	display: none;
+}
+.expiration {width: 225px;}
+
+#stripe-translations, #stripe-ajax-loader { display: none; }
+#stripe_save_token { vertical-align: top; }
+a#stripe_error { display: none; }
+#stripe-payment-form input, #stripe-payment-form select { margin-left: 0; }
+#stripe-replace-card, #stripe-delete-card, #stripe-use-saved-card { border: none;display: inline;
+font-size: 13px; cursor:pointer;
+text-decoration: underline;
+text-transform: uppercase }
+
+#uniform-stripe_save_token {
+	display: inline-block;
+}
+.stripe-payment-17 {
+	border: 1px solid #d6d4d4;
+border-radius: 4px;
+padding: 10px 15px 5px 15px;
+background: #f3f3f3;margin: 10px 0 10px 2.5rem;
+}
+.payment-option img {
+	height:auto !important;
+    max-height: 40px;
+}
+.dsecure {
+        float: right !important;
+    border-radius: 12px;
+    height: 100px;
+}
+.powered_by_stripe {
+    float: right !important;
+    margin-top: -30px;
+}
+.card_line {
+    padding: 18px 15px 15px;
+    background: #30569c;
+    border: 1px solid #30569c;
+    cursor: pointer;
+	margin:0px;
+	color:#fff;
+	width: 275px;
+text-align: left;
+	display:inline-block !important;
+	box-shadow: 0 0 6px 0 #0a1c80;
+	font-size:18px;
+}
+.card_line img{
+   height:33px;
+   float: right;
+   margin-top:-5px;
+}

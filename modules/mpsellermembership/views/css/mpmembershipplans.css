@@ -1,0 +1,90 @@
+/**
+* 2010-2016 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2016 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#left_column,#right_column
+{
+	display:none;
+}
+#center_column
+{
+	width:100%;
+}
+.pagination{
+	margin: 0px !important;
+}
+.plan_container{
+	width: 100%;
+	float: left;
+}
+.plan_row{
+	margin-bottom: 25px;
+}
+.page-title {
+	overflow:hidden;
+	padding: 20px;
+	text-transform: uppercase;
+	border: 1px solid #acaaa6;
+}
+.page-title span{
+	font-size:20px;
+	font-weight:normal;
+}
+.plan{
+	margin: 15px 0px;
+	border: 1px solid #acaaa6;
+}
+.plan_name{
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+.plan_image, .plan_price, .plan_products{
+	text-align: center;
+	padding: 20px 0px;
+}
+.plan_price{
+	font-size: 35px;
+	font-weight: 600;
+}
+.mp_line{
+	border-bottom: 1px solid;
+    float: left;
+    margin: 4% 24%;
+    width: 50%;
+}
+.plan_products{
+	font-size: 17px;
+}
+.plan_button
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.no_plan{
+	width: 100%;
+	float: left;
+}
+.pagination{
+	display: flex !important;
+}
+.pagination li a{
+	height: 40px !important;
+	padding: 6px !important;
+	width: unset !important;
+}

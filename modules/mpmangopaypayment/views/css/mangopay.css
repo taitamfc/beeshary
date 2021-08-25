@@ -1,0 +1,264 @@
+/**
+* 2010-2018 Webkul
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+#mgp_payment_module {
+    margin-top: 20px;
+    font-size: 14px;
+}
+#mangopay_direct_debit_container {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.mangopay_saved_card_container .card_info {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+.mangopay_saved_account_container .account_info {
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    line-height: 28px;
+    font-size: 13px;
+}
+.mangopay_saved_account_container span.account_details_head {
+    font-weight: bold;
+}
+#mgp_payment_module .mangopay_new_card_container, #mangopay_direct_debit_container .mangopay_new_account_container, #mgp_payment_module .mangopay_web_payment_container {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.mangopay_new_card_container .block_mgp_img, .mangopay_web_payment_container .block_mgp_img {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc
+}
+.mangopay_new_card_container #save_trans_card {
+    margin-right: 10px;
+}
+.mangopay_new_card_container  .mangopay-logo {
+    width: 100%;
+    font-size: 14px;
+    clear: both;
+}
+.mangopay_new_card_container  .form-group {
+    margin-bottom: 0px;
+}
+.mangopay_saved_card_container .remove_saved_card_link, .mangopay_saved_account_container .remove_saved_account_link {
+    cursor: pointer;
+    float: right;
+}
+.mangopay_saved_card_container .remove_saved_card_link > i, .mangopay_saved_account_container .remove_saved_account_link > i {
+    font-size: 18px;
+}
+.mangopay_saved_card_container .customer_saved_card_payment>.saved_customer_card_type {
+    display: none;
+}
+.mangopay_new_card_container .cancel_new_card, .mangopay_new_account_container .cancel_new_account {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.mangopay_new_card_container .cancel_new_card_link, .mangopay_new_account_container .cancel_new_account_link {
+    color: #2fb5d2;
+    font-size: 13px;
+    cursor: pointer;
+    border-bottom: 1px solid #2fb5d2;
+    font-style: italic;
+}
+.mangopay_saved_card_container .add_new_card, .mangopay_saved_account_container .add_new_account {
+    padding: 0px;
+    margin: 15px 0px;
+}
+.mangopay_saved_card_container .add_new_card_link, .mangopay_saved_account_container .add_new_account_link {
+    cursor: pointer;
+}
+#mgp_payment_module #wk_mangopay_form label {
+    margin-bottom: 4px;
+    text-transform: uppercase
+}
+#mgp_payment_module  #wk_mangopay_form input[type="text"],
+#mgp_payment_module  #wk_mangopay_form select {
+    border: #CCCCCC solid 1px
+}
+#mgp_payment_module  #wk_mangopay_form a {
+    display: inline;
+    position: relative
+}
+#wk_mangopay_form a.mangopay-card-cvc-info {
+    cursor: default;
+    font-style: italic;
+    margin-left: 5px
+}
+#wk_mangopay_form img#mangopay_cvv_help {
+    margin-right: 4px;
+    vertical-align: text-bottom
+}
+#wk_mangopay_form a.mangopay-card-cvc-info div.cvc-info {
+    background-color: #BDE5F8;
+    border: #00529B solid 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #00529B !important;
+    display: none;
+    font-style: normal;
+    padding: 8px;
+    position: absolute;
+    right: -320px;
+    top: -85px;
+    text-decoration: none;
+    width: 300px
+}
+#wk_mangopay_form a.mangopay-card-cvc-info:hover {
+    background-color: none
+}
+#wk_mangopay_form a.mangopay-card-cvc-info:hover div.cvc-info {
+    display: block;
+    z-index: 10
+}
+#wk_mangopay_form div.cvc-info:hover {
+    cursor: default
+}
+#wk_mangopay_form #mangopay_cvv_help_img {
+    display: block;
+    margin: 0px
+}
+#wk_mangopay_form #mangopay_submitload {
+    float: left;
+    margin-top: 2px
+}
+.wk_card_error,
+.wk_exp_error,
+.wk_cvv_error {
+    color: red
+}
+#mangopay_exp_date_year,
+#mangopay_exp_date_month {
+    padding: 8px;
+    display: inline-block;
+}
+#mangopay_exp_date_year {
+    width: 50%;
+}
+#mangopay_exp_date_month {
+    width: 50%;
+}
+
+/*For growl Notification as in admin side shown*/
+#growls
+{
+    z-index:50000;
+    position:fixed
+}
+#growls.default{
+    top:50px;
+    right:10px
+}
+#growls.tl{
+    top:10px;
+    left:10px
+}
+#growls.tr{
+    top:10px;
+    right:10px
+}
+#growls.bl{
+    bottom:10px;
+    left:10px
+}
+#growls.br{
+    bottom:10px;
+    right:10px
+}
+.growl{
+    opacity:1;
+    position:relative;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -webkit-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out
+}
+.growl.growl-incoming{
+    opacity:0
+}
+.growl.growl-outgoing{
+    opacity:0
+}
+.growl.growl-small{
+    width:200px;
+    padding:5px;
+    margin:5px
+}
+.growl.growl-medium{
+    width:250px;
+    padding:10px;
+    margin:10px
+}
+.growl.growl-large{
+    width:300px;
+    padding:15px;
+    margin:15px
+}
+.growl.growl-default{
+    color:#FFF;
+    background:gray
+}
+.growl.growl-error{
+    color:#fff;
+    background:rgba(224,143,149,0.8)
+}
+.growl.growl-notice{
+    color:#fff;
+    background:rgba(114,194,121,0.8)
+}
+.growl.growl-warning{
+    color:#fff;
+    background:rgba(251,187,34,0.8)
+}
+.growl .growl-close{
+    cursor:pointer;
+    font-size:14px;
+    line-height:18px;
+    font-weight:normal;
+    font-family:helvetica,verdana,sans-serif;
+    float:right
+}
+.growl .growl-title{
+    font-size:18px;
+    line-height:24px
+}
+.growl .growl-message{
+    font-size:14px;
+    line-height:18px
+}
+
+/*for ajax loader*/
+.loading_overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+}
+.loading-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

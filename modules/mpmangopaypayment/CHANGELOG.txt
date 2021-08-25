@@ -1,0 +1,163 @@
+---------------------------------
+# Change Log V5.1.0 to V5.2.0
+---------------------------------
+
+## Added features
+
+- [+]MO : Module is now GDPR complient to Prestashop GDPR module.
+
+- [MO] : Save card functionality added for card payments.
+- [MO] : Save bank account functionality added for direct debit payments.
+- [MO] : Payment with mangopay bankwire added.
+
+- [BO] : payment with Direct debit (mandate) added.
+
+
+## Improved/changed features
+
+- [BO] : Design of the module improved.
+
+- [FO] : Mail is sent to the buyer while validating his card on mangopay.
+
+
+## Fixed bugs:
+- [FO] : CB_VISA_MASTERCARD sent to all type of card types :: resolved.
+
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.
+
+
+---------------------------------
+# Change Log V5.0.0 To V5.1.0
+---------------------------------
+
+## Improved/changed features:
+- New Mangopay Api 2.4.5 version is used.
+- Owner address is now send in splited fields like- city, pin... in owner address while creating Bank account.
+- Bank Account can be deactivated.
+- Configuration add for seller End refund to buyer's card/wallet.
+- Configuration add for sending or receiving mail between seller and admin for a refund.
+- On AdminMangopayPayOut there is a dropdown for Bank Account Id to show all bank ids of admin.
+- On AdminMangopaySellerPayOut there is a dropdown for Seller Bank Account Id to show all bank ids of admin.
+- Reduce API call on Refund page at the backend. Now AdminMangopayRefund shows the detailed order wise information on admin end. And by Clicking it shows the refund detail.
+- Expire date year Improved. Now data is updating dynamically.
+- Seller can refund to buyer's card or to wallet depend on configuration.
+- In wk_mp_mangopay_transaction table order_id and currency columns are added, creation_date column is removed and admin_mgp_userid, admin_mgp_walletid, admin_credited_amount are renamed as credited_mgp_userid, credited_mgp_walletid, credited_amount respectively.
+- In wk_mp_mangopay_transfer_details order_reference column is removed and order_id, currency, amount, fees, refunded_by and send_to_cart are added.
+- MangopayUser column is added in list on AdminMangopaySellerBankDetails.
+
+## Fixed bugs:
+- On ordering different product attributes in a same order, transfer deatil amount was getting mismatch with credited amount.
+- Mangopay account was creating with seller customer id instead of seller business id.
+- Payin refund amount validation issue.
+- Admin/Seller was not able to payout amount less then 1.
+- On payment error order was creating.
+- Redirecting on seller end when deactivating bank account from admin end.
+- Incorrect breadcrumb on "Mangopay detail page".
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.
+
+
+
+---------------------------------
+# Change Log V4.0.0 To V5.0.0
+---------------------------------
+
+## Compatible:
+
+- Module is now compatible with Marketplace_5.0.0
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+
+---------------------------------
+# Change Log V2.2.0 To V4.0.0
+---------------------------------
+
+## Compatible:
+
+- [-]COMP : $link is removed from tpl files and link variables are assigned instead.
+- [-]COMP : parent::__construct() has been moved to top.
+- [-]COMP : $this->setTemplate() is improved according to PS1.7 .
+- [-]COMP : $this->fetch() is used for front controllers hooks.
+- [-]COMP : In all front Controllers registerJavascript() and registerStylesheet() is used to add js and css.
+- [-]COMP : {capture} block and error.tpl(extented) are removed from every front controller files and {extends file=$layout} is added and tpl is written in {block name='content'}.
+- [-]COMP : Hooks tpl files are changed to make compatible with marketplace V4.0.0.
+- [-]COMP : actionFrontControllerSetMedia hook is used to register front end hooks js and css.
+- [-]COMP : hookPaymetOptions is used in place of hookDislayPayment.
+- [-]COMP : hookPaymentReturn is improved.
+- [-]COMP : payment_return.tpl is improved.
+- [-]COMP : payment.tpl is modified.
+- [-]COMP : error_messages.tpl is modified.
+- [-]COMP : On payment.php where did we die the error now set template "error_messages.tpl" and error is assigned.
+- [-]COMP : On payment.php where did we die the error now set template "error_messages.tpl" and error is assigned.
+- [-]COMP : mangopay.css is modified for payment.tpl.
+- [-]COMP : mangopay.js is modified for payment.tpl to validate on prestashop order button click.
+- [-]COMP : {$name_controller} is removed from view.tpl of AdminMangopayBankDetailsController.
+- [-]COMP : Configuration::get('PS_OS_PREPARATION') is used inplace of Configuration::get('PS_OS_PAYMENT'). Giving error on Configuration::get('PS_OS_PAYMENT').
+- [-]COMP : mangopaysellercashout.tpl and mangopaysellerbankdetails.tpl files are improved.
+- [-]COMP : variables for js files in {strip} in mangopaysellercashout.tpl and mangopaysellerbankdetails.tpl files are sent from controllers with Media::addJsDef()
+- [-]COMP : getBreadcrumbLinks() is added to every front controller to show breatedcrump.
+
+## Improved/changed features:
+
+- [*]MO : registerModuleHooks() added in mpdhlshipping.php.
+
+## Fixed Bugs:
+
+- [-]FO : Fixed : Mangopay transaction table is shown on marketplace order details page even when payment method is not mangopay.
+- [-]BO : Fixed : Condition for transfer between wallets is applied on hardcoded order status 5.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+@TODO
+- trnalations are need to be updated according to prestashopV1.7.0
+- Configuration::get('PS_OS_PREPARATION') is used inplace of Configuration::get('PS_OS_PAYMENT'). Giving error on Configuration::get('PS_OS_PAYMENT'). So waiting for this bug resolve.
+
+
+---------------------------------
+# Change Log V2.1.0 to 2.2.0
+---------------------------------
+
+## Improved/changed features:
+
+[*]FO : Payment flow of the module is improved.now payment flow from wallet to wallet is changed as mangopay does.
+[*]FO : Some issues(unlink temp file, id seller correction on payment page) resolved
+[*]FO : seller can fill his bankdetails
+[*]FO : seller can cash out his wallet money to his bank
+[*]BO : admin can fill his bank details
+[*]BO : admin cash out his money to his banks
+[*]BO : admin can fill seller's bank details
+[*]BO : admin can cash out seller's money to sellers banks
+[*]FO : seller can refund his transfers from order's details page of marketplace
+[*]BO : admin can refund all the transfers and also refund all the pay Ins
+[*]BO : admin can set configuration for the seller's functionalities seller cash out,  Seller refund, seller's bank details
+[*]BO : admin can choose when the money form buyer's wallet to seller's and admin wallet will transfer (payment accepted 				time or delivered time)
+[*]FO : Payment PayIns by Direct debit and By web interface are implemented
+[*]BO : admin can choose which type of  PayIn will be run (Direct or Web Interface) on the site.
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.
+
+
+
+---------------------------------
+# Change Log V2.0.1 to V2.0.2
+---------------------------------
+
+## Fixed bugs:
+
+- [-]FO :  [MAJOR] After adding Voucher functionality in V2.0.1 , splitting codes moved from order confirmation hook to 			payment.php but splitting code is also required on success.php whent payment confirm by 3D Secure page, So the 				Voucher code added on success.php page
+- [-]FO :  Split code moved to Marketplace V2.1.0
+

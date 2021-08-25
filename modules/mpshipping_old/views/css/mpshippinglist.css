@@ -1,0 +1,635 @@
+/**
+* 2010-2020 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2020 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+@media only screen and (max-width:768px) {
+    #wk_shipping_list {
+        overflow: scroll;
+    }
+    #impact_price_block {
+        left: 10%;
+        right: 10%;
+        top: 20%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    #impact_price_block {
+        left: 30%;
+        right: 30%;
+        top: 20%;
+    }
+}
+
+.shipping_heading {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.shipping_heading .left_heading {
+    float: left;
+    width: 50%;
+    padding: 5px 0 5px 0;
+}
+
+.shipping_heading .left_heading h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.shipping_heading .right_links {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.home_link a {
+    display: inline-block;
+}
+
+#wk_shipping_list {
+    float: left;
+    width: 100%;
+}
+
+#left_column {
+    display: none !important;
+}
+
+#right_column {
+    display: none !important;
+}
+
+#center_column {
+    width: 100% !important;
+}
+
+.shipping_list_container {
+    width: 100%;
+}
+
+.shipping_list_container .box-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.header_link h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 45%;
+}
+
+.plancontent_info {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.listheader {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid;
+    border-image: none;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    color: #F69415;
+    font-size: 13px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 12px;
+    text-align: center;
+    width: 22%;
+}
+
+.listcontent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-top: medium none;
+    color: #333333;
+    font-size: 13px;
+    height: 47px;
+    padding-top: 12px;
+    text-align: center;
+    width: 22%;
+}
+
+#shipping_detail:hover {
+    z-index: 1000;
+}
+
+
+/*.shippinglistcontent:hover {
+    background-color: #B5B5B5;
+}*/
+
+#add_new_shipping:hover {
+    font-weight: bold;
+}
+
+.shipping_add {
+    float: left;
+    width: 100%;
+}
+
+.lable {
+    color: #585A69;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0 0;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 25%;
+}
+
+.input_label {
+    width: 73%;
+}
+
+#carrier_wizard.swMain ul.anchor {
+    clear: both;
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin: 0 0 10px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#carrier_wizard.swMain ul.nbr_steps_4.anchor li {
+    width: 25%;
+}
+
+#carrier_wizard.swMain ul.anchor li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#carrier_wizard.swMain ul li {
+    color: #585A69;
+    list-style: none outside none;
+    padding: 4px 7px;
+}
+
+#carrier_wizard.swMain ul.anchor li a.selected {
+    background: url("../img/steps-carrierwizard.png") no-repeat scroll right -32px #404956;
+    color: #F8F8F8;
+    cursor: text;
+    cursor: pointer;
+}
+
+#carrier_wizard.swMain ul.anchor li a {
+    display: block;
+    height: 32px;
+    margin: 0;
+    outline-style: none;
+    overflow: hidden;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    z-index: 99;
+}
+
+label:after {
+    clear: both;
+}
+
+#carrier_wizard.swMain ul.anchor li a .stepNumber {
+    color: #FFFFFE;
+    float: left;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    width: 24px;
+}
+
+#carrier_wizard.swMain ul.anchor li a .stepDesc {
+    display: table-cell;
+    font-size: 15px;
+    height: 32px;
+    line-height: 13px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#carrier_wizard.swMain ul.anchor li a.disabled {
+    background: url("../img/steps-carrierwizard.png") no-repeat scroll right -64px #CBCCCB;
+    color: #878787;
+    cursor: text;
+}
+
+#carrier_wizard.swMain .stepContainer {
+    float: left;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#carrier_wizard.swMain div.actionBar {
+    clear: both;
+    display: block;
+    height: 37px;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    z-index: 88;
+}
+
+#carrier_wizard.swMain .msgBox {
+    background-color: #FFFFDD;
+    border: 1px solid #FFD700;
+    color: #5A5655;
+    display: none;
+    float: left;
+    margin: 4px 0 0 5px;
+    min-width: 200px;
+    padding: 5px;
+    position: relative;
+    z-index: 999;
+}
+
+#carrier_wizard.swMain .msgBox .content {
+    float: left;
+    padding: 0;
+}
+
+#carrier_wizard.swMain .msgBox .close {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    color: #CCCCCC;
+    display: block;
+    float: right;
+    margin: 0 0 0 5px;
+    outline-style: none;
+    padding: 0 2px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.loader {
+    background-image: url("../img/loader.gif");
+    color: #FFFFFF;
+    display: none;
+    height: 128px;
+    margin: 450px 0 0 440px;
+    width: 128px;
+}
+
+#carrier_wizard.swMain .buttonFinish {
+    background-color: #5A5655;
+    border: 1px solid #5A5655;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    margin: 5px 10px 0 3px;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+#carrier_wizard.swMain .buttonDisabled {
+    background-color: #CCCCCC !important;
+    border: 1px solid #CCCCCC !important;
+    color: #F8F8F8 !important;
+    cursor: text;
+}
+
+#carrier_wizard.swMain .buttonNext {
+    background-color: #5A5655;
+    border: 1px solid #5A5655;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    margin: 5px 3px 0;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+#carrier_wizard.swMain .buttonPrevious {
+    background-color: #5A5655;
+    border: 1px solid #5A5655;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    margin: 5px 3px 0;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+#content .error {
+    background: url("../img/icon-cancel.png") no-repeat scroll 6px 6px #FFBABA;
+    border: 1px solid #CC0000;
+    color: #D8000C;
+}
+
+p.preference_description {
+    clear: both;
+    color: #7F7F7F;
+    font-family: Georgia, Arial, 'sans-serif';
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    width: 500px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#carrier_wizard.swMain ul.anchor li a.done,
+#carrier_wizard.swMain ul.anchor li.done.selected a.selected {
+    background: url("../img/steps-carrierwizard.png") no-repeat scroll right 0 #3F4856;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#carrier_wizard.swMain ul.anchor li a.done .stepDesc {
+    color: #A9B6C8;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.pricezoneheader {
+    color: #585A69;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0 0;
+    /* text-align: center; */
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.lable {
+    color: #585A69;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0 0;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 25%;
+}
+
+.left {
+    float: left;
+}
+
+#carrier_wizard .ranges_not_follow {
+    margin-bottom: 0;
+    width: 300px;
+}
+
+#content .warn {
+    background: url("../../../img/admin/icon-attention.png") no-repeat scroll 6px 6px #FEEFB3;
+    border: 1px solid #9E6014;
+    color: #9E6014;
+}
+
+#content .conf,
+#content .warn,
+#content .error {
+    border-radius: 3px;
+    color: #383838;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 10px;
+    min-height: 28px;
+    padding: 13px 5px 5px 40px;
+}
+
+#step_carrier_impact_country select {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: top;
+}
+
+#newbody {
+    background-color: #333333;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    overflow-x: auto;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+}
+
+#impact_price_block {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    min-height: 219px;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: fixed;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10000;
+}
+
+.close_container {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#range_info_detail {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.range_head {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.range_data {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.range_head_left {
+    float: left;
+    width: 50%;
+}
+
+.range_head_right {
+    float: left;
+    width: 50%;
+}
+
+.range_add {
+    float: left;
+    width: 100%;
+}
+
+#impactprice_button,
+#range_submit {
+    padding: 5px;
+}
+
+.new_range {
+    float: left;
+    width: 100%;
+}
+
+.shippingedit {
+    background: none repeat scroll 0 0 #6f6f6f;
+    color: #fff;
+    outline: medium none;
+    padding: 4px 5px;
+}
+
+.shippingedit:hover {
+    background: none repeat scroll 0 0 #333333;
+    color: #fff;
+}
+
+.shipping_checkbox {
+    float: left;
+    padding: 5px;
+    width: 4%;
+}
+
+.floatleft {
+    float: left;
+}
+
+.lang_presta {
+    color: #000 !important;
+    padding: 5px 2px;
+}
+
+.lang_presta:hover {
+    background-color: #2fb5d2;
+}
+
+#addshippingmethod .dropdown-menu {
+    margin-left: -50%;
+    height: 375px;
+    overflow-y: auto;
+}
+
+.loading_overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+}
+
+.loading-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+input.wk-form-control.form-control {
+    background: #999999 !important;
+    color: #999999 !important;
+}
+
+#addshippingmethod input.form-control {
+    min-width: 80px;
+}
+
+.wk-mp-block div.dataTables_filter {
+    text-align: center;
+}
+
+.wk-mp-block .btn-primary-outline {
+    background-color: #fff !important;
+    border: 1px solid #2fb5d2 !important;
+    color: #2fb5d2 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 10px 12px !important;
+}

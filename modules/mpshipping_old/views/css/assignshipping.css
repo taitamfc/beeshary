@@ -1,0 +1,23 @@
+#assign_shipping_form{
+	float:left;
+	width:100%;
+}
+.headingclass{
+	font-style:italic;
+	color:#969614;
+	margin-bottom:25px;
+}
+#uniform-shipping_method{
+	display:inline-block !important;
+}
+.assign_shipping{
+margin-bottom: 5px;
+}
+.wk_shipping_data {
+	width:100%;
+	margin-bottom:5px;
+}
+.wk_shipping_name {
+	float:left;
+	padding:2px 4px;
+}

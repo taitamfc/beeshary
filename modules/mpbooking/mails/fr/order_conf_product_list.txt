@@ -1,0 +1,53 @@
+{foreach $list as $product}
+	{if isset($product.isBookingProduct) && $product.isBookingProduct}
+		{if isset($product.booking_product_data) && $product.booking_product_data}
+      		{foreach from=$product.booking_product_data item=bookingProduct}
+				{$product['reference']}
+
+				{$product['name']}
+
+				{$bookingProduct['unit_feature_price']}
+				{capture "productPriceBlock"}{hook h='displayProductPriceBlock' product=$product type="unit_price"}{/capture}{$smarty.capture.productPriceBlock|strip_tags|trim}
+
+				{if $bookingProduct['booking_type'] == 1}
+					{$bookingProduct['date_from']|date_format:"%e %b, %Y"}
+					{l s='To' mod='psbooking'}
+					{$bookingProduct['date_to']|date_format:"%e %b, %Y"}
+				{else}
+					{$bookingProduct['date_from']|date_format:"%e %b, %Y"}
+					{$bookingProduct['time_from']} - {$bookingProduct['time_to']}
+				{/if}
+				[{l s='Quantity' mod='psbooking'} - {$bookingProduct['quantity']}]
+
+				{$bookingProduct['total_range_feature_price_formated']}
+
+				{foreach $product['customization'] as $customization}
+					{$customization['customization_text']}
+
+					{if count($product['customization']) > 1}
+						{$product['customization_quantity']}
+					{/if}
+				{/foreach}
+			{/foreach}
+		{/if}
+	{else}
+		{$product['reference']}
+
+		{$product['name']}
+
+		{$product['price']}
+		{capture "productPriceBlock"}{hook h='displayProductPriceBlock' product=$product type="unit_price"}{/capture}{$smarty.capture.productPriceBlock|strip_tags|trim}
+
+		{$product['quantity']}
+
+		{$product['price']}
+
+		{foreach $product['customization'] as $customization}
+			{$customization['customization_text']}
+
+			{if count($product['customization']) > 1}
+				{$product['customization_quantity']}
+			{/if}
+		{/foreach}
+	{/if}
+{/foreach}

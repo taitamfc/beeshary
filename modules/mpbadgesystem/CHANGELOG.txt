@@ -1,0 +1,13 @@
+Marketplace Badge System V5.0.0
+
+##########################################################################
+Change Log : Marketplace Badge System V4.0.0 to V5.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+##########################################################################
+
+Compatible:
+- Compatible with MarketPlace V5.0.0
+- Compatible with Prestashop V1.7
+
+New Features Added
+- Seller's badge will disp[lay on seller profile page
+- Admin can allow to display bagdes on product page and seller profile page

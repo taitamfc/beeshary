@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_60debf35285ee1eddfb29a2ae2ce2827'] = 'Marketplace Produits Liés';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_c7acc41f6bf6844db8fdbabb956ced8e'] = 'Afficher tous les produits  liés du marketplace';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_a40de094ebb292b72fa2a4f3a1cf1209'] = 'Tous les produits ';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_826f84859bb69cf0ab0fe0865036ddcd'] = 'Produits achetés';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_254f642527b45bc260048e30704edb39'] = 'Configuration';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_c006f513fecb7a448b18af9236015ca9'] = 'Afficher le curseur de défilement par';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_b344debf88d0e94e3b5c57e6e645de09'] = 'Marketplace Produit lié affichera';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_453f2a71840c444fba737ea2dc0af07b'] = 'Montrer tous les produits du vendeur';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activé';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactivé';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_107c86a252ad8d5bc1dac0babf0520b1'] = 'Si Non, afficher seulement les produits du vendeur actuelle';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_20dddb7f0d19f7f9a74d90175aef6da0'] = 'Nombre de Produits';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_a47b85e5effc17d7f358bff5509dc5b6'] = 'Entrer 0 pour tous les produits';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_c9cc8cce247e49bae79f15173ce97354'] = 'Sauver';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_7b71aebda99445ca7752084bf8235a1a'] = 'Nombre de produits sont invalide';
+$_MODULE['<{mprelatedproduct}prestashop>mprelatedproduct_c888438d14855d7d96a2724ee9c306bd'] = 'Paramètres mis à jour';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_bec5a3c9f5515cc6d8bab7f379fbb12a'] = 'Aussi voir les produits liés';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_4a43815134b7bb5d61a4f12ed7ccf85a'] = 'Aussi voir les produits liés achetés';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_c91e4ee170226d66e90f99ba917e4c20'] = 'Vue Rapide';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_69d08bd5f8cf4e228930935c3f13e42f'] = ' en stock';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_b55197a49e8c4cd8c314bc2aa39d6feb'] = 'Rupture de stock';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_cb3c718c905f00adbb6735f55bfb38ef'] = 'Produit disponible avec différents options';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nouveau';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_bb63f16d5ebfcfa8a651642a7bb2ea5c'] = 'Soldes!';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_63a78ed4647f7c63c2929e35ec1c95e3'] = 'Personnalisez';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_d3da97e2d9aee5c8fbe03156ad051c99'] = 'En plus';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_03de921a8ea82897e13d33d66c28b4db'] = 'Seulement en ligne';
+$_MODULE['<{mprelatedproduct}prestashop>related_product_ca2bf12169883f4982d8fe34b7e3c618'] = 'Prix diminué !';

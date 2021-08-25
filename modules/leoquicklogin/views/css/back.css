@@ -1,0 +1,73 @@
+/**
+ * 2007-2017 Leotheme
+ *
+ * NOTICE OF LICENSE
+ *
+ * Leo Quick Login And Social Login For Prestashop 1.7 
+ *
+ * DISCLAIMER
+ *
+ *  @Module Name: Leo Quick Login
+ *  @author    leotheme <leotheme@gmail.com>
+ *  @copyright 2007-2017 Leotheme
+ *  @license   http://leotheme.com - prestashop template provider
+ */
+
+.leoquicklogin-tablist a:hover, .leoquicklogin-tablist li.active a {
+    border-bottom: medium none !important;
+    border-top: 3px solid #25b9d7 !important;
+}
+
+.leoquicklogin-tablist a:focus {
+    border-bottom: medium none !important;
+    border-top: 3px solid #25b9d7 !important;
+}
+
+#leoquicklogin-setting .panel {
+    display: none;
+}
+#leoquicklogin-setting .panel.active {
+    display: block;
+}
+
+#leoquicklogin-setting .panel {
+    border-radius: 0 0 5px 5px !important;
+}
+
+.nav-tabs.leoquicklogin-tablist a:focus {
+    outline: medium none;
+}
+
+#subtab-AdminleoquickloginReviews
+{
+	position: relative;
+}
+
+#subtab-AdminleoquickloginReviews .notification-container
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	line-height: .875rem;
+	height: .875rem;
+	vertical-align: middle;
+	
+	color: #fff;
+	background: #fb0;
+	font-size: .5625rem;
+	padding: 0 .25rem;
+	border-radius: .625rem;
+}
+
+#subtab-AdminleoquickloginManagement.has-review:after
+{
+	content: "";
+	position: absolute;
+	top:0;
+	right: 0;
+	background: #fb0;
+	border-radius: .625rem;
+	height: 10px;
+	width: 10px;
+}

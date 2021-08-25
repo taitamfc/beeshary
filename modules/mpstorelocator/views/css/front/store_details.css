@@ -1,0 +1,294 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+#wk_store_locator {
+    font-family: 'Open Sans', sans-serif;
+    color: #393939;
+}
+
+.wk-margn-3 {
+    margin: 3px;
+}
+
+.wk-store-heading {
+    font-size: 16px;
+    font-weight: Bold;
+}
+
+#wrapper_header_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+#wk_store_content {
+    margin-top: 30px;
+    background: white;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    /* border: 1px solid #eee;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, .11); */
+}
+
+#wrapper_content_right {
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+
+.wkstore-name {
+    color: #FFC709 !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wkstore-products ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px !important;
+}
+
+.wkstores-heading {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.wkstore-details-heading {
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+.wk_store>div {
+    width: 100%;
+}
+
+.wk_store table td {
+    padding: 4px !important;
+    vertical-align: top !important;
+}
+
+.wkstore_hours {
+    display: none;
+}
+
+#wrapper_content .wk_store {
+}
+.wk_store_details .wk_store {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#wrapper_content .wk_full_store {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#wrapper_content .wk_store_details,
+body#product .wk_store_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.padding-2 {
+    padding: 2px 0;
+}
+
+#wk_store_details_page {
+    top: 40px !important;
+    padding: 10px !important;
+    margin: 10px;
+    background: white;
+    left: 0px !important;
+    font-size: 13px;
+    border-width: 1px;
+    border-color: #cfcfcf;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.11);
+}
+
+html,
+body,
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+#wrapper_header {
+    border: none;
+    padding: 15px !important;
+    background: #ffde73;
+    margin-bottom: 0px;
+}
+
+.wkstore-btn {
+    border-radius: 2px;
+    font-size: 14px;
+    border-width: 1px;
+    /* margin: 20px 0 10px; */
+    background: #FFC709;
+    border: 1px solid transparent;
+    color: white;
+    min-width: 120px;
+}
+
+
+
+.wkstore-btn:hover,
+.wkstore-btn:focus {
+    color: white;
+    background: #0e6ce4;
+}
+
+.wk_store .wkstore-btn {
+    margin: 20px 0 10px !important;
+}
+
+#wrapper_content {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+
+#wrapper_header_right .form-control {
+    border-radius: 5px;
+}
+
+#wrapper_header_right .btn.wkstore-btn {
+    margin-top: 20px;
+}
+
+#module-wkstorelocator-storedetails .wk-store-hour table td,
+table th {
+    padding: 4px !important;
+}
+
+.padding-top-15 {
+    padding: 15px 0;
+}
+
+.wk-border-left {
+    border-left: 1px solid #dbdbdb !important;
+}
+
+#wk_store_products .product-miniature .thumbnail-container {
+    position: relative;
+    margin-bottom: 1.563rem;
+    height: 298px;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.wk_store_details > .wk-border-none {
+    border: 0px;
+}
+#wk_store_products .product-miniature .product-description {
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    width: 99.99%;
+    bottom: 0;
+    height: 48px;
+    border-top: 1px solid #dbdbdb;
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, .11);
+}
+
+#wk_store_products .product-miniature .product-price-and-shipping {
+    color: #232323;
+    font-weight: 700;
+    text-align: center;
+}
+
+#wk_store_products .product-miniature .product-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+
+#wk_store_products .product-miniature .product-title a {
+    color: #7a7a7a;
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+}
+
+#wk_store_products a.thumbnail:hover,
+#wk_store_products a.thumbnail:focus {
+    border-color: #dbdbdb;
+}
+
+#wk_store_products .img-thumbnail,
+#wk_store_products .thumbnail {
+    border: none;
+}
+
+#wk_store_products {
+	width: 100%;
+}
+
+#products_ul li:hover {
+    background: #e4f7e4 !important;
+}
+
+#products_ul li {
+    padding: 5px 10px 5px;
+}
+
+#products_ul {
+	position: relative;
+}
+
+#products_ul ul {
+    border: 1px solid #dbdbdb;
+    position: absolute;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+
+.wk_store_products_container #nb_page_items {
+    padding: 0 1rem !important;
+    height: 27px !important;
+}
+
+#wk-store-timing tr:first-child td {
+    padding: 0px 4px !important;
+}
+
+.wk_store .wkstore-name {
+    padding: 4px;
+}
+
+
+
+/************Modal Box *********/
+.pac-container {
+    z-index: 10000 !important;
+}
+
+
+.wk-padding-right-15 {
+    padding-right: 15px;
+}

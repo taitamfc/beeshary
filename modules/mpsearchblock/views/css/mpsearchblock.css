@@ -1,0 +1,297 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+/* ---- css for mpsearchblock.tpl ---- */
+#wk_search_wrapper {
+    /*padding-top: 50px;*/
+}
+#wk_search_wrapper .pull-right {
+    float: right;
+}
+
+#wk_search_box {
+    background-color: #ffffff;
+}
+.wk_search_sugg_wrapper
+{
+    position: absolute;
+    left: 0;
+    top: 44px;
+    float: left;
+    width: 100%;
+    z-index: 1000;
+    /*max-height: 430px;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+}
+.wk_search_sugg_cont
+{
+    border-right: 1px solid #D2D2D2;
+    max-height: 426px;
+    min-height: 162px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.no_margin
+{
+    margin: 0px;
+}
+.no_padding
+{
+    padding: 0px;
+}
+.create_block
+{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.font_style
+{
+    font-size: 13px;
+    font-family: arial;
+}
+.wk_search_heading
+{
+    color: #327082;
+    font-weight: bold;
+    margin-top: 9px;
+}
+.hr_style
+{
+    margin: 0px;
+    color: #D2D2D2;
+}
+.wk_search_cont
+{
+    padding: 0px;
+    margin-top: 5px;
+    display: none;
+}
+.wk_search_cont p
+{
+    color: #252525;
+    font-weight: bold;
+}
+
+.wk_sugg_option
+{
+    margin-bottom: 3px;
+    text-transform: capitalize;
+    color: #252525;
+}
+.wk_sugg_option:hover, .wk_sugg_option:active, .wk_sugg_option:focus
+{
+    background-color: #327082;
+    color: white;
+    cursor: pointer;
+}
+
+.wk_option_a
+{
+    width: 100%;
+    display: block;
+    color: #252525;
+    padding-left: 9px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#header a.wk_option_a:hover, #header a.wk_option_a:active, #header a.wk_option_a:focus
+{
+    outline: none;
+    color: white;
+    background-color: #327082;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.wk_search_cat_cont
+{
+    padding: 0px;
+    margin-top: 5px;
+}
+.wk_search_cat_cont label
+{
+    text-align: left;
+    width: 100%;
+}
+.wk_search_type
+{
+    cursor: pointer;
+}
+.wk_option_hide
+{
+    display: none;
+}
+.more_opt
+{
+    color: #327082;
+    font-size: 10px;
+    font-weight: normal;
+    cursor: pointer;
+    display: none;
+}
+/* ---- css for mpsearchblock.tpl ---- */
+
+
+/* ---- css for search_result.tpl ---- */
+.searchResultWrapper {
+    margin-bottom: 20px; }
+    .searchResultWrapper .pull-right {
+        float: right; }
+    .searchResultWrapper .pull-left {
+        float: left; }
+
+.searchCatCont {
+    background-color: #ffffff;
+}
+.margin-top-15
+{
+    margin-top: 15px;
+}
+.category_header
+{
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cat_toggle_btn
+{
+    cursor: pointer;
+    color: white;
+}
+.cat_header_font
+{
+    font-size: 17px;
+    color: white;
+    font-family: Droid Sans;
+    font-weight: 400;
+}
+.cat_container
+{
+    border: 1px solid #CCCCCC;
+    padding: 20px 10px;
+}
+.result_block
+{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+.result_img
+{
+    height: 170px;
+    background-color: none !important;
+}
+
+.result_name
+{
+    margin-top: 10px;
+    color: #333333;
+    font-family: open sans;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.result_desc
+{
+    text-align: justify;
+    color: #777777;
+    font-family: arial;
+    font-size: 14px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.result_price
+{
+    color: #327082;
+    font-family: arial;
+    font-size: 23px;
+    margin-bottom: 20px;
+    clear: both;
+}
+.result_mp_view, .wk_view_all
+{
+    background: linear-gradient(to bottom, #43b754 0%, #41b757 2%, #41b854 4%, #43b756 6%, #41b354 38%, #44b355 40%, #45af55 66%, #41ae53 74%, #42ac52 91%, #41ae55 94%, #43ab54 96%, #42ac52 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #399a49 #247f32 #1a6d27 #399a49;
+    border-image: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: capitalize;
+    text-transform: none;
+    float: left;
+}
+
+.result_mp_view:hover , .result_mp_view:focus , .result_mp_view:active
+{
+    color: white;
+    outline: none;
+    text-transform: capitalize;
+    text-transform: none !important;
+}
+.margin-btm-20
+{
+    margin-bottom: 20px !important;
+}
+.wk_view_all
+{
+    font-size: 17px;
+    margin-left: 15px;
+}
+.wk_hide_result
+{
+    display: none;
+}
+.result_hvsub_name
+{
+    margin-top: 10px;
+    color: #333333;
+    font-family: open sans;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.result_sub_name
+{
+    color: #333333;
+    font-family: open sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/* ---- css for search_result.tpl ---- */

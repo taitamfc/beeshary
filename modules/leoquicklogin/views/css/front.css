@@ -1,0 +1,588 @@
+/**
+ * 2007-2017 Leotheme
+ *
+ * NOTICE OF LICENSE
+ *
+ * Leo Quick Login And Social Login For Prestashop 1.7 
+ *
+ * DISCLAIMER
+ *
+ *  @Module Name: Leo Quick Login
+ *  @author    leotheme <leotheme@gmail.com>
+ *  @copyright 2007-2017 Leotheme
+ *  @license   http://leotheme.com - prestashop template provider
+ */
+/*******************DONGND CSS FOR QUICKLOGIN FORM BEGIN*****************************/
+
+.leo-dropdown-wrapper
+{
+	display: block;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	padding: 20px 20px 0 20px;
+	opacity: 0;
+	visibility: hidden;
+}
+.dropdown .leo-dropdown-wrapper
+{
+	margin-top: 50px;
+}
+
+.dropup .leo-dropdown-wrapper
+{
+	margin-bottom: 50px;
+}
+.dropdown.open .leo-dropdown-wrapper, .dropup.open .leo-dropdown-wrapper
+{
+	opacity: 1;
+	visibility: visible;
+}
+
+.dropdown.open .leo-dropdown-wrapper
+{
+	margin-top: 10px;
+}
+
+.dropup.open .leo-dropdown-wrapper
+{
+	margin-bottom: 10px;
+}
+.leo-form
+{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	
+}
+
+.leo-quicklogin-form
+{
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	max-width: 600px;
+	
+	/*
+	height: 100%;
+	width: 100%;
+	*/
+	/*
+	max-width: 600px;
+	max-height: 1000px;
+	*/
+}
+
+.leo-quicklogin-form.html
+{
+	max-width: 100%;
+}
+
+.lql-form-bt
+{
+	width: 100%;
+}
+
+.leo-quicklogin-form.update
+{
+	/*
+	max-width: 7000px;
+	max-height: 10000px;
+	*/
+}
+.leo-form.leo-form-inactive
+{
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	top: 0;	
+}
+
+.leo-form.leo-form-active
+{
+	/*
+	transform: translateX(0);
+	-moz-transform: translateX(0));
+	-webkit-transform: translateX(0);
+	-o-transform: translateX(0);
+	-ms-transform: translateX(0);
+	
+	visibility: visible;
+	opacity: 1;
+	*/
+}
+
+.leo-login-form.leo-form-inactive
+{
+	right: 0;
+	transform: translateX(-100%);
+	-moz-transform: translateX(-100%));
+	-webkit-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+}
+
+.leo-register-form.leo-form-inactive
+{
+	left: 0;
+	transform: translateX(100%);
+	-moz-transform: translateX(100%));
+	-webkit-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+}
+.leo-form.full-width
+{
+	width: 100%;
+}
+
+.leo-login-form
+{
+	
+}
+
+.leo-resetpass-form
+{
+	display: none;
+	
+	/*
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	margin-top: -160px;
+	*/
+}
+
+.leo-resetpass-form.active
+{
+	/*
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+	*/
+	/*
+	margin-top: 10px;
+	*/
+}
+
+.lql-callregister, .lql-calllogin
+{
+	display: none;
+}
+
+.leo-form.full-width .lql-callregister, .leo-form.full-width .lql-calllogin
+{
+	display: block;
+}
+
+.leoquicklogin-loading, .leoquicklogin-icon
+{
+	display: none;
+}
+.lql-form-bt .leoquicklogin-icon
+{
+	margin: 0;
+}
+.leoquicklogin-cssload-speeding-wheel {
+	
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation: cssload-spin 800ms infinite linear;
+		-o-animation: cssload-spin 800ms infinite linear;
+		-ms-animation: cssload-spin 800ms infinite linear;
+		-webkit-animation: cssload-spin 800ms infinite linear;
+		-moz-animation: cssload-spin 800ms infinite linear;
+}
+
+
+
+@keyframes cssload-spin {
+	100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+	100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+	100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+	100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.lql-form-content input
+{
+	border: 1px solid transparent;
+}
+
+.lql-form-content .leo-has-error input
+{
+	border-color: red;
+}
+
+.leo-form-chk.leo-has-error{
+	border:1px solid red;
+}
+
+.lql-form-mesg
+{
+	display: none;
+	margin: 0;
+	
+	
+}
+
+.lql-form-mesg label
+{
+	text-align: left;
+	
+}
+
+.leo-login-title,.leo-register-title
+{
+	margin-bottom: 20px;
+}
+ 
+.full-width .leo-login-title .title-both, .leo-login-title .title-only
+{
+	display: none;
+}
+
+.full-width .leo-login-title .title-only, .leo-login-title .title-both
+{
+	display: block;
+}
+
+/*******************DONGND CSS FOR QUICKLOGIN FORM END*****************************/
+
+/*******************DONGND CSS FOR QUICKLOGIN MODAL BEGIN*****************************/
+
+/*******************DONGND CSS FOR QUICKLOGIN MODAL END*****************************/
+
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR BEGIN*****************************/
+body.leoquicklogin-active-slidebar {
+	overflow: hidden;
+	padding-right: 17px;
+}
+
+body.lql_is_gen_rtl.leoquicklogin-active-slidebar {
+	padding-right: 0px;
+	padding-left: 17px;
+}
+
+body.leoquicklogin-active-push
+{
+	
+}
+
+body main
+{	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.leoquicklogin-mask {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	background-color: #000;
+	opacity: 0;
+	transition: opacity 0.8s, width 0s 0.8s, height 0s 0.8s;
+	-webkit-transition: opacity 0.8s, width 0s 0.8s, height 0s 0.8s;
+	-moz-transition: opacity 0.8s, width 0s 0.8s, height 0s 0.8s;
+	-ms-transition: opacity 0.8s, width 0s 0.8s, height 0s 0.8s;
+	-o-transition: opacity 0.8s, width 0s 0.8s, height 0s 0.8s;
+}
+
+.leoquicklogin-mask.active {
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+}
+.leoquicklogin-slidebar-wrapper
+{
+	max-width: 600px;
+	margin: 0 auto;
+	
+}
+.leoquicklogin-slidebar
+{
+	/*
+	width: 100%;
+	height: 100%;
+	*/
+	z-index: 999;
+	position: fixed;
+	background: #fff;
+	padding: 20px;
+	/*
+	-webkit-transition: -webkit-transform 0.3s linear;
+	transition: transform 0.3s linear;
+	-moz-transition: -moz-transform 0.3s linear;
+	-ms-transition: -ms-transform 0.3s linear;
+	-o-transition: -o-transform 0.3s linear;
+	*/
+	-webkit-transition: all 0.3s ease; 
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease; 
+	
+	/*
+	opacity: 0;
+	*/
+	visibility: hidden;
+	display: none;
+}
+
+.leoquicklogin-slidebar.slidebar_left, .leoquicklogin-slidebar.push_slidebar_left
+{
+	display: block;
+	height: 100%;
+	/* opacity: 1; */
+	top: 0;
+	left: 0;
+	transform: translateX(-100%);
+	-moz-transform: translateX(-100%));
+	-webkit-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+}
+
+.leoquicklogin-slidebar.slidebar_right, .leoquicklogin-slidebar.push_slidebar_right
+{
+	display: block;
+	height: 100%;
+	/* opacity: 1; */
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+}
+
+.leoquicklogin-slidebar.slidebar_left.active, .leoquicklogin-slidebar.push_slidebar_left.active, .leoquicklogin-slidebar.slidebar_right.active, .leoquicklogin-slidebar.push_slidebar_right.active
+{
+	/* visibility: visibility; */
+	/*
+	opacity: 1;
+	*/
+	visibility: visible;
+	transform: translateX(0);
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-o-transform: translateX(0);
+	-ms-transform: translateX(0);
+}
+
+.leoquicklogin-slidebar.slidebar_top, .leoquicklogin-slidebar.push_slidebar_top
+{
+	display: block;
+	width: 100%;
+	/* opacity: 1; */
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	-moz-transform: translateY(-100%));
+	-webkit-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+}
+
+.leoquicklogin-slidebar.slidebar_bottom, .leoquicklogin-slidebar.push_slidebar_bottom
+{
+	display: block;
+	width: 100%;
+	/* opacity: 1; */
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+}
+
+.leoquicklogin-slidebar.slidebar_top.active, .leoquicklogin-slidebar.push_slidebar_top.active, .leoquicklogin-slidebar.slidebar_bottom.active, .leoquicklogin-slidebar.push_slidebar_bottom.active
+{
+	visibility: visible;
+	/*
+	opacity: 1;
+	*/
+	transform: translateY(0);
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+}
+
+.leoquicklogin-slidebar-top
+{
+	margin-bottom: 10px;
+}
+
+.leoquicklogin-slidebar-top, .leoquicklogin-slidebar-bottom
+{
+	text-align: right;
+	display: none;
+}
+
+.leoquicklogin-slidebar.push_slidebar_left .leoquicklogin-slidebar-top, .leoquicklogin-slidebar.slidebar_left .leoquicklogin-slidebar-top, 
+.leoquicklogin-slidebar.push_slidebar_right .leoquicklogin-slidebar-top, .leoquicklogin-slidebar.slidebar_right .leoquicklogin-slidebar-top, 
+.leoquicklogin-slidebar.push_slidebar_bottom .leoquicklogin-slidebar-top, .leoquicklogin-slidebar.slidebar_bottom .leoquicklogin-slidebar-top
+{
+	display: block;
+}
+
+.leoquicklogin-slidebar.push_slidebar_top .leoquicklogin-slidebar-bottom, .leoquicklogin-slidebar.slidebar_top .leoquicklogin-slidebar-bottom
+{
+	display: block;
+}
+/*******************DONGND CSS FOR QUICKLOGIN SLIDEBAR END*****************************/
+/*******************DONGND CSS FOR SOCIALLOGIN BEGIN *****************************/
+.lql-social-login
+{
+	margin-bottom: 10px;
+}
+.lql-social-modal-mesg
+{
+	display: none;
+	text-align: center;
+}
+.lql-social-modal-mesg.active
+{
+	display: block;
+}
+.lql-social-modal .modal-dialog
+{
+	margin: 250px auto;
+}
+
+.lql-social-modal-mesg.error-email i, .lql-social-modal-mesg.error-login i
+{
+	color: #f0ad4e
+}
+.lql-social-modal-mesg.success i
+{
+	color: #5cb85c
+}
+
+.lql-social-modal .modal-content
+{
+	border-radius: 0;
+}
+
+.lql-social-modal-mesg.active span
+{
+	display: block;
+	border-top-color: #414141;
+	border-bottom-color: #414141;
+}
+.social-login-bt
+{
+	color: #fff;
+	border-color: transparent;
+	margin-top: 5px;
+}
+.facebook-login-bt, .facebook-login-bt:hover, .facebook-login-bt:active, .facebook-login-bt:focus
+{
+	background: #4C68A2;
+}
+.google-login-bt, .google-login-bt:hover, .google-login-bt:active, .google-login-bt:focus
+{
+	background: #4285f4;
+}
+.twitter-login-bt, .twitter-login-bt:hover, .twitter-login-bt:active, .twitter-login-bt:focus
+{
+	background: #53d1f8;
+}
+
+.show-bt-txt .social-login-bt span
+{
+	margin-right: 10px;
+}
+/*******************DONGND CSS FOR SOCIALLOGIN END *****************************/
+
+/******************DONGND CSS FOR TAB NAVIGATION BEGIN ***************/
+.lql-action-bt
+{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.lql-action
+{
+	overflow: auto;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.lql-action.lql-inactive
+{
+	display: none;
+}
+
+.lql-action.lql-active
+{
+	display: block;
+}
+
+.lql-bt
+{
+	color: #ddd;
+	cursor: pointer;
+}
+
+.lql-bt.lql-active
+{
+	color: #000;
+}
+/******************DONGND CSS FOR TAB NAVIGATION END ***************/
+
+.leo-quicklogin-nav{
+	height: 48px;
+	line-height: 48px;
+}
+
+.leo-quicklogin-nav i{
+	line-height: normal !important;;
+}

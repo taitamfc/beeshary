@@ -1,0 +1,11 @@
+
+[{shop_url}] 
+
+Hi {firstname} {lastname},
+
+Admin has generated an invoice against {order_name}
+Please find attachment of invoice. 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

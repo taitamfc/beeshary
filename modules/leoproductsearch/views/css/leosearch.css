@@ -1,0 +1,148 @@
+/* block top search */
+#search_block_top {
+	position:absolute;
+	right: 26%;
+	top: 34px;
+}
+#search_block_top p {padding:0;}
+#search_block_top #search_query_top {
+	padding:0 5px;
+	height:23px;
+	width:300px;/* 310 */
+	border:1px solid #666;
+	border-right: 0 !important;
+	color:#666;
+	background:url(img/bg_search_input.png) repeat-x 0 0 #fff;
+	float: left;
+}
+
+#search_block_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(img/bg_search_submit.png) repeat-x 0 0 #101010;
+	float: left;
+	height: 25px;
+}
+
+form#searchbox{padding-top:5px}
+form#searchbox label{color:#333;margin-bottom:1px}
+form#searchbox input#leo_search_query_block{
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius:3px !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+	height: 18px;
+	margin-top:10px;
+}
+form#searchbox input#search_button{padding: 1px 4px;}
+
+.list-cate-wrapper
+{
+	position: relative;
+}
+
+.list-cate
+{
+	width: 100%;
+	padding: 0px;
+}
+
+.cate-item
+{
+	display: block;
+	padding: 5px;
+}
+
+#leosearchtopbox a.cate-item.active, #leosearchtopbox a.cate-item:hover, #leosearchbox a.cate-item.active, #leosearchbox a.cate-item:hover
+{
+	background: #2fb5d2;
+	color: #414141;
+}
+
+#dropdownListCate, #dropdownListCateTop
+{
+	cursor: pointer;
+	display: block;
+	padding: 5px 0px 5px 15px;
+}
+
+#leosearchtopbox #dropdownListCateTop:hover, #leosearchbox #dropdownListCate:hover
+{
+	color: #414141;
+}
+/*****************molify****************/
+#leo_search_block_top .block_content{
+	border: 1px solid rgba(0,0,0,.25);
+}
+#leosearchtopbox input {
+	background: transparent;
+	border: 1px solid transparent;
+}
+#leo_search_top_button{
+	padding: 9px 16px;
+	position: absolute;
+	right: 0;
+	background: #2fb5d2;
+	color: #fff;
+}
+#leo_search_top_button .search{
+	color: white;
+}
+#leosearchtopbox .list-cate-wrapper{
+	display: inline-block;
+	padding: 0 19px;
+}
+#leo_search_block_top {
+	margin-top: 20px;
+}
+.ac_results{
+	width: 32.5%!important;
+}
+@media (max-width: 1199px){
+	#leosearchtopbox input {
+		width: 60%;
+	}
+
+	#leo_search_block_top .block_content{
+		background: #fff;
+	}
+}
+@media (max-width: 575px){
+	#leosearchtopbox .list-cate-wrapper {
+		display: none;
+	}
+}
+
+#leo_search_block_top{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#leo_search_block_top .title_block{
+	display: none;
+}
+
+#leosearchtopbox > label{
+	display: none;
+}
+
+#leo_search_block_top .leoproductsearch-result{
+	width: 73%;
+	display: inline-block;
+	margin: 3px 0;
+	border-left: 1px solid rgba(0,0,0,.25);
+}
+
+.leoproductsearch-loading.cssload-speeding-wheel{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	display: none;
+	margin: 0 auto;
+}

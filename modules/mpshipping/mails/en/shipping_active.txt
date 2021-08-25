@@ -1,0 +1,17 @@
+[{shop_url}] 
+
+Hello {seller_name}
+
+Your shipping method {shipping_name} has been activated by admin.
+
+Shipping Details:
+
+Carrier Name: {shipping_name}
+
+Transit Time: {transit_delay}
+
+Free Shipping: {free_shipping}
+
+Handling Cost: {handling_cost}
+
+Status: {status}

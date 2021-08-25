@@ -1,0 +1,9 @@
+
+Module compatible with PrestaShop 1.7.x.x
+
+Fixed Bug:
+- Missing 'Successfully Created' message when a seller makes a payment request -> submit
+- Translation issues
+- Console Error at "Manage Payment Request -> View" page
+- Add default values to the configuration settings page
+- Text issues

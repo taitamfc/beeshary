@@ -1,0 +1,191 @@
+/**
+* 2010-2018 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2018 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#wk_store_pickup_products {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+a.wk-store-select {
+    text-transform: uppercase;
+    text-decoration: underline !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #008ADB !important;
+}
+
+#wk_current_location, #wk_store_date_pickup, #wk_store_time_pickup {
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #A3A3A3;
+    border: 0px !important;
+    border: 1px solid #f2f2f2 !important;
+    background: white;
+    box-shadow: 0 2px 13px 0px rgba(0,0,0,0.1);
+}
+
+div#search_city_block, div#wk_store_pickup {
+    background: white;
+    padding: 15px;
+    padding-left: 25px;
+    margin: 15px 0;
+    /* border: 1px solid #dbdbdb; */
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.15);
+    /* border-left: 10px solid #247BDD; */
+}
+
+.wk-position-relative {
+    position: relative !important;
+}
+div.wk-linear-gradient::before {
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-image: -moz-linear-gradient( 90deg, rgb(36,123,221) 0%, rgb(71,150,254) 49%, rgb(98,175,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(36,123,221) 0%, rgb(71,150,254) 49%, rgb(98,175,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(36,123,221) 0%, rgb(71,150,254) 49%, rgb(98,175,255) 100%);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+div#wk_store_pickup div.form-group {
+    margin: 0 !important;
+}
+
+#wkshowStore .modal-content {
+    background: white !important;
+}
+
+div.datetimepicker {
+    width: 100% !important;
+}
+div.datetimepicker table.table-condensed {
+    width: 100% !important;
+}
+div.datetimepicker table.table-condensed th.switch {
+    background: #247BDD;
+    color: white;
+    padding: 12px !important;
+}
+
+.wk-store-pickup-directions {
+    float: left;
+    text-align: right;
+    padding-right: 15px !important;
+    vertical-align: middle;
+    line-height: 2;
+    border-right: 1px solid #dbdbdb;
+}
+
+.wk-store-pickup-select {
+    margin-left: 15px !important;
+    float: left;;
+}
+.wk-store-pickup-select .wk-select-store {
+    color: white !important;
+}
+
+.wk-padding-0 {
+    padding: 0px !important;
+}
+.wk-padding-right-0 {
+    padding-right: 0px !important;
+}
+
+/**    Product   ***/
+.wk-product-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A2A2A;
+}
+
+.wk-product-attr-name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+.wk-pick {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+
+.wk_pickup_date, .wk_pickup_time {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;    
+}
+
+.wk_store_details {
+    font-size: 14px;
+    color: #333333;
+}
+
+.wkstore-pickup-name {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+}
+.wkstore-pickup-border-bottom {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.wkstore-pickup-padding {
+    padding: 12px 0;
+}
+.wk-padding-top-0 {
+    padding-top: 0 !important;
+}
+
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+
+#map-canvas .gm-style-iw + div {
+    display: none;
+}
+
+a.wk-store-select {
+    cursor: pointer;
+}
+
+.wk-btn {
+    background: #10b2d4;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.wk-btn.focus, .wk-btn:focus, .wk-btn:hover {
+    color: #fff;
+    background-color: #2592a9;
+    border-color: transparent;
+}
+
+/* #wk_store_date_pickup_container .datetimepicker table tr td.active {
+    background: #0FA0F8;
+}
+
+#wk_store_date_pickup_container div.datetimepicker table.table-condensed th.switch {
+    background: #0FA0F8;
+}
+#wk_store_date_pickup_container .datetimepicker table tr td span.active.active {
+    background: #0FA0F8;
+} */

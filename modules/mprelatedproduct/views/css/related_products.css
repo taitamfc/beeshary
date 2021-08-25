@@ -1,0 +1,101 @@
+/**
+* 2010-2019 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2019 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+div.wk_pro-category {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+h3.wk_pro-category-h {
+	margin-bottom: 20px;
+	color: #c60 !important;
+	font-family: verdana, arial, helvetica, sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 600;
+}
+
+ul.product_list li.wk_related_li {
+	width: 265px !important;
+	float: left;
+}
+
+div.home-product-block > div.bx-wrapper {
+	max-width: 100% !important;
+}
+
+.bx-controls-direction {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	z-index: 100;
+}
+
+.bx-viewport {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+
+}
+
+.bx-loading {
+	background:none !important;
+}
+
+
+.mp-related-products .bx-wrapper .bx-controls-direction a:before, .mp-related-products .bx-wrapper .bx-controls-direction a:before {
+    content: '';
+    font-size: unset;
+    line-height: unset;
+}
+
+.mp-related-products .bx-wrapper .bx-controls-direction a {
+	width: 35px;
+	height: 35px;
+}
+
+.mp-related-products .bx-controls-direction {
+	top: 40%;
+}
+.mp-related-products .bx-prev > i, .mp-related-products .bx-next > i {
+	font-size: 33px;
+	color: white;
+	background: rgb(0,0,0,0.45);
+}
+
+.mp-related-products .bx-next {
+    right: 15px;
+}
+/*
+.mp-related-products .bx-controls-direction a.bx-prev {
+    left: -25px;
+    height: 35px ;
+}
+.mp-related-products .bx-controls-direction a.bx-next {
+    right: -15px;
+    height: 35px;
+} */
+
+.mp-heading {
+	margin: 2rem 0;
+}
+
+.wk-aria-hidden {
+    visibility: hidden;
+    position: absolute;
+}

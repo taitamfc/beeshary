@@ -1,0 +1,127 @@
+.container {
+	display: block;
+	margin: 0px auto;
+}
+
+.iview {
+	display: block;
+	min-width: 300px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.7); 
+	position: relative; 
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.iview .iviewSlider {
+	display: block;
+	overflow: hidden;
+	width: 100%;	/* hard fixed (ex 950px) is enable responsive, auto not responve*/
+}
+
+
+.iview div.iview-directionNav {
+	position: absolute;
+	top: 47%;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+}
+
+.iview div.iview-directionNav a {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	background-image: url(../../../img/iView/bg_direction_nav.png);
+	text-indent: -9999px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-webkit-transition-property: left,right;
+	-moz-transition: left 0.3s ease-in-out;
+	-moz-transition-property: left,right;
+	-o-transition: left 0.3s ease-in-out;
+	-o-transition-property: left,right;
+	-ms-transition: left 0.3s ease-in-out;
+	-ms-transition-property: left,right;
+	transition: left 0.3s ease-in-out;
+	transition-property: left,right;
+}
+
+.iview div.iview-directionNav a.iview-nextNav {
+	right: -27px;
+	background-position: 27px 0px;
+}
+
+.iview div.iview-directionNav a.iview-prevNav {
+	left: -27px;
+	background-position: 0px 0px
+}
+
+.iview.iview-hover div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+}
+
+.iview.iview-hover div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+}
+
+.tp-caption.data-link:hover{
+	cursor: pointer;
+}
+ 
+.slide_config.data-link:hover {
+    cursor: pointer;
+}
+
+.iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+.iview-preloader div {
+	background: #666;
+}
+.iview-timer {
+	border-radius: 10px;
+}
+
+.iview-timer div {
+	border-radius: 10px;
+}
+
+.iview .iview-tooltip {
+	display: none;
+	position: absolute;
+	background: url('../../../img/iView/tooltip.png') no-repeat;
+
+}
+
+.iview .iview-tooltip div.holder {
+	display: block;
+	width: 124px;
+	height: 84px;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.iview .iview-tooltip div.holder div.container {
+	display: block;
+	width: 4000px;
+}
+
+.iview .iview-tooltip div.holder div.container div {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 124px;
+	height: 84px;
+	left: -50%;
+	text-align: center;
+}
+
+.iview .iview-tooltip div.holder div.container div img {
+	height: 84px;
+	margin: 0 auto;
+	max-width: 100%;
+}

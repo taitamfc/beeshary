@@ -1,0 +1,7 @@
+{module_author} Bug Report
+There is a bug report for module
+{module_display_name} v{module_version}
+Prestashop v{ps_version}
+Inixweb Framework version: {inixframe_version}
+Description of the problem:
+{description}

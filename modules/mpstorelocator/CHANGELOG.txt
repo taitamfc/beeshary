@@ -1,0 +1,96 @@
+########################################################################################
+Change Log : Marketplace Store Locater V5.0.0 to V5.1.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+########################################################################################
+
+New Improvement:
+
+- Add Pick up in store and Pay in store functionality
+- Add google map cluster fetaure
+- Add Store timing, get direction, custom marker, radius search filter
+- Add multiselect plugin to select product
+- Add store list page
+- Update the design of store page.
+- Display store details on product page.
+- Display Store map on home page.
+
+
+Table Structure changed:
+
+New Table added:
+- `mp_store_pickup_products`
+- `mp_store_pickup`
+- `mpstore_pay`
+- `mpstore_pay_lang`
+- `mp_store_pickup_available`
+- `mp_store_configuration`
+
+Table altered:
+- `marketplace_store_locator`
+	- Add new column `address1`, `address2`, `fax`, `email`, `payment_option`, `pickup_start_time`, `pickup_end_time`,
+	  `store_open_days`,`opening_time`,`closing_time`, `store_pickup_available`
+	
+	- Remove `street` column. 
+
+########################################################################################
+Change Log : Marketplace Store Locater V2.2.0 to V4.0.0 | COMPATIBLE:: PRESTASHOP V1.7 |
+########################################################################################
+
+## Compatible:
+
+	[*]COMP : Removed {strip} tab and variables for js is assigned directly form controller
+	[*]COMP : Added {extends file=$layout} and {block name='content'} line at top of all controller's tpl file
+	[*]COMP : $this->display() function is replaced with $this->fetch()
+	[*]COMP : Moved parent::__construct(), $this->identifier in top
+	[*]COMP : Removed Google map library from controllers and added it directly in its tpl file
+	
+
+## Improved:
+
+	[*] CO : DisplayProductRightColumn hook is removed
+	[*] FO : RegisterStylesheet(), registerJavascript() functions instead of addCSS() and addJS() functions respectively.
+	[*] FO : Removed filtercountrypage variable from addsellerstore.tpl because it is of no use.
+	[*] FO : Breadcrumbs are added from controller.
+	[*] FO : Font awesome are replaced by Google material icons are added.
+	[*] BO : Overwrite initToolbar() function to get "Add new store" button in AdminMarketplaceStoreLocatorController.
+	[*] FO : Reset button is added in allsellerstores.tpl, storedetails.tpl files.
+
+## TODO
+	- Google map library included from controller 
+
+
+## Update Policy:
+	- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+
+####################################
+#   v2.2.0
+####################################
+
+	Added Features:
+
+	[+] FO : Multiple marker will be displayed on Google map for seller store
+	[+] CO : Language of Google Map change according to prestashop language
+	[+] CO : Google map will occur region, which alters the map's behavior based on a country or territory
+
+	Others:
+
+	[+] LICENSE : LICENSE.txt file is added
+	[+] CHANGELOG : CHANGELOG.txt file is added
+
+
+
+####################################
+#   v2.1.0
+####################################
+
+	Added Features:
+
+	[+] FO : User can see all seller's stores in one page through a button located in footer
+	[+] BO : Admin can enable/disable all seller's store button from footer
+
+
+	Improved/changes:
+
+	[*] FO : Change the design of store locater page
+	[*] FO : Stores details page and all seller's store page make URL Friendly
